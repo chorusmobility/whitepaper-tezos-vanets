@@ -1,5 +1,51 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem{booch1996unified}
+Booch, G., Jacobson, I., Rumbaugh, J., et~al.: {The Unified Modeling Language}.
+  Unix Review  14(13), ~5 (1996)
+
+\bibitem{davis1993software}
+Davis, A.M.: {Software Requirements: Objects, Functions, and States}.
+  Prentice-Hall, Inc. (1993)
+
+\bibitem{erl2005service}
+Erl, T.: {Service-Oriented Architecture: Concepts, Technology, and Design}.
+  Pearson Education India (2005)
+
+\bibitem{ieee1994ieee}
+{IEEE Computer Society. Software Engineering Technology Committee and Institute
+  of Electrical and Electronics Engineers}: {IEEE Recommended Practice for
+  Software Requirements Specifications}. IEEE Std, Institute of Electrical and
+  Electronics Engineers (1994)
+
+\bibitem{marshall2014agent}
+Marshall, J.: {Agent-Based Modelling of Emotional Goals in Digital Media Design
+  Projects}. International Journal of People-Oriented Programming (IJPOP)
+  3(1),  44--59 (2014)
+
+\bibitem{norta2014reference}
+Norta, A., Grefen, P., Narendra, N.C.: {A Reference Architecture for Managing
+  Dynamic Inter-Organizational Business Processes}. Data \& Knowledge
+  Engineering  91,  52--89 (2014)
+
+\bibitem{perrey2003service}
+Perrey, R., Lycett, M.: {Service-Oriented Architecture}. In: Applications and
+  the Internet Workshops, 2003. Proceedings. 2003 Symposium on. pp. 116--119.
+  IEEE (2003)
+
+\bibitem{rosen2012applied}
+Rosen, M., Lublinsky, B., Smith, K.T., Balcer, M.J.: {Applied SOA:
+  Service-Oriented Architecture and Design Strategies}. John Wiley \& Sons
+  (2012)
+
+\bibitem{specification2007omg}
+Specification, O.A.: {OMG Unified Modeling Language (OMG UML), Superstructure,
+  V2.1.2}. Object Management Group  (2007)
+
+\bibitem{sterling2009art}
+Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
+  (2009)
 
 \end{thebibliography}

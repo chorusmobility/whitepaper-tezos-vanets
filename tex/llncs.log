@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  26 APR 2018 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  26 APR 2018 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,66 +388,97 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 46.
 
 
-Overfull \hbox (4.32042pt too wide) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Overfull \hbox (4.32042pt too wide) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 VANET plat-forms. First, Sec-tion []2.1[] in-tro-duces the gen-
 eral con-cepts of blockchain
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Figures/20180426_AOM-notation.pdf, id=147, 692.5875pt x 261.97874pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<Figures/20180426_AOM-notation.pdf, id=164, 692.5875pt x 261.97874pt>
 File: Figures/20180426_AOM-notation.pdf Graphic file (type pdf)
 
 <use Figures/20180426_AOM-notation.pdf>
 Package pdftex.def Info: Figures/20180426_AOM-notation.pdf used on input line 2
-11.
+21.
 (pdftex.def)             Requested size: 138.51505pt x 52.39482pt.
 
-<Figures/UML-notation-elements.png, id=148, 1634.105pt x 500.87125pt>
+<Figures/Dummy.jpg, id=165, 321.2pt x 180.675pt>
+File: Figures/Dummy.jpg Graphic file (type jpg)
+ <use Figures/Dummy.jpg>
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 234.
+(pdftex.def)             Requested size: 48.17792pt x 27.10007pt.
+File: Figures/Dummy.jpg Graphic file (type jpg)
+
+<use Figures/Dummy.jpg>
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 248.
+(pdftex.def)             Requested size: 48.17792pt x 27.10007pt.
+
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+ [3 <./Figures/20180426_AOM-notation.pdf> <./Figures/Dummy.jpg>]
+<Figures/UML-notation-elements.png, id=199, 1634.105pt x 500.87125pt>
 File: Figures/UML-notation-elements.png Graphic file (type png)
 
 <use Figures/UML-notation-elements.png>
 Package pdftex.def Info: Figures/UML-notation-elements.png used on input line 2
-47.
+68.
 (pdftex.def)             Requested size: 245.10518pt x 75.12744pt.
- [2 <./Figures/20180426_AOM-notation.pdf>] [3 <./Figures/UML-notation-elements.
-png>] (./llncs.bbl
 
-LaTeX Warning: Empty `thebibliography' environment on input line 5.
+Overfull \hbox (7.87708pt too wide) in paragraph at lines 273--274
+\OT1/cmr/m/n/10 of the sys-tem ar-chi-tec-ture and com-po-nents. Af-ter-wards, 
+fur-ther il-lus-tra-tion present
+ []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
+[4 <./Figures/UML-notation-elements.png>]
+File: Figures/Dummy.jpg Graphic file (type jpg)
+ <use Figures/Dummy.jpg>
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 336.
+(pdftex.def)             Requested size: 48.17792pt x 27.10007pt.
+File: Figures/Dummy.jpg Graphic file (type jpg)
+
+<use Figures/Dummy.jpg>
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 352.
+(pdftex.def)             Requested size: 48.17792pt x 27.10007pt.
+ [5] (./llncs.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
  (./llncs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 392.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 449.
 Package rerunfilecheck Info: File `llncs.out' has not changed.
-(rerunfilecheck)             Checksum: 89963D35D2EA049011475279EA4D61F3;2224.
+(rerunfilecheck)             Checksum: 24C60D431624444932A5E990A7C325E3;2143.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 30 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6131 strings out of 493029
- 89187 string characters out of 6136234
- 188292 words of memory out of 5000000
- 9569 multiletter control sequences out of 15000+600000
- 5765 words of font info for 21 fonts, out of 8000000 for 9000
+ 6169 strings out of 493029
+ 89881 string characters out of 6136234
+ 189869 words of memory out of 5000000
+ 9588 multiletter control sequences out of 15000+600000
+ 6111 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,28p,1293b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,28p,1299b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on llncs.pdf (4 pages, 135590 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on llncs.pdf (6 pages, 178831 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

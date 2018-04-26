@@ -2,47 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: llncs.aux
 The style file: splncs03.bst
-I found no \citation commands---while reading file llncs.aux
 Database file #1: Bibliography.bib
-You've used 0 entries,
+You've used 10 entries,
             2785 wiz_defined-function locations,
-            583 strings with 4389 characters,
-and the built_in function-call counts, 22 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            643 strings with 5985 characters,
+and the built_in function-call counts, 4433 in all, are:
+= -- 348
+> -- 120
+< -- 7
++ -- 50
+- -- 40
+* -- 252
+:= -- 600
+add.period$ -- 12
+call.type$ -- 10
+change.case$ -- 46
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 10
+duplicate$ -- 411
+empty$ -- 439
+format.name$ -- 45
+if$ -- 969
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 5
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 10
+missing$ -- 87
+newline$ -- 35
+num.names$ -- 20
+pop$ -- 154
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 39
 quote$ -- 0
-skip$ -- 1
+skip$ -- 122
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 215
+swap$ -- 201
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 30
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 4
-(There was 1 error message)
+while$ -- 41
+width$ -- 12
+write$ -- 100

@@ -57,8 +57,9 @@
 		%5.) Why is the solution good/better than other solutions?
 
 		
-		I am an abstract - pet me.
-
+		I am an abstract - pet me.\\
+		
+		DON'T FORGET THE PLAGIARISM CHECK
 		
 	\end{abstract}
 	
@@ -75,20 +76,26 @@
 		\textbf{Work-In-Progress}
 
 		%https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-Kennzeichen-testen-4016538.html
+		
+		%get mike hearn here
+		
+		%oaken
+		
+		%% DAV, etc
 
+
+		WE ARE A LIBRARY!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %		RQ: How to ?
-%		RQ-1: What ?
+%		RQ-1: What are the critical requirements and the corresponding architecture of the Chorus platform?
 %		RQ-2: What ?
 %		RQ-3: What are the system-engagement processes for the stakeholders?
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-	
-
+			%This whitepaper addresses the detected gap by introducing the self-sovereign personal data platform Procivis idNet, thereby answering the question of how to develop a blockchain-based and e-ID agnostic platform that enables self-sovereign market trading of personal data? In order to answer this question with a separation of concerns, we pose the following sub-questions: What are the critical requirements and the corresponding architecture of Procivis' self-sovereign personal data platform? What are the optimized user on-boarding processes and reliable price discovery mechanisms? What are the system-engagement processes for the stakeholders?
 
 			The remainder of this paper is structured as follows: Section~\ref{s:section-2} introduces supplementary literature and related work. Section~\ref{s:section-3} then outlines the vision of Chorus Technology as well as different use-cases. Afterwards, Section~\ref{s:section-4} analyses the requirements of the our system and outlines the resulting system architecture that we derive from the requirements. Afterwards, Section~\ref{s:section-5} expands on the system-engagement processes for the stakeholders, followed by Section~\ref{s:section-6} that introduces the Chorus prototype as well as feasibility evaluation. Section~\ref{s:section-7} provides an discussion and an analysis of related projects. Finally, Section~\ref{s:section-8} concludes this work and provides an outlook on future work.
 
@@ -160,7 +167,7 @@
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
-	\section{Longterm Vision}
+	\section{The Chorus Vision}
 		\label{s:section-3}
 		
 		Intro
@@ -194,17 +201,20 @@
 	\section{System Design and Architecture}
 		\label{s:section-4}	
 
-		Intro
+		%%RQ-1: What are the critical requirements and the corresponding architecture of the Chorus platform?
+
+		The vision of Chorus outlined in Section \ref{s:section-3} is now analyzed from technical perspective as part of the following section. In order to identify, structure and formalize the critical requirements and stakeholders on an abstract level, we use one part of an Agent-Oriented Modeling (AOM) method \cite{sterling2009art}, i.e., goal models. Section~\ref{ss:requirement-engineering} introduces AOM goal models and the Chorus specific goal model. The produced goal model is used in subsequent Section \ref{ss:component-diagrams} to derive the Chrous system architecture . The resulting system architecture and specifications serve as implementation guidelines. Finally, Section~\ref{ss:smart-contract-lifecycle-management} provides some details on the smart contract lifecycle management within our solution, whereas Section~\ref{ss:library-api} outlines a general outlook on the APIs and how to integrate the Chorus library into external applications.
+		
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
 		\subsection{Functional Goals, Quality Goals, Stakeholders and Requirements}
 			\label{ss:requirement-engineering}
+						
+			In system development and software engieerng, good requirements follow certain characteristics. According to \cite{davis1993software}\cite{ieee1994ieee} requirements address one issue only and are completely specified without missing information. Moreover, they have to be consistent and do not contradict itself, or in correlation with other requirements. Finally, a requirement must also be atomic and without conjunctions \cite{norta2014reference}.
 			
-			\textbf{Work-In-Progress}
-			
-			we leave out emotional goals here
+			The AOM methodology is a socio-technical requirements-engineering approach used to model complex systems that consist of humans, devices, and software agents. An AOM goal model enables both, technical- and non-technical stakeholders, to capture and understand the functional- and non-functional requirements of a complex system. Figure \ref{fig:aom-notaion-elements} depicts the three main elements that an AOM goal model comprises in order to capture the system requirements and goals. Roles of involved entities are represented in form of sticky men, whereas functional requirements are depicted as parallelograms. Functional requirements are also referred to as goals. Non-functional requirements are depicted as clouds and refer to quality goals of the modeled software system. The AOM goal model follows a tree-like hierarchy with the root value proposition of the modeled system at the top. Subsequently, this main goal is decomposed into sub-goals where each sub-goal represents an aspect for achieving its parent goal \cite{marshall2014agent}. The goals are further decomposed into multi-layered sub-goals until the lowest atomic level is reached. Additionally, roles and quality goal may be assigned to goals and are inherited to lower-level goals.
 
 			\begin{figure}[H]
 				\centering
@@ -218,12 +228,27 @@
 					
 			\subsubsection{Top-Level AOM Goal Model}
 				\label{sss:top-level-goal-model}
+
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+					\caption{Caption.}	
+					\label{fig:top-level-aom-goal-model}
+				\end{figure}
+
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
 					
 			\subsubsection{Refined AOM Goal Model}				
 				\label{sss:refined-goal-model}			
+
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+					\caption{Caption.}	
+					\label{fig:refined-aom-goal-model}
+				\end{figure}
 	
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------				
@@ -231,29 +256,46 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{High-Level Architecture}
-			\label{ss:high-level-architecture}
-
-		%% ----------------------------------------------------------------
-		%% ----------------------------------------------------------------	
-		
 		\subsection{Component Diagrams}
 			\label{ss:component-diagrams}
 
-			\textbf{Work-In-Progress}
-
+			The abstract system- and business architecture is derived from the functional- and non-function requirements of the AOM goal model presented earlier. The services are powered by a service-oriented architecture (SOA) that is comprised of different designated components. Each of these components is self-contained, well-defined components and provides a specific set of services \cite{erl2005service}\cite{perrey2003service}. Dedicated services and components may also consist of other underlying sub-services \cite{rosen2012applied}. 
+			
+			In the following, a technology-agnostic UML-component-diagram representation is used to illustrate the system architecture \cite{booch1996unified}\cite{specification2007omg}. The UML notation elements used to model the architecture are presented in Figure \ref{fig:uml-component-diagram-overview}. In UML, components are represented as rectangular boxes and labeled either with the keyword \textit{component}, or with the component icon in the right-hand upper corner. A component may consists of further sub-components and is implemented by one, or more classes, or objects. Moreover, components are reusable and communicate via two types of interfaces as illustrated in Figure \ref{fig:uml-component-diagram-overview}. Small squares depict ports that are attached to the border of components and expose required and provided interfaces. Ports may also specify inputs and outputs as they operate uni-, or bi-directionally \cite{booch1996unified}\cite{specification2007omg}. Once more, sticky men are used to depict entities and their interactions with the system. 
+			
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.15]{Figures/UML-notation-elements.png}
 				\caption{UML-component diagram notation elements.}	
 				\label{fig:uml-component-diagram-overview}
-			\end{figure}
+			\end{figure}	
+			
+			The remainder of this section first introduces an abstract high-level overview of the system architecture and components. Afterwards, further illustration present selected sub-components of our architecture.
+
+			%% ----------------------------------------------------------------
+			%% ----------------------------------------------------------------	
+
+			\subsubsection{High-Level Architecture}
+				\label{sss:high-level-architecture}
+			
+			%% ----------------------------------------------------------------
+			%% ----------------------------------------------------------------	
+			
+
+		%	\subsubsection{X}
+		%		\label{sss:X}
+			
+			%% ----------------------------------------------------------------
+			%% ----------------------------------------------------------------	
+			
+			
 
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 
 		\subsection{Smart Contract Lifecycle Management}
+			\label{ss:smart-contract-lifecycle-management}
 
 			\textbf{Work-In-Progress}
 			
@@ -289,6 +331,14 @@
 
 			\textbf{Work-In-Progress}
 
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+				\caption{Caption.}	
+				\label{fig:sequence-diagram-1}
+			\end{figure}
+
+
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
@@ -296,6 +346,13 @@
 			\label{ss:auchtion-algorithm}				
 
 			\textbf{Work-In-Progress}
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+				\caption{Caption.}	
+				\label{fig:auction-algorithm}
+			\end{figure}
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -318,8 +375,8 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Prototype Scope}
-			\label{ss:protoype-scope}				
+		\subsection{Prototype}
+			\label{ss:protoype}				
 
 			\textbf{Work-In-Progress}
 			
