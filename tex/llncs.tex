@@ -54,6 +54,7 @@
 	\section{Introduction}
 		\label{s:introduction}
 	
+		https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-Kennzeichen-testen-4016538.html
 
 		The remainder of this whitepaper is structured as follows: 
 %		Section \ref{section-2} focuses on the difficulties and challenges posed by ESAs as well as the role and potential of information technology in such activities. Section \ref{section-3} deals with example use cases and scenarios used to derive technical requirements and functionalities of emergency devices for ESAs. The technical requirements are discussed in Section \ref{section-4}. Section \ref{section-5} introduces a prototype implementation of a emergency fall detection device for climbers, followed by the evaluation of the prototype in Section \ref{section-6} and a discussion on potential enhancement of the prototype for broader applications. Section \ref{section-7} concludes this whitepaper together with discussing limitations, open issues and future development work.
@@ -62,44 +63,223 @@
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
-	\section{Section 2}	
+	\section{Technical Background and Related Works}	
 		\label{section-2}
+		
+		Intro
 
+%		This section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based M2M economy.  First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:related-work} focuses on related works.		
+%		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Blockchain Technology}
+			\label{ss:blockchain-intro}
+			
+			maybe already cite unchained and whisperkey paper?
+			
+			
+		
+%			A blockchain consists of a chronologically ordered chain of blocks, where every block consists of a certain number of validated transactions. Each block links to its predecessor by a hash reference, so that changing the content of one block also changes all succeeding blocks and hence breaks the chain. All blocks are stored on and verified by all participating nodes. The blockchain concept is interesting for a M2M trading platform since it removes the need for trusted third party and instead enables trust-less transaction enactment and transactions that were agreed up on cannot be changed any more (tamper-proof).
+%			
+%			In recent years, the blockchain concept majored and spread in popularity. Besides the initial Bitcoin blockchain, several other architectures emerged, e.g., Ethereum \cite{wood2014ethereum}, Qtum \cite{qtumWhitepaper}, or Tezos \cite{tezosWhitepaper}. Those alternative blockchain platforms further provide Turing-complete programming languages on the protocol-layer level in order to enable smart contract capabilities. Smart contracts are, ``orchestration- and choreography protocols that facilitate, verify and enact with computing means a negotiated agreement between consenting parties" \cite{qtumWhitepaper}. Parties participating in the contract enactment establish binding agreements and deploy applications using such smart contracts in order to provide blockchain-based applications. Moreover, a variety of applications and use-cases for blockchains have been proposed, e.g., as a platform for IoT applications \cite{huckle2016internet}\cite{leiding2016self}, in the finance sector \cite{nguyen2016blockchain}\cite{tetherWhitepaper}, for reputation systems \cite{SemadaWhitepaper}, as part of security and authentication protocols \cite{AuthcoinLeiding2016MCIS}\cite{mccorry2015authenticated}\cite{ouaddah2017towards} or privacy solutions \cite{dorri2017blockchain}. 
+
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Autonomous Vehicles}
+			\label{ss:autonomous-vehicles}
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Vehicular Ad-Hoc Networks - VANETs}
+			\label{ss:vanets}
+			
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Related Work}
+			\label{ss:related-work}
+			
+%			Several other academic as well as non-academic projects experimented with ideas and prototypes of blockchain-based trading platforms that enable the M2M economy. In \cite{leiding2016self}, the authors describe a blockchain solution for a variety of services within vehicular ad-hoc networks (VANETs), e.g., traffic management, toll payment systems, traffic regulation enforcement and more. In 2018, the automotive company got a patent for a very similar idea of traffic marshaling via a blockchain system \cite{macneille2018vehicle}. Chorus technologies \cite{chorusWhitepaper} envisioned a whole library for all types of services and transaction around the ecosystem of autonomous vehicles within VANETs. The authors of \cite{davWhitepaper} propose a solution that allows vehicles to discover, communicate and transact with one another using cryptocurrencies. 
+%			\cite{oakenTeslaTollbooth} present a prototype of a blockchain-based toll road system. In 2013, Mike Hearn gave a short talk\footnote{\url{https://www.youtube.com/watch?v=MVyv4t0OKe4}} at the Turing Festival in Edinburgh describing several of these ideas. 
+%			
+%			Besides the automotive sector, the authors of \cite{sikorski2017blockchain} describe and implement a M2M electricity market for chemical industry where industrial plants are trading electricity with each other via a blockchain platform.
+%			
+%			The alternative blockchain solution IOTA is offering an IoT market place \cite{iotaMarketplace} for IoT devices where sensor data can be bought and sold using blockchain technology.
+%			
+%		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
 	
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
-	\section{Section 3}
+	\section{Longterm Vision}
 		\label{section-3}
 		
-	
-	%% ----------------------------------------------------------------
-	%% ----------------------------------------------------------------
-	
-	
-	\section{Section 4}
-		\label{section-4}	
+		Intro
+
+		%foam and localization somewheere here	
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
 		
+		\subsection{Use Cases}
+			\label{ss:use-cases}
+			
+			\subsection{Human to Human}
+
+			\subsection{Human to Vehicle}
+		
+			\subsection{Vehicle to Vehicle}
+			
+			\subsection{Vehicle to Infrastructure}					
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+
+	%% ----------------------------------------------------------------
+	%% ----------------------------------------------------------------
 	
+	
+	\section{System Design and Architecture}
+		\label{section-4}	
+
+		Intro
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Functional Goals, Quality Goals, Stakeholders and Requirements}
+			\label{ss:requirement-engineering}
+			
+			Intro
+			
+			%% ----------------------------------------------------------------
+			%% ----------------------------------------------------------------	
+					
+			\subsubsection{Top-Level AOM Goal Model}
+				\label{sss:top-level-goal-model}
+			
+			%% ----------------------------------------------------------------
+			%% ----------------------------------------------------------------	
+					
+			\subsubsection{Refined AOM Goal Model}				
+				\label{sss:refined-goal-model}			
+	
+			%% ----------------------------------------------------------------
+			%% ----------------------------------------------------------------				
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{High-Level Architecture}
+			\label{ss:high-level-architecture}
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Component Diagrams}
+			\label{ss:component-diagrams}
+
+
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Library / API}
+			\label{ss:library-api}				
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
-
-	\section{Section 5}
+	
+	\section{System Engagement Processes}
 		\label{section-5}	
+	
+		Intro
+		
+		%describe processes here similar to evx paper
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+		\subsection{Sequence Diagrams | or BPMN representation of Processes}
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Auction Algorithm}
+			\label{ss:auchtion-algorithm}				
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+		\subsection{Token Economics}
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
-	\section{Section 5}
+	\section{Prototype and Feasibility Study}
 		\label{section-6}	
+			
+		Intro
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Prototype Scope}
+			\label{ss:protoype-scope}				
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Evaluation}
+			\label{ss:evaluation}				
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------			
+
+	%% ----------------------------------------------------------------
+	%% ----------------------------------------------------------------
+
+	\section{Discussion}
+		\label{section-7}	
+		
+		Intro
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Critical Analysis}
+			\label{ss:critical-analysis}				
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------			
+		
+		\subsection{Related Work}
+			\label{ss:competitor-analysis}
+			
+			%Competitor analysis (will)				
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------					
 	
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
-	\section{Conclusion}
-		\label{section-7}	
+	\section{Conclusion and Future Work}
+		\label{section-8}	
 
 				
 	%% ----------------------------------------------------------------

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  11 APR 2018 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  26 APR 2018 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,35 +732,41 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count174
- (./llncs.bbl
+
+Overfull \hbox (2.4604pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-K
+ennzeichen-
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./llncs.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 5.
 
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./llncs.aux) )
+) [2] (./llncs.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 21 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15532 strings out of 493029
- 294400 string characters out of 6136234
- 344933 words of memory out of 5000000
- 18792 multiletter control sequences out of 15000+600000
+ 15522 strings out of 493029
+ 294207 string characters out of 6136234
+ 346002 words of memory out of 5000000
+ 18782 multiletter control sequences out of 15000+600000
  6219 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,54p,798b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,54p,1293b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on llncs.pdf (1 page, 66636 bytes).
+Output written on llncs.pdf (2 pages, 83451 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
