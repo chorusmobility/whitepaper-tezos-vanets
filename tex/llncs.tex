@@ -3,16 +3,25 @@
 % for Lecture Notes in Computer Science, version 2.4
 \documentclass{llncs}
 \usepackage{llncsdoc}
-\usepackage{tikz}
-\usepackage{array}
-\usepackage{multicol}
-\usepackage{mathtools}
+\usepackage{url}
+\usepackage[pdftex]{graphicx}     
 \usepackage{float}
-\usepackage{caption}
-\usepackage{rotating}
-\usepackage{longtable}
-\usepackage{listings}
-\usepackage[hyphens]{url}
+\usepackage{tablefootnote}
+\usepackage{hyperref}
+
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%55
+	%% Added to enable numbering for subsubsections, otherwise they would look like paragraphs which is ugly
+	%%%%%%%%%%%%%%%%%%%%%%%55
+	
+	\makeatletter
+	\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+		{-18\p@ \@plus -4\p@ \@minus -4\p@}%
+		{0.5em \@plus 0.22em \@minus 0.1em}%
+		{\normalfont\normalsize\bfseries\boldmath}}
+	\makeatother
+	\setcounter{secnumdepth}{3}
 
 %
 \begin{document}
@@ -20,13 +29,13 @@
 
 	{
 	%
-	\title{title}
+	\title{title\\ \small Whitepaper}
 	
-	\author{Benjamin Leiding 1\inst{1} \and Will Vorobev\inst{1} \and Peter Zverkov\inst{1} \and Lena Cherry\inst{1}}
+	\author{Benjamin Leiding\inst{1} \and Will Vorobev\inst{1} \and Peter Zverkov\inst{1} \and Lena Cherry\inst{1}}
 	
 	\institute{ 
 		Chorus Technology
-		}
+	}
 	
 	%\institute{University of G\"ottingen, Institute of Computer Science, G\"ottingen, Germany\\ benjamin.leiding@cs.uni-goettingen.de
 	%\and
@@ -39,6 +48,14 @@
 	%% ----------------------------------------------------------------
 
 	\begin{abstract}
+
+		% A good abstract:
+		%1.) What is the paper about?
+		%2.) What is the SoA?
+		%3.) What is the detected gap?
+		%4.) What are the main questions to be answered pertaining to the gap?
+		%5.) Why is the solution good/better than other solutions?
+
 		
 		I am an abstract - pet me.
 
@@ -53,32 +70,46 @@
 	
 	\section{Introduction}
 		\label{s:introduction}
-	
-		https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-Kennzeichen-testen-4016538.html
 
-		The remainder of this whitepaper is structured as follows: 
-%		Section \ref{section-2} focuses on the difficulties and challenges posed by ESAs as well as the role and potential of information technology in such activities. Section \ref{section-3} deals with example use cases and scenarios used to derive technical requirements and functionalities of emergency devices for ESAs. The technical requirements are discussed in Section \ref{section-4}. Section \ref{section-5} introduces a prototype implementation of a emergency fall detection device for climbers, followed by the evaluation of the prototype in Section \ref{section-6} and a discussion on potential enhancement of the prototype for broader applications. Section \ref{section-7} concludes this whitepaper together with discussing limitations, open issues and future development work.
+	
+		\textbf{Work-In-Progress}
+
+		%https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-Kennzeichen-testen-4016538.html
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%		RQ: How to ?
+%		RQ-1: What ?
+%		RQ-2: What ?
+%		RQ-3: What are the system-engagement processes for the stakeholders?
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	
+
+
+			The remainder of this paper is structured as follows: Section~\ref{s:section-2} introduces supplementary literature and related work. Section~\ref{s:section-3} then outlines the vision of Chorus Technology as well as different use-cases. Afterwards, Section~\ref{s:section-4} analyses the requirements of the our system and outlines the resulting system architecture that we derive from the requirements. Afterwards, Section~\ref{s:section-5} expands on the system-engagement processes for the stakeholders, followed by Section~\ref{s:section-6} that introduces the Chorus prototype as well as feasibility evaluation. Section~\ref{s:section-7} provides an discussion and an analysis of related projects. Finally, Section~\ref{s:section-8} concludes this work and provides an outlook on future work.
 
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
 	\section{Technical Background and Related Works}	
-		\label{section-2}
+		\label{s:section-2}
 		
-		Intro
-
-%		This section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based M2M economy.  First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:related-work} focuses on related works.		
-%		
+		The following section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based VANET platforms. First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:autonomous-vehicles} and Section~\ref{ss:vanets} focus on the fundamentals of autonomous vehicles as well as vehicular ad-hoc networks. Finally, Section~\ref{ss:related-work} focuses on related work.	
+					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
 		\subsection{Blockchain Technology}
 			\label{ss:blockchain-intro}
 			
-			maybe already cite unchained and whisperkey paper?
+			\textbf{Work-In-Progress}				
 			
-			
+			maybe already cite unchained and whisperkey paper?			
 		
 %			A blockchain consists of a chronologically ordered chain of blocks, where every block consists of a certain number of validated transactions. Each block links to its predecessor by a hash reference, so that changing the content of one block also changes all succeeding blocks and hence breaks the chain. All blocks are stored on and verified by all participating nodes. The blockchain concept is interesting for a M2M trading platform since it removes the need for trusted third party and instead enables trust-less transaction enactment and transactions that were agreed up on cannot be changed any more (tamper-proof).
 %			
@@ -91,17 +122,28 @@
 		\subsection{Autonomous Vehicles}
 			\label{ss:autonomous-vehicles}
 
+			\textbf{Work-In-Progress}
+			
+			%add the 5 autonomy levels as well as some definitions here
+
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
 		\subsection{Vehicular Ad-Hoc Networks - VANETs}
 			\label{ss:vanets}
+
+			\textbf{Work-In-Progress}
+			
+			%get stuff from the research projects as well as the ubicomp paper here
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
 		\subsection{Related Work}
 			\label{ss:related-work}
+
+			\textbf{Work-In-Progress}
+
 			
 %			Several other academic as well as non-academic projects experimented with ideas and prototypes of blockchain-based trading platforms that enable the M2M economy. In \cite{leiding2016self}, the authors describe a blockchain solution for a variety of services within vehicular ad-hoc networks (VANETs), e.g., traffic management, toll payment systems, traffic regulation enforcement and more. In 2018, the automotive company got a patent for a very similar idea of traffic marshaling via a blockchain system \cite{macneille2018vehicle}. Chorus technologies \cite{chorusWhitepaper} envisioned a whole library for all types of services and transaction around the ecosystem of autonomous vehicles within VANETs. The authors of \cite{davWhitepaper} propose a solution that allows vehicles to discover, communicate and transact with one another using cryptocurrencies. 
 %			\cite{oakenTeslaTollbooth} present a prototype of a blockchain-based toll road system. In 2013, Mike Hearn gave a short talk\footnote{\url{https://www.youtube.com/watch?v=MVyv4t0OKe4}} at the Turing Festival in Edinburgh describing several of these ideas. 
@@ -119,7 +161,7 @@
 	%% ----------------------------------------------------------------
 
 	\section{Longterm Vision}
-		\label{section-3}
+		\label{s:section-3}
 		
 		Intro
 
@@ -130,6 +172,8 @@
 		
 		\subsection{Use Cases}
 			\label{ss:use-cases}
+
+			\textbf{Work-In-Progress}
 			
 			\subsection{Human to Human}
 
@@ -148,7 +192,7 @@
 	
 	
 	\section{System Design and Architecture}
-		\label{section-4}	
+		\label{s:section-4}	
 
 		Intro
 		
@@ -158,7 +202,16 @@
 		\subsection{Functional Goals, Quality Goals, Stakeholders and Requirements}
 			\label{ss:requirement-engineering}
 			
-			Intro
+			\textbf{Work-In-Progress}
+			
+			we leave out emotional goals here
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.2]{Figures/20180426_AOM-notation.pdf}
+				\caption{Selection of AOM notation elements.}	
+				\label{fig:aom-notaion-elements}
+			\end{figure}	
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
@@ -187,7 +240,26 @@
 		\subsection{Component Diagrams}
 			\label{ss:component-diagrams}
 
+			\textbf{Work-In-Progress}
 
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.15]{Figures/UML-notation-elements.png}
+				\caption{UML-component diagram notation elements.}	
+				\label{fig:uml-component-diagram-overview}
+			\end{figure}
+
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+		\subsection{Smart Contract Lifecycle Management}
+
+			\textbf{Work-In-Progress}
+			
+			%			The lifecycle of a micro lending contract is divided into the following stages: a) preparatory, b) negotiation, c) contract execution d) rollback and e) a contract expiry stage. During the preparatory stage, information about the involved entities, such as names and addresses are incorporated into the contract. In addition, the conditions of the requested loans are formally defined by specifying, e.g, the size of the loan, chosen currency, runtime and interest rates. The conditions of the requested loan mainly depend on information available to the lender, such as financial data gathered during previous interactions and transactions, personal data and information from social media. In case the borrower and the lender agree on the negotiated conditions, both parties sign the contract and express their approval - if no agreement is reached, a contract rollback is triggered. After signing the agreement, the contract execution phase is triggered and the lender transfers the loan to the borrower as illustrated in Figure \ref{fig:running-case-illustration}. Afterwards, the lender can use the loan to expand, or start a business. 
+			%
+			%			The micro lending contract terminates, or expires either after the defined loan timespan, or when the contract is prematurely terminated. The borrower pays back the loan either in separate rates, or as a whole, depending on the defined conditions. In addition, the lender also receives a fee, or an interest rate from the borrower for providing the loan. In case the borrower fulfills all his/her duties, the lender might provide a larger loan in the future based on the positive credit history of the borrower. Everex does not operate on the basis of P2P loans and instead invests its own aggregated capital to provide globally accessible credit services. Nevertheless, it is up to each Cryptocash owner to lend his/her own tokens to other users.	
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -195,6 +267,8 @@
 		\subsection{Library / API}
 			\label{ss:library-api}				
 
+			\textbf{Work-In-Progress}
+			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 
@@ -202,7 +276,7 @@
 	%% ----------------------------------------------------------------
 	
 	\section{System Engagement Processes}
-		\label{section-5}	
+		\label{s:section-5}	
 	
 		Intro
 		
@@ -213,17 +287,23 @@
 
 		\subsection{Sequence Diagrams | or BPMN representation of Processes}
 
+			\textbf{Work-In-Progress}
+
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
 		\subsection{Auction Algorithm}
 			\label{ss:auchtion-algorithm}				
 
+			\textbf{Work-In-Progress}
+
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 
-		\subsection{Token Economics}
-		
+		\subsection{Token Economics and Value Proposition}
+
+			\textbf{Work-In-Progress}
+					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 
@@ -231,7 +311,7 @@
 	%% ----------------------------------------------------------------
 
 	\section{Prototype and Feasibility Study}
-		\label{section-6}	
+		\label{s:section-6}	
 			
 		Intro
 		
@@ -240,13 +320,19 @@
 		
 		\subsection{Prototype Scope}
 			\label{ss:protoype-scope}				
-		
+
+			\textbf{Work-In-Progress}
+			
+					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
 		\subsection{Evaluation}
 			\label{ss:evaluation}				
-		
+
+			\textbf{Work-In-Progress}
+			
+					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------			
 
@@ -254,7 +340,7 @@
 	%% ----------------------------------------------------------------
 
 	\section{Discussion}
-		\label{section-7}	
+		\label{s:section-7}	
 		
 		Intro
 
@@ -262,7 +348,9 @@
 		%% ----------------------------------------------------------------	
 		
 		\subsection{Critical Analysis}
-			\label{ss:critical-analysis}				
+			\label{ss:critical-analysis}
+							
+			\textbf{Work-In-Progress}		
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------			
@@ -271,6 +359,8 @@
 			\label{ss:competitor-analysis}
 			
 			%Competitor analysis (will)				
+
+			\textbf{Work-In-Progress}
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------					
@@ -279,8 +369,11 @@
 	%% ----------------------------------------------------------------
 
 	\section{Conclusion and Future Work}
-		\label{section-8}	
+		\label{s:section-8}	
 
+		We conclude ...
+		
+		\textbf{Work-In-Progress}		
 				
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
