@@ -6,6 +6,16 @@
 Booch, G., Jacobson, I., Rumbaugh, J., et~al.: {The Unified Modeling Language}.
   Unix Review  14(13), ~5 (1996)
 
+\bibitem{davWhitepaper}
+Copel, N., Ater, T.: {DAV - Decentralized Autonomous Vehicles (Whitepaper)}.
+  URL: \url{https://dav.network/whitepaper.pdf} (2017), ({A}ccessed April 27,
+  2018)
+
+\bibitem{commuteUSvsEurope}
+Cortright, J.: {Sprawl Tax: How the US Stacks Up Internationally }. URL:
+  \url{http://cityobservatory.org/sprawl-tax-how-the-us-stacks-up-internationally/}
+  (2016), ({A}ccessed April 26, 2018)
+
 \bibitem{davis1993software}
 Davis, A.M.: {Software Requirements: Objects, Functions, and States}.
   Prentice-Hall, Inc. (1993)
@@ -20,10 +30,28 @@ Erl, T.: {Service-Oriented Architecture: Concepts, Technology, and Design}.
   Software Requirements Specifications}. IEEE Std, Institute of Electrical and
   Electronics Engineers (1994)
 
+\bibitem{intelPassengerEconomy}
+Lanctot, R.: {Accelerating the Future: The Economic Impact of the Emerging
+  Passenger Economy}. URL:
+  \url{https://newsroom.intel.com/newsroom/wp-content/uploads/sites/11/2017/05/passenger-economy.pdf}
+  (2017), ({A}ccessed April 27, 2018)
+
+\bibitem{macneille2018vehicle}
+MacNeille, P.R., Wisniewski, J., DeCia, N.: {Vehicle-to-Vehicle Cooperation to
+  Marshal Traffic} (Mar~27 2018), uS Patent 9,928,746
+
 \bibitem{marshall2014agent}
 Marshall, J.: {Agent-Based Modelling of Emotional Goals in Digital Media Design
   Projects}. International Journal of People-Oriented Programming (IJPOP)
   3(1),  44--59 (2014)
+
+\bibitem{mckenzie2015drives}
+McKenzie, B.: {Who Drives to Work? Commuting by Automobile in the United
+  States: 2013}. American Community Survey Reports  (2015)
+
+\bibitem{nakamoto_bitcoin:2008}
+Nakamoto, S.: Bitcoin: {A} {P}eer-to-{P}eer {E}lectronic {C}ash {S}ystem. URL:
+  \url{https://bitcoin.org/bitcoin.pdf} (2008), ({A}ccessed October 30, 2017)
 
 \bibitem{norta2014reference}
 Norta, A., Grefen, P., Narendra, N.C.: {A Reference Architecture for Managing

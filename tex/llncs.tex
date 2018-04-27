@@ -29,7 +29,7 @@
 
 	{
 	%
-	\title{title\\ \small Whitepaper}
+	\title{We need a fancy title\\ \small Whitepaper - Version 0.1\\\small \today}
 	
 	\author{Benjamin Leiding\inst{1} \and Will Vorobev\inst{1} \and Peter Zverkov\inst{1} \and Lena Cherry\inst{1}}
 	
@@ -72,32 +72,27 @@
 	\section{Introduction}
 		\label{s:introduction}
 
-	
-		\textbf{Work-In-Progress}
-
-		%https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-Kennzeichen-testen-4016538.html
+		Despite steadily growing public transport networks and systems, especially in most first world countries, cars and similar vehicles are still the default standard for urban transportation. In the US, ``about 86 percent of all workers commuted to work by private vehicle, either driving alone or carpooling" \cite{mckenzie2015drives} even though in recent years the numbers remained relatively stable after decades of consistent increase - similar applies to other industrial countries \cite{bibid}\cite{bibid}\cite{bibid} even though the overall percentage of vehicle commuters in Europe is lower than in the US \cite{commuteUSvsEurope}. While it was normal for the last few decades to own a vehicle and commute on a day-by-day basis, the future will be radically different due to the progressing evolution of self-driving cars and autonomous vehicles. The car-sharing economy that developed in recent years in combination with autonomous cars results in a so called \textit{passenger economy} \cite{bibid}\cite{bibid}. Users no longer own cars, instead just hop on an autonomous cars, pick a destination and get delivered without any human interaction. An Intel report estimates the size of this economy to be around US\$ 7 Trillion in 2050 \cite{intelPassengerEconomy}.
 		
-		%get mike hearn here
+		Despite some recent setback, e.g. Uber and Tesla accidents \cite{bibid}\cite{bibid}\cite{bibid}, academic researchers as well as companies from the private sector make fast progresses in the research area of self-driving cars \cite{bibid}\cite{bibid}. It took less than 15 years from the first DARPA Grand Challenge (a prize competition for autonomous vehicles) to self-driving cars operating on public streets on a regular base (Tesla, Waymo, Uber, etc.) \cite{bibid}\cite{bibid}\cite{bibid}. Besides the cars, several projects are also already working on system solutions for trucks, rovers, drones, ships and even airplanes \cite{bibid}\cite{bibid}\cite{bibid}\cite{davWhitepaper}. But progressing automation and driverless transport that enables the passenger economy is only a small aspect of the potential of these new technologies. During a talk\footnote{\url{https://www.youtube.com/watch?v=MVyv4t0OKe4}} at the 2013 Turing Festival in Edinburgh, Mike Hearn did not only described a vision where most users don't own cars anymore and instead use services provided by autonomous vehicles that own itself, but also the potentials of a vehicle-to-vehicle (V2V) as well as a vehicle-to-infrastructure (V2I) economy. Autonomous vehicles (AVs) may own themselves, offer services and goods to earn money, and pay money to acquire services that they cannot provide on their own, e.g., car renting a parking lot, paying for a charged battery, using toll roads, or simple service check ups. The idea of V2V and V2I or in general V2X (vehicle-to-everything) will fuel various new business fields. 
 		
-		%oaken
-		
-		%% DAV, etc
+		Certainly, traditional payment systems such as paper money or fiat currencies in general are not suited to be part of this new economy. There are slow, depend on third parties (e.g., banks) and suffer from bureaucratic overhead. Blockchain technology and cryptocurrencies offer a promising alternative payment solution that comes with several additional advantages that we will discuss later on. The blockchain technology, also referred to as distributed ledger system, is most noticeably known for providing the foundation of the peer-to-peer (P2P) cryptocurrency and payment system Bitcoin \cite{nakamoto_bitcoin:2008}, but nowadays there a various different platforms out there, e.g., \cite{bibid}\cite{bibid}\cite{bibid}. Several companies already started to prototype applications that combine vehicles and blockchains. Porsche is researching different payment-related applications for vehicles \cite{bibid} whereas Ford focuses on traffic marshaling \cite{macneille2018vehicle}. As expected in the early days of a new technololgy, companies focus on selective solutions for a selection of very specific problems or use cases and the resulting solutions are only compatible with their own products. What is currently missing in the new business field of V2X economy is an industry standard that can easily be integrated with self-driving and (semi)-autonomous cars or even nowadays cars. 
 
-
-		WE ARE A LIBRARY!
+%https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-Kennzeichen-testen-4016538.html
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%		RQ: How to ?
-%		RQ-1: What are the critical requirements and the corresponding architecture of the Chorus platform?
-%		RQ-2: What ?
+%		RQ: How to implement a library for (semi)-autonomous vehicles that enables a V2X trading platform for goods and services?
+%		RQ-1: What is the long term vision of Chorus Technology?
+%		RQ-2: What are the critical requirements and the corresponding architecture of the Chorus platform?
 %		RQ-3: What are the system-engagement processes for the stakeholders?
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-			%This whitepaper addresses the detected gap by introducing the self-sovereign personal data platform Procivis idNet, thereby answering the question of how to develop a blockchain-based and e-ID agnostic platform that enables self-sovereign market trading of personal data? In order to answer this question with a separation of concerns, we pose the following sub-questions: What are the critical requirements and the corresponding architecture of Procivis' self-sovereign personal data platform? What are the optimized user on-boarding processes and reliable price discovery mechanisms? What are the system-engagement processes for the stakeholders?
 
-			The remainder of this paper is structured as follows: Section~\ref{s:section-2} introduces supplementary literature and related work. Section~\ref{s:section-3} then outlines the vision of Chorus Technology as well as different use-cases. Afterwards, Section~\ref{s:section-4} analyses the requirements of the our system and outlines the resulting system architecture that we derive from the requirements. Afterwards, Section~\ref{s:section-5} expands on the system-engagement processes for the stakeholders, followed by Section~\ref{s:section-6} that introduces the Chorus prototype as well as feasibility evaluation. Section~\ref{s:section-7} provides an discussion and an analysis of related projects. Finally, Section~\ref{s:section-8} concludes this work and provides an outlook on future work.
+		This whitepaper addresses the detected gap by introducing the Chorus Technology solution, thereby answering the question of how to implement a library for (semi)-autonomous vehicles that enables a V2X trading platform for goods and services? In order to answer this question with a separation of concerns, we pose the following sub-questions: What is the long term vision of Chorus Technology? What are the critical requirements and the corresponding architecture of the Chorus platform? What are the system-engagement processes for the stakeholders?
+
+		The remainder of this paper is structured as follows: Section~\ref{s:section-2} introduces supplementary literature and related work. Section~\ref{s:section-3} then outlines the vision of Chorus Technology as well as different use-cases. Afterwards, Section~\ref{s:section-4} analyses the requirements of the our system and outlines the resulting system architecture that we derive from the requirements. Afterwards, Section~\ref{s:section-5} expands on the system-engagement processes for the stakeholders, followed by Section~\ref{s:section-6} that introduces the Chorus prototype as well as feasibility evaluation. Section~\ref{s:section-7} provides an discussion and an analysis of related projects. Finally, Section~\ref{s:section-8} concludes this work and provides an outlook on future work.
 
 
 	%% ----------------------------------------------------------------
@@ -160,6 +155,15 @@
 %			The alternative blockchain solution IOTA is offering an IoT market place \cite{iotaMarketplace} for IoT devices where sensor data can be bought and sold using blockchain technology.
 %			
 %		
+
+%%DAV MVPs \cite{davWhitepaper}
+%%MVP#1 World’s first autonomous vehicle to autonomously bid for delivery services, complete them, and get paid using tokens directly to its own wallet.
+%%MVP #2 World’s first autonomous vehicle to pay for its own battery replacement using tokens and take off to complete its delivery mission.
+%%
+%%MVP #3 World’s first autonomous vehicle to pay another autonomous vehicle (robot) using tokens for completing the last mile of a delivery mission.
+%%
+%%MVP #4 Longest drone delivery flight ever, flying cross-country using the support of multiple DAV battery-changing stations along the way.
+
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 	
@@ -169,6 +173,8 @@
 
 	\section{The Chorus Vision}
 		\label{s:section-3}
+		
+		%%RQ-1: What is the long term vision of Chorus Technology?
 		
 		Intro
 
@@ -201,7 +207,7 @@
 	\section{System Design and Architecture}
 		\label{s:section-4}	
 
-		%%RQ-1: What are the critical requirements and the corresponding architecture of the Chorus platform?
+		%%RQ-2: What are the critical requirements and the corresponding architecture of the Chorus platform?
 
 		The vision of Chorus outlined in Section \ref{s:section-3} is now analyzed from technical perspective as part of the following section. In order to identify, structure and formalize the critical requirements and stakeholders on an abstract level, we use one part of an Agent-Oriented Modeling (AOM) method \cite{sterling2009art}, i.e., goal models. Section~\ref{ss:requirement-engineering} introduces AOM goal models and the Chorus specific goal model. The produced goal model is used in subsequent Section \ref{ss:component-diagrams} to derive the Chrous system architecture . The resulting system architecture and specifications serve as implementation guidelines. Finally, Section~\ref{ss:smart-contract-lifecycle-management} provides some details on the smart contract lifecycle management within our solution, whereas Section~\ref{ss:library-api} outlines a general outlook on the APIs and how to integrate the Chorus library into external applications.
 		
@@ -320,6 +326,8 @@
 	\section{System Engagement Processes}
 		\label{s:section-5}	
 	
+		%% RQ-3: What are the system-engagement processes for the stakeholders?
+	
 		Intro
 		
 		%describe processes here similar to evx paper
@@ -431,6 +439,11 @@
 		We conclude ...
 		
 		\textbf{Work-In-Progress}		
+		
+		
+		%Future Work
+		%	- mention the academic M2M paper?
+		%	- chorus long term vision
 				
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
