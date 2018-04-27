@@ -12,9 +12,19 @@ Baldessari, R., B{\"o}dekker, B., Deegener, M., Festag, A., Franz, W., Kellum,
   C.C., Kosch, T., Kovacs, A., Lenardi, M., Menig, C., et~al.: {Car-2-Car
   Communication Consortium - Manifesto}  (2007)
 
+\bibitem{leidingUnchained}
+Bochem, A., Leiding, B., Hogrefe, D.: {Unchained Identities: Putting a Price on
+  Sybil Nodes in Mobile Ad hoc Networks}. In: Security and Privacy in
+  Communication Networks (SecureComm 2018). Singapore (August 2018)
+
 \bibitem{booch1996unified}
 Booch, G., Jacobson, I., Rumbaugh, J., et~al.: {The Unified Modeling Language}.
   Unix Review  14(13), ~5 (1996)
+
+\bibitem{leidingWhisperkey}
+Cap, C.H., Leiding, B.: {Ensuring Resource Trust and Integrity in Web Browsers
+  using Blockchain Technology}. In: The 1st Workshop on Blockchains for
+  Inter-Organizational Collaboration (BIOC’18). Tallinn, Estonia (June 2018)
 
 \bibitem{davWhitepaper}
 Copel, N., Ater, T.: {DAV - Decentralized Autonomous Vehicles (Whitepaper)}.
