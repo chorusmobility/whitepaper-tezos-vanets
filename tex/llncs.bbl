@@ -21,10 +21,21 @@ Bochem, A., Leiding, B., Hogrefe, D.: {Unchained Identities: Putting a Price on
 Booch, G., Jacobson, I., Rumbaugh, J., et~al.: {The Unified Modeling Language}.
   Unix Review  14(13), ~5 (1996)
 
-\bibitem{leidingWhisperkey}
-Cap, C.H., Leiding, B.: {Ensuring Resource Trust and Integrity in Web Browsers
-  using Blockchain Technology}. In: The 1st Workshop on Blockchains for
-  Inter-Organizational Collaboration (BIOC’18). Tallinn, Estonia (June 2018)
+\bibitem{SemadaWhitepaper}
+Calcaterra, C., Kaal, W.A., Vlad, A.: {Semada Technical Whitepaper - Blockchain
+  Infrastructure for Measuring Domain Specific Reputation in Autonomous
+  Decentralized and Anonymous Systems}. URL:
+  \url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3125822} (2018),
+  ({A}ccessed April 18, 2018)
+
+\bibitem{christidis2016blockchains}
+Christidis, K., Devetsikiotis, M.: {Blockchains and Smart Contracts for the
+  Internet of Things}. IEEE Access  4,  2292--2303 (2016)
+
+\bibitem{CivicWhitepaper}
+{Civic Technologies, Inc.}: {CIVIC - Whitepaper}. URL:
+  \url{https://tokensale.civic.com/CivicTokenSaleWhitePaper.pdf} (2017),
+  ({A}ccessed November 17, 2017)
 
 \bibitem{davWhitepaper}
 Copel, N., Ater, T.: {DAV - Decentralized Autonomous Vehicles (Whitepaper)}.
@@ -35,6 +46,12 @@ Copel, N., Ater, T.: {DAV - Decentralized Autonomous Vehicles (Whitepaper)}.
 Cortright, J.: {Sprawl Tax: How the US Stacks Up Internationally }. URL:
   \url{http://cityobservatory.org/sprawl-tax-how-the-us-stacks-up-internationally/}
   (2016), ({A}ccessed April 26, 2018)
+
+\bibitem{qtumWhitepaper}
+Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
+  Protocols on a Distributed Mobile Application Platform}. URL:
+  \url{https://qtum.org/uploads/files/a2772efe4dc8ed1100319c6480195fb1.pdf}
+  (2017), ({A}ccessed September 18, 2017)
 
 \bibitem{davis1993software}
 Davis, A.M.: {Software Requirements: Objects, Functions, and States}.
@@ -66,6 +83,11 @@ Lanctot, R.: {Accelerating the Future: The Economic Impact of the Emerging
   \url{https://newsroom.intel.com/newsroom/wp-content/uploads/sites/11/2017/05/passenger-economy.pdf}
   (2017), ({A}ccessed April 27, 2018)
 
+\bibitem{AuthcoinLeiding2016MCIS}
+Leiding, B., Cap, C.H., Mundt, T., Rashidibajgan, S.: {Authcoin: Validation and
+  Authentication in Decentralized Networks}. In: The 10th Mediterranean
+  Conference on Information Systems - MCIS 2016. Cyprus, CY (September 2016)
+
 \bibitem{leiding2016self}
 Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
   Vehicular Ad-Hoc Networks}. In: Proceedings of the 2016 ACM International
@@ -81,6 +103,11 @@ Marshall, J.: {Agent-Based Modelling of Emotional Goals in Digital Media Design
   Projects}. International Journal of People-Oriented Programming (IJPOP)
   3(1),  44--59 (2014)
 
+\bibitem{mccorry2015authenticated}
+McCorry, P., Shahandashti, S.F., Clarke, D., Hao, F.: {Authenticated key
+  exchange over bitcoin}. In: International Conference on Research in Security
+  Standardisation. pp. 3--20. Springer (2015)
+
 \bibitem{mckenzie2015drives}
 McKenzie, B.: {Who Drives to Work? Commuting by Automobile in the United
   States: 2013}. American Community Survey Reports  (2015)
@@ -94,10 +121,21 @@ McKenzie, B.: {Who Drives to Work? Commuting by Automobile in the United
 Nakamoto, S.: Bitcoin: {A} {P}eer-to-{P}eer {E}lectronic {C}ash {S}ystem. URL:
   \url{https://bitcoin.org/bitcoin.pdf} (2008), ({A}ccessed October 30, 2017)
 
+\bibitem{nguyen2016blockchain}
+Nguyen, Q.K.: {Blockchain - A Financial Technology for Future Sustainable
+  Development}. In: Green Technology and Sustainable Development (GTSD),
+  International Conference on. pp. 51--54. IEEE (2016)
+
 \bibitem{norta2014reference}
 Norta, A., Grefen, P., Narendra, N.C.: {A Reference Architecture for Managing
   Dynamic Inter-Organizational Business Processes}. Data \& Knowledge
   Engineering  91,  52--89 (2014)
+
+\bibitem{ouaddah2017towards}
+Ouaddah, A., Elkalam, A.A., Ouahman, A.A.: {Towards a Novel Privacy-Preserving
+  Access Control Model Based on Blockchain Technology in IoT}. In: Europe and
+  MENA Cooperation Advances in Information and Communication Technologies, pp.
+  523--533. Springer (2017)
 
 \bibitem{perrey2003service}
 Perrey, R., Lycett, M.: {Service-Oriented Architecture}. In: Applications and
@@ -118,6 +156,15 @@ Popov, S.: {The Tangle - Version 1.4.2}. URL:
 Rosen, M., Lublinsky, B., Smith, K.T., Balcer, M.J.: {Applied SOA:
   Service-Oriented Architecture and Design Strategies}. John Wiley \& Sons
   (2012)
+
+\bibitem{saltWhitepaper}
+{SALT Technology, Ltd.}: {SALT - Blockchain-Backed Loans - Whitepaper}. URL:
+  \url{https://membership.saltlending.com/files/abstract.pdf} (2017),
+  ({A}ccessed April 25, 2017)
+
+\bibitem{SelfkeyWhitepaper}
+{SelfKey Foundation}: {SelfKey - Whitepaper}. URL:
+  \url{https://selfkey.org/whitepaper/} (2017), ({A}ccessed April 27, 2018)
 
 \bibitem{specification2007omg}
 Specification, O.A.: {OMG Unified Modeling Language (OMG UML), Superstructure,

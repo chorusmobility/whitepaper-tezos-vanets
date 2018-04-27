@@ -109,14 +109,11 @@
 		\subsection{Blockchain Technology}
 			\label{ss:blockchain-intro}
 			
-			\textbf{Work-In-Progress}				
-			
-			maybe already cite unchained\cite{leidingUnchained} and whisperkey paper \cite{leidingWhisperkey}?			
-		
-%			A blockchain consists of a chronologically ordered chain of blocks, where every block consists of a certain number of validated transactions. Each block links to its predecessor by a hash reference, so that changing the content of one block also changes all succeeding blocks and hence breaks the chain. All blocks are stored on and verified by all participating nodes. The blockchain concept is interesting for a M2M trading platform since it removes the need for trusted third party and instead enables trust-less transaction enactment and transactions that were agreed up on cannot be changed any more (tamper-proof).
-%			
-%			In recent years, the blockchain concept majored and spread in popularity. Besides the initial Bitcoin blockchain, several other architectures emerged, e.g., Ethereum \cite{wood2014ethereum}, Qtum \cite{qtumWhitepaper}, or Tezos \cite{tezosWhitepaper}. Those alternative blockchain platforms further provide Turing-complete programming languages on the protocol-layer level in order to enable smart contract capabilities. Smart contracts are, ``orchestration- and choreography protocols that facilitate, verify and enact with computing means a negotiated agreement between consenting parties" \cite{qtumWhitepaper}. Parties participating in the contract enactment establish binding agreements and deploy applications using such smart contracts in order to provide blockchain-based applications. Moreover, a variety of applications and use-cases for blockchains have been proposed, e.g., as a platform for IoT applications \cite{huckle2016internet}\cite{leiding2016self}, in the finance sector \cite{nguyen2016blockchain}\cite{tetherWhitepaper}, for reputation systems \cite{SemadaWhitepaper}, as part of security and authentication protocols \cite{AuthcoinLeiding2016MCIS}\cite{mccorry2015authenticated}\cite{ouaddah2017towards} or privacy solutions \cite{dorri2017blockchain}. 
 
+
+			As the name suggests, a blockchain consists of a chronologically ordered chain of blocks. Every block consists of a certain number of validated transactions and each of those block links to its predecessor by a hash reference. As a result, changing the content of one block also changes all succeeding blocks and hence breaks the chain. All blocks are stored on and verified by all participating nodes. While the initial Bitcoin blockchain only supported a very limited set of scripting instructions, the next generation of blockchain platforms, e.g., Ethereum \cite{wood2014ethereum}, Qtum \cite{qtumWhitepaper}, or Tezos \cite{tezosWhitepaper}, provide Turing-complete programming languages on the protocol-layer level in order to enable smart contract capabilities. Smart contracts are, ``orchestration- and choreography protocols that facilitate, verify and enact with computing means a negotiated agreement between consenting parties" \cite{qtumWhitepaper}. Hence, the parties participating in the enactment of a smart contract establish binding agreements and deploy applications using such smart contracts in order to provide blockchain-based applications. Those application are as versatile as smart contracts itself and enable services including the finance sector \cite{nguyen2016blockchain}\cite{saltWhitepaper}, academic and business authentication and identity solutions \cite{leidingUnchained}\cite{CivicWhitepaper}\cite{AuthcoinLeiding2016MCIS}\cite{mccorry2015authenticated}\cite{SelfkeyWhitepaper}, reputation systems \cite{SemadaWhitepaper} as well platforms for Internet-of-Things (IoT) applications \cite{christidis2016blockchains}\cite{ouaddah2017towards}. 	
+			
+			The blockchain concept is particularly interesting for the V2X economy for three reasons. First, it removes the need for trusted third parties and instead enables trust-less transaction enactment. Second, transactions that were agreed up on cannot be changed any more since the underlying blockchain is tamperproof. Third, no human interaction is required for any kind of transaction between vehicles or machines in general.
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -134,16 +131,16 @@
 		\subsection{Vehicular Ad-Hoc Networks - VANETs}
 			\label{ss:vanets}
 
-			Communication between vehicles, road infrastructure and Internet-based services is a key enabler of upcoming generation of vehicles. So called vehicular ad-hoc networks (short VANETs)provide an abstract concept that models the different components that are required for V2V, V2I and V2X communication. As illustrated in Figure \ref{fig:vanets}, the basic components of VANETs are vehicles, on-board-units (OBUs), application-units (AUs) and road-side-units (RSUs).\\
-			RSUs are placed  along the road side or in dedicated locations such as at crossroads. Usually, RSUs provide short range communication based on IEEE 802.11p radio technology but can also be equipped with other network devices in order to provide communication within the infrastructural network \cite{al2014comprehensive}. An OBU is typically mounted onto a vehicle and used for exchanging information with RSUs or other OBUs. Information exchange is usually achieved via short range wireless communication or other radio technologies \cite{baldessari2007car}.\\
-			The AU is closely linked to the OBU and might even reside in the same physical unit or is mobile and might be regularly removed from the vehicle (e.g smartphones). The AU runs applications that can utilize the OBU's communication capabilities \cite{al2014comprehensive}\cite{baldessari2007car}.\\	
+			Communication between vehicles, road infrastructure and Internet-based services is a key enabler of upcoming generation of vehicles. So called vehicular ad-hoc networks provide an abstract concept that models the different components that are required for V2V, V2I and V2X communication. As illustrated in Figure \ref{fig:vanets}, the basic components of VANETs are vehicles, on-board-units (OBUs), application-units (AUs) and road-side-units (RSUs).\\
+			RSUs are placed  along the road side or in dedicated locations such as at crossroads. Usually, RSUs provide short range communication based on IEEE 802.11p radio technology but can also be equipped with other network devices in order to provide communication within the infrastructural network \cite{al2014comprehensive}. An OBU is typically mounted onto a vehicle and used for exchanging information with RSUs or other OBUs. Short range wireless communication or other radio technologies are usually used to exchange information \cite{baldessari2007car}.\\
+			Closely linked to the OBU is the AU. They might even reside in the same physical unit or is mobile and might be regularly removed from the vehicle (e.g smartphones). The AU provides an execution environment for applications that utilize the OBU's communication capabilities \cite{al2014comprehensive}\cite{baldessari2007car}.\\	
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[scale=0.2]{Figures/Vanets.png}
 				\caption{General VANET architecture (Based on: \protect\cite{baldessari2007car} and \cite{leiding2016self})}
 				\label{fig:vanets}
 			\end{figure}			
-			Communication in VANETs happens either inside a vehicle between AUs and OBU, wirelessly between different vehicles (V2V) or vehicles and infrastructure (V2I) or between vehicles and the infrastructure via broadband (V2B) \cite{faezipour2012progress}. For authentication purposes, each network participant is equipped with a unique public/private key pair which usually resides in a tamper-proof-device (TPD).
+			Communication in VANETs occurs either inside a vehicle between AUs and OBU, wirelessly between different vehicles (V2V), vehicles and infrastructure (V2I) or vehicles and the infrastructure via broadband (V2B) \cite{faezipour2012progress}. For authentication purposes, each network participant is equipped with a unique public/private key pair which usually resides in a tamper-proof-device (TPD). In blockchain terms, the TPD is similar to an external hardware wallet.
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -246,7 +243,7 @@
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.2]{Figures/20180426_AOM-notation.pdf}
+					\includegraphics[scale=0.4]{Figures/Dummy.jpg}
 					\caption{Caption.}	
 					\label{fig:top-level-aom-goal-model}
 				\end{figure}
