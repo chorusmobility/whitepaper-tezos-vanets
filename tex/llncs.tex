@@ -72,11 +72,11 @@
 	\section{Introduction}
 		\label{s:introduction}
 
-		Despite steadily growing public transport networks and systems, especially in most first world countries, cars and similar vehicles are still the default standard for urban transportation. In the US, ``about 86 percent of all workers commuted to work by private vehicle, either driving alone or carpooling" \cite{mckenzie2015drives} even though in recent years the numbers remained relatively stable after decades of consistent increase - similar applies to other industrial countries \cite{bibid}\cite{bibid}\cite{bibid} even though the overall percentage of vehicle commuters in Europe is lower than in the US \cite{commuteUSvsEurope}. While it was normal for the last few decades to own a vehicle and commute on a day-by-day basis, the future will be radically different due to the progressing evolution of self-driving cars and autonomous vehicles. The car-sharing economy that developed in recent years in combination with autonomous cars results in a so called \textit{passenger economy} \cite{bibid}\cite{bibid}. Users no longer own cars, instead just hop on an autonomous cars, pick a destination and get delivered without any human interaction. An Intel report estimates the size of this economy to be around US\$ 7 Trillion in 2050 \cite{intelPassengerEconomy}.
+		Despite steadily growing public transport networks and systems, especially in most first world countries, cars and similar vehicles are still the default standard for urban transportation. In the US, ``about 86 percent of all workers commuted to work by private vehicle, either driving alone or carpooling" \cite{mckenzie2015drives} even though in recent years the numbers remained relatively stable after decades of consistent increase - similar applies to other industrial countries \cite{netherlandsPublicTransport}\cite{zealand2006car} even though the overall percentage of vehicle commuters in Europe is lower than in the US \cite{commuteUSvsEurope}. While it was normal for the last few decades to own a vehicle and commute on a day-by-day basis, the future will be radically different due to the progressing evolution of self-driving cars and autonomous vehicles. The car-sharing economy that developed in recent years in combination with autonomous cars results in a so called \textit{passenger economy} \cite{intelPassengerEconomy}. Users no longer own cars, instead just hop on an autonomous cars, pick a destination and get delivered without any human interaction. An Intel report estimates the size of this economy to be around US\$ 7 Trillion in 2050 \cite{intelPassengerEconomy}.
 		
 		Despite some recent setback, e.g. Uber and Tesla accidents \cite{bibid}\cite{bibid}\cite{bibid}, academic researchers as well as companies from the private sector make fast progresses in the research area of self-driving cars \cite{bibid}\cite{bibid}. It took less than 15 years from the first DARPA Grand Challenge (a prize competition for autonomous vehicles) to self-driving cars operating on public streets on a regular base (Tesla, Waymo, Uber, etc.) \cite{bibid}\cite{bibid}\cite{bibid}. Besides the cars, several projects are also already working on system solutions for trucks, rovers, drones, ships and even airplanes \cite{bibid}\cite{bibid}\cite{bibid}\cite{davWhitepaper}. But progressing automation and driverless transport that enables the passenger economy is only a small aspect of the potential of these new technologies. During a talk\footnote{\url{https://www.youtube.com/watch?v=MVyv4t0OKe4}} at the 2013 Turing Festival in Edinburgh, Mike Hearn did not only described a vision where most users don't own cars anymore and instead use services provided by autonomous vehicles that own itself, but also the potentials of a vehicle-to-vehicle (V2V) as well as a vehicle-to-infrastructure (V2I) economy. Autonomous vehicles (AVs) may own themselves, offer services and goods to earn money, and pay money to acquire services that they cannot provide on their own, e.g., car renting a parking lot, paying for a charged battery, using toll roads, or simple service check ups. The idea of V2V and V2I or in general V2X (vehicle-to-everything) will fuel various new business fields. 
 		
-		Certainly, traditional payment systems such as paper money or fiat currencies in general are not suited to be part of this new economy. There are slow, depend on third parties (e.g., banks) and suffer from bureaucratic overhead. Blockchain technology and cryptocurrencies offer a promising alternative payment solution that comes with several additional advantages that we will discuss later on. The blockchain technology, also referred to as distributed ledger system, is most noticeably known for providing the foundation of the peer-to-peer (P2P) cryptocurrency and payment system Bitcoin \cite{nakamoto_bitcoin:2008}, but nowadays there a various different platforms out there, e.g., \cite{bibid}\cite{bibid}\cite{bibid}. Several companies already started to prototype applications that combine vehicles and blockchains. Porsche is researching different payment-related applications for vehicles \cite{bibid} whereas Ford focuses on traffic marshaling \cite{macneille2018vehicle}. As expected in the early days of a new technololgy, companies focus on selective solutions for a selection of very specific problems or use cases and the resulting solutions are only compatible with their own products. What is currently missing in the new business field of V2X economy is an industry standard that can easily be integrated with self-driving and (semi)-autonomous cars or even nowadays cars. 
+		Certainly, traditional payment systems such as paper money or fiat currencies in general are not suited to be part of this new economy. There are slow, depend on third parties (e.g., banks) and suffer from bureaucratic overhead. Blockchain technology and cryptocurrencies offer a promising alternative payment solution that comes with several additional advantages that we will discuss later on. The blockchain technology, also referred to as distributed ledger system, is most noticeably known for providing the foundation of the peer-to-peer (P2P) cryptocurrency and payment system Bitcoin \cite{nakamoto_bitcoin:2008}, but nowadays there a various different platforms out there, e.g., \cite{tezosWhitepaper}\cite{iotaWhitepaper}\cite{wood2014ethereum}. Several companies already started to prototype applications that combine vehicles and blockchains. Porsche is researching different payment-related applications for vehicles \cite{porscheBlockchain} whereas Ford focuses on traffic marshaling \cite{macneille2018vehicle}. As expected in the early days of a new technology, companies focus on selective solutions for a selection of very specific problems or use cases and the resulting solutions are only compatible with their own products. What is currently missing in the new business field of V2X economy is an industry standard that can easily be integrated with self-driving and (semi)-autonomous cars or even nowadays cars. 
 
 %https://www.heise.de/newsticker/meldung/Dubai-will-smarte-Kfz-Kennzeichen-testen-4016538.html
 
@@ -134,9 +134,16 @@
 		\subsection{Vehicular Ad-Hoc Networks - VANETs}
 			\label{ss:vanets}
 
-			\textbf{Work-In-Progress}
-			
-			%get stuff from the research projects as well as the ubicomp paper here
+			Communication between vehicles, road infrastructure and Internet-based services is a key enabler of upcoming generation of vehicles. So called vehicular ad-hoc networks (short VANETs)provide an abstract concept that models the different components that are required for V2V, V2I and V2X communication. As illustrated in Figure \ref{fig:vanets}, the basic components of VANETs are vehicles, on-board-units (OBUs), application-units (AUs) and road-side-units (RSUs).\\
+			RSUs are placed  along the road side or in dedicated locations such as at crossroads. Usually, RSUs provide short range communication based on IEEE 802.11p radio technology but can also be equipped with other network devices in order to provide communication within the infrastructural network \cite{al2014comprehensive}. An OBU is typically mounted onto a vehicle and used for exchanging information with RSUs or other OBUs. Information exchange is usually achieved via short range wireless communication or other radio technologies \cite{baldessari2007car}.\\
+			The AU is closely linked to the OBU and might even reside in the same physical unit or is mobile and might be regularly removed from the vehicle (e.g smartphones). The AU runs applications that can utilize the OBU's communication capabilities \cite{al2014comprehensive}\cite{baldessari2007car}.\\	
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[scale=0.2]{Figures/Vanets.png}
+				\caption{General VANET architecture (Based on: \protect\cite{baldessari2007car} and \cite{leiding2016self})}
+				\label{fig:vanets}
+			\end{figure}			
+			Communication in VANETs happens either inside a vehicle between AUs and OBU, wirelessly between different vehicles (V2V) or vehicles and infrastructure (V2I) or between vehicles and the infrastructure via broadband (V2B) \cite{faezipour2012progress}. For authentication purposes, each network participant is equipped with a unique public/private key pair which usually resides in a tamper-proof-device (TPD).
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -163,6 +170,8 @@
 %%MVP #3 World’s first autonomous vehicle to pay another autonomous vehicle (robot) using tokens for completing the last mile of a delivery mission.
 %%
 %%MVP #4 Longest drone delivery flight ever, flying cross-country using the support of multiple DAV battery-changing stations along the way.
+
+% we also have talk about XAIN
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -237,7 +246,7 @@
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+					\includegraphics[scale=0.2]{Figures/20180426_AOM-notation.pdf}
 					\caption{Caption.}	
 					\label{fig:top-level-aom-goal-model}
 				\end{figure}
@@ -251,7 +260,7 @@
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+					\includegraphics[scale=0.4]{Figures/Dummy.jpg}
 					\caption{Caption.}	
 					\label{fig:refined-aom-goal-model}
 				\end{figure}
@@ -341,7 +350,7 @@
 
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
 				\caption{Caption.}	
 				\label{fig:sequence-diagram-1}
 			\end{figure}
@@ -357,7 +366,7 @@
 
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale=0.15]{Figures/Dummy.jpg}
+				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
 				\caption{Caption.}	
 				\label{fig:auction-algorithm}
 			\end{figure}

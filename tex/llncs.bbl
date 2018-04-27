@@ -2,6 +2,16 @@
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
+\bibitem{al2014comprehensive}
+{Al-Sultan, Saif and Al-Doori, Moath M and Al-Bayatti, Ali H and Zedan,
+  Hussien}: {A Comprehensive Survey on Vehicular Ad Hoc Network}. {Journal of
+  Network and Computer Applications}  37,  380--392 (2014)
+
+\bibitem{baldessari2007car}
+Baldessari, R., B{\"o}dekker, B., Deegener, M., Festag, A., Franz, W., Kellum,
+  C.C., Kosch, T., Kovacs, A., Lenardi, M., Menig, C., et~al.: {Car-2-Car
+  Communication Consortium - Manifesto}  (2007)
+
 \bibitem{booch1996unified}
 Booch, G., Jacobson, I., Rumbaugh, J., et~al.: {The Unified Modeling Language}.
   Unix Review  14(13), ~5 (1996)
@@ -24,17 +34,33 @@ Davis, A.M.: {Software Requirements: Objects, Functions, and States}.
 Erl, T.: {Service-Oriented Architecture: Concepts, Technology, and Design}.
   Pearson Education India (2005)
 
+\bibitem{faezipour2012progress}
+Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
+  in Intelligent Vehicle Area Networks}. Communications of the ACM  55(2),
+  90--100 (2012)
+
 \bibitem{ieee1994ieee}
 {IEEE Computer Society. Software Engineering Technology Committee and Institute
   of Electrical and Electronics Engineers}: {IEEE Recommended Practice for
   Software Requirements Specifications}. IEEE Std, Institute of Electrical and
   Electronics Engineers (1994)
 
+\bibitem{tezosWhitepaper}
+{L. M. Goodman}: {Tezos - A Self-Amending Crypto-Ledger (White paper)}. URL:
+  \url{https://www.tezos.com/static/papers/white_paper.pdf} (2014), ({A}ccessed
+  April 27, 2018)
+
 \bibitem{intelPassengerEconomy}
 Lanctot, R.: {Accelerating the Future: The Economic Impact of the Emerging
   Passenger Economy}. URL:
   \url{https://newsroom.intel.com/newsroom/wp-content/uploads/sites/11/2017/05/passenger-economy.pdf}
   (2017), ({A}ccessed April 27, 2018)
+
+\bibitem{leiding2016self}
+Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
+  Vehicular Ad-Hoc Networks}. In: Proceedings of the 2016 ACM International
+  Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. pp.
+  137--140. ACM (2016)
 
 \bibitem{macneille2018vehicle}
 MacNeille, P.R., Wisniewski, J., DeCia, N.: {Vehicle-to-Vehicle Cooperation to
@@ -48,6 +74,11 @@ Marshall, J.: {Agent-Based Modelling of Emotional Goals in Digital Media Design
 \bibitem{mckenzie2015drives}
 McKenzie, B.: {Who Drives to Work? Commuting by Automobile in the United
   States: 2013}. American Community Survey Reports  (2015)
+
+\bibitem{netherlandsPublicTransport}
+{Mieke Berends-Ballast et al.}: {Transport and Mobility 2016}. URL:
+  \url{https://www.cbs.nl/en-gb/publication/2016/25/transport-and-mobility-2016}
+  (2016), ({A}ccessed April 26, 2018)
 
 \bibitem{nakamoto_bitcoin:2008}
 Nakamoto, S.: Bitcoin: {A} {P}eer-to-{P}eer {E}lectronic {C}ash {S}ystem. URL:
@@ -63,6 +94,16 @@ Perrey, R., Lycett, M.: {Service-Oriented Architecture}. In: Applications and
   the Internet Workshops, 2003. Proceedings. 2003 Symposium on. pp. 116--119.
   IEEE (2003)
 
+\bibitem{iotaWhitepaper}
+Popov, S.: {The Tangle - Version 1.4.2}. URL:
+  \url{https://iota.org/IOTA_Whitepaper.pdf} (2018), ({A}ccessed April 22,
+  2018)
+
+\bibitem{porscheBlockchain}
+{Porsche AG}: {Porsche Introduces Blockchain to Cars}. URL:
+  \url{https://newsroom.porsche.com/en/themes/porsche-digital/porsche-blockchain-panamera-xain-technology-app-bitcoin-ethereum-data-smart-contracts-porsche-innovation-contest-14906.html}
+  (2018), ({A}ccessed April 27, 2018)
+
 \bibitem{rosen2012applied}
 Rosen, M., Lublinsky, B., Smith, K.T., Balcer, M.J.: {Applied SOA:
   Service-Oriented Architecture and Design Strategies}. John Wiley \& Sons
@@ -75,5 +116,13 @@ Specification, O.A.: {OMG Unified Modeling Language (OMG UML), Superstructure,
 \bibitem{sterling2009art}
 Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
   (2009)
+
+\bibitem{wood2014ethereum}
+Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
+  URL: \url{http://gavwood.com/paper.pdf} (2014), ({A}ccessed May 02, 2017)
+
+\bibitem{zealand2006car}
+Zealand, S.N.: Car, bus, bike or train: What were the main means of travel to
+  work (2006)
 
 \end{thebibliography}
