@@ -113,6 +113,10 @@ Rosen, M., Lublinsky, B., Smith, K.T., Balcer, M.J.: {Applied SOA:
 Specification, O.A.: {OMG Unified Modeling Language (OMG UML), Superstructure,
   V2.1.2}. Object Management Group  (2007)
 
+\bibitem{zealand2006car}
+{Statistics New Zealand}: Car, bus, bike or train: What were the main means of
+  travel to work (2006)
+
 \bibitem{sterling2009art}
 Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
   (2009)
@@ -120,9 +124,5 @@ Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
 \bibitem{wood2014ethereum}
 Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
   URL: \url{http://gavwood.com/paper.pdf} (2014), ({A}ccessed May 02, 2017)
-
-\bibitem{zealand2006car}
-Zealand, S.N.: Car, bus, bike or train: What were the main means of travel to
-  work (2006)
 
 \end{thebibliography}
