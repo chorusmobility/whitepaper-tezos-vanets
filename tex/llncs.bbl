@@ -7,6 +7,10 @@
   Hussien}: {A Comprehensive Survey on Vehicular Ad Hoc Network}. {Journal of
   Network and Computer Applications}  37,  380--392 (2014)
 
+\bibitem{ausubel2006lovely}
+Ausubel, L.M., Milgrom, P., et~al.: The lovely but lonely vickrey auction.
+  Combinatorial auctions  17,  22--26 (2006)
+
 \bibitem{baldessari2007car}
 Baldessari, R., B{\"o}dekker, B., Deegener, M., Festag, A., Franz, W., Kellum,
   C.C., Kosch, T., Kovacs, A., Lenardi, M., Menig, C., et~al.: {Car-2-Car
@@ -108,6 +112,11 @@ Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
   Vehicular Ad-Hoc Networks}. In: Proceedings of the 2016 ACM International
   Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. pp.
   137--140. ACM (2016)
+
+\bibitem{lucking2000vickrey}
+Lucking-Reiley, D.: Vickrey auctions in practice: From nineteenth-century
+  philately to twenty-first-century e-commerce. Journal of economic
+  perspectives  14(3),  183--192 (2000)
 
 \bibitem{macneille2018vehicle}
 MacNeille, P.R., Wisniewski, J., DeCia, N.: {Vehicle-to-Vehicle Cooperation to

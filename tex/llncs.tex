@@ -429,14 +429,42 @@
 
 			\textbf{Work-In-Progress}
 			
+			Vickrey auction \cite{ausubel2006lovely}\cite{lucking2000vickrey}
+			
 			Auction stuff that might happen during road-space negotiations as described in Section~\ref{ss:V2V}
+
+			1-1 auction
+			Note:
+			-Vickrey Auction
+			- Buyer max price: 3€
+			Seller min price: 2.80€
+			- only one auction round
+			- Note: If seller offer > buyer offer => no deal
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.4]{Figures/auction/20180501_auction-aglorithms--1-to-1.png}
+				\caption{Caption.}	
+				\label{fig:auction-algorithm-1-1}
+			\end{figure}
+			
+			X-X auction
+			Note: 
+			- (modified) Vickrey Auction
+			- only one auction round
+			- buyer-1 max price:1.80
+			- buyer-2 max price: 3.20
+			- buyer-3 max price: 3.5
+			- seller min price: 2.0
+			- Note: If seller offer > buyer offer => no deal
+			- NOTE: In case we have multiple sellers, the workflow is similar. In the end, the highest bidder is matched with the seller of the highest price, the second highest offer with the second highes seller price ... and so on. Please keep in mind that this is a vickrey auction => hence, highest bidder pay price of the second highest offer and so on...
 
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
+				\includegraphics[scale=0.4]{Figures/auction/20180501_auction-aglorithms--X-to-X.png}
 				\caption{Caption.}	
-				\label{fig:auction-algorithm}
-			\end{figure}
+				\label{fig:auction-algorithm-X-X}
+			\end{figure}			
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
