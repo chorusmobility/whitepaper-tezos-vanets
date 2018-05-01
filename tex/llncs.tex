@@ -175,13 +175,16 @@
 
 			\textbf{Work-In-Progress}
 			
-			\subsection{Human to Human}
+		\subsection{Human to Human}
 
-			\subsection{Human to Vehicle}
+		\subsection{Human to Vehicle}
 		
-			\subsection{Vehicle to Vehicle}
+		\subsection{Vehicle to Vehicle}
+			\label{ss:V2V}
 			
-			\subsection{Vehicle to Infrastructure}					
+				road space negotiation
+			
+		\subsection{Vehicle to Infrastructure}					
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -213,7 +216,7 @@
 				\caption{Selection of AOM notation elements.}	
 				\label{fig:aom-notaion-elements}
 			\end{figure}				
-			The AOM methodology is a socio-technical requirements-engineering approach used to model complex systems that consist of humans, devices, and software agents. An AOM goal model enables both, technical- and non-technical stakeholders, to capture and understand the functional- and non-functional requirements of a complex system. Figure \ref{fig:aom-notaion-elements} depicts the three main elements that an AOM goal model comprises in order to capture the system requirements and goals. Roles of involved entities are represented in form of sticky men, whereas functional requirements are depicted as parallelograms. Note that in the specific context of this whitepaper, a sticky man does not exclusively represent human entities but rather all kinds of entities, e.g., also vehicles or infrastructure. Functional requirements are also referred to as goals. Non-functional requirements are depicted as clouds and refer to quality goals of the modeled software system. The AOM goal model follows a tree-like hierarchy with the root value proposition of the modeled system at the top. Subsequently, this main goal is decomposed into sub-goals where each sub-goal represents an aspect for achieving its parent goal \cite{marshall2014agent}. The goals are further decomposed into multi-layered sub-goals until the lowest atomic level is reached. Additionally, roles and quality goal may be assigned to goals and are inherited to lower-level goals. The following Section~\ref{sss:top-level-goal-model} introduces the top-level goal model our system, followed by Section~\ref{sss:refined-goal-model} focusing on the refined AOM goal models.
+			The AOM methodology is a socio-technical requirements-engineering approach used to model complex systems that consist of humans, devices, and software agents. An AOM goal model enables both, technical- and non-technical stakeholders, to capture and understand the functional- and non-functional requirements of a complex system. Figure \ref{fig:aom-notaion-elements} depicts the three main elements that an AOM goal model comprises in order to capture the system requirements and goals. Roles of involved entities are represented in form of sticky men, whereas functional requirements are depicted as parallelograms. Note that in the specific context of this whitepaper, a sticky man does not exclusively represent human entities but rather all kinds of entities, e.g., also vehicles or infrastructure. Functional requirements are also referred to as goals. Non-functional requirements are depicted as clouds and refer to quality goals of the modeled software system. The AOM goal model follows a tree-like hierarchy with the root value proposition of the modeled system at the top. Subsequently, this main goal is decomposed into sub-goals where each sub-goal represents an aspect for achieving its parent goal \cite{marshall2014agent}. The goals are further decomposed into multi-layered sub-goals until the lowest atomic level is reached. Additionally, roles and quality goal may be assigned to goals and are inherited to lower-level goals. The following Section~\ref{sss:top-level-goal-model} introduces the top-level goal model our system, followed by Section~\ref{sss:quality-goals} focusing on the non-functional goals of the AOM goal model.
 
 			
 			%% ----------------------------------------------------------------
@@ -222,7 +225,15 @@
 			\subsubsection{Top-Level AOM Goal Model}
 				\label{sss:top-level-goal-model}
 				
-				The presented AOM goal model is similar to the model presented by the authors in \cite{leidingM2M}, since implementation of a V2X system is a specific use case of the more abstract and general M2M (machine-to-machine) interaction platform represented in that paper. Meanwhile, Figure \ref{fig:top-level-aom-goal-model} presents the top-level AOM goal model of the system using the modeling method described above. The main value proposition is to provide a V2X interaction and transaction layer library for (autonomous) vehicles, thereby representing the root of the goal model. The complex main value proposition is split into four sub-goals representing the four main components: First, one component for managing the V2X platform. A second component that enables V2X interaction. The third functional requirement, that represents the third main component, enables V2X transaction via the blockchain. Finally, the fourth functional requirement focus on the enactment of various plug-ins and decentralized applications (dApps).
+				The presented AOM goal model is similar to the model presented by the authors in \cite{leidingM2M}, since implementation of a V2X system is a specific use case of the more abstract and general M2M (machine-to-machine) interaction platform represented in that paper. Meanwhile, Figure \ref{fig:top-level-aom-goal-model} presents the top-level AOM goal model of the system using the modeling method described above. The main value proposition is to provide a V2X interaction and transaction layer library for (autonomous) vehicles, thereby representing the root of the goal model. The complex main value proposition is split into four sub-goals representing the four main components.
+				
+				First, one component for managing the V2X platform. This functional goal includes managing certain aspects of the platform itself, e.g., creating, updating, deleting a new platform, as well as the management of the underlying smart contracts. Each platform operates a master smart contract and several sub-smart contracts. While the master contract is in charge of platform management and controlled by the hardware vendor (e.g., Tesla), the sub contracts each offer service provision for a specific service, interaction, transaction or application.
+				
+				The second functional goal enables V2X interaction. That mostly covers on- and off-chain supply and demand administration. Entities may register offers or requests on-chain in order to attract business partners, but for the other use cases a local supply demand management off-chain is more suitable, e.g., road-space negotiation. Supervising on- and off-chain auctions is basically equivalent to the on- and off-chain supply and demand management. Besides that, plug-ins and dApps of the Chorus eco-system might use platform smart contracts for service enactment and have to be integrated as well in this context.
+				
+				The third functional requirement, that represents the third main component, enables V2X transaction via the blockchain. The most important part here is the transaction management via a smart contract lifecycle that will be detailed later on in Section \ref{ss:smart-contract-lifecycle-management}.
+				
+				Finally, the fourth functional requirement focus on the enactment of various plug-ins and decentralized applications (dApps). Applications and plug-ins have to be registered, prepared for enactment, executed and terminated. Moreover, they have to interact with various entities of the eco-system depending on the use case. Since nowadays most blockchains offer Turing-complete smart contract support, the variety of applications and plug-ins in our eco-system is quite vast. 
 				
 %				\begin{figure}[H]
 %					\centering
@@ -237,6 +248,9 @@
 					\caption{Chorus - Top-level goal model representation (Source: Based on \cite{leidingM2M}).}	
 					\label{fig:top-level-aom-goal-model-extended}
 				\end{figure}				
+
+			\subsubsection{Non-Functional Requirements}
+				\label{sss:quality-goals}
 								
 				Besides the four sub-goals of the top-level AOM goal model, we further identify thirteen quality goals of the main value proposition that are inherited to all refining sub-goals. A \textit{scalable} system design is necessary to provide Chorus services to a large quantity of users and customers. A further property that supports to achieve this scalability is the non-functional requirement \textit{automated}, that refers to a high degree of process automation eliminating the need for human interaction, e.g., tedious and repetitive tasks. \textit{Cost efficiency} is another important quality goal. \textit{Flexible} digital collaboration is a highly dynamic process that involves the enactment of diverse activities, the participation of diverse partners, and the exchange of diverse data \cite{norta2008exploring}. Thus, we must allow diverse collaboration scenarios and permit the inter-organizational harmonization of heterogeneous concepts and technologies between participating entities. Another key property of the system being easy to use (\textit{Usable}) for business collaboration. According to \cite{norta2014reference}, easy usability also includes the support of proper \textit{error avoidance} in order to ``anticipate and prevent common errors that occur during a collaboration configuration. Closely related is \textit{error handling}, to help with system support a user to recover from errors. \textit{Learnability} refers to how quickly users master using the system" \cite{norta2014reference}. 
 				
@@ -400,6 +414,8 @@
 			\label{ss:auchtion-algorithm}				
 
 			\textbf{Work-In-Progress}
+			
+			Auction stuff that might happen during road-space negotiations as described in Section~\ref{ss:V2V}
 
 			\begin{figure}[H]
 				\centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  1 MAY 2018 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  1 MAY 2018 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,6 +436,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Reference `ss:related-work' on page 2 undefined on input line 10
+4.
+
+
 Overfull \hbox (4.32042pt too wide) in paragraph at lines 104--105
 \OT1/cmr/m/n/10 VANET plat-forms. First, Sec-tion []2.1[] in-tro-duces the gen-
 eral con-cepts of blockchain
@@ -445,7 +450,7 @@ eral con-cepts of blockchain
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<Figures/Vanets.png, id=228, 1132.23pt x 1059.96pt>
+<Figures/Vanets.png, id=223, 1132.23pt x 1059.96pt>
 File: Figures/Vanets.png Graphic file (type png)
  <use Figures/Vanets.png>
 Package pdftex.def Info: Figures/Vanets.png used on input line 137.
@@ -455,74 +460,73 @@ Package pdftex.def Info: Figures/Vanets.png used on input line 137.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./Figures/Vanets.png (PNG copy)>]
-<Figures/20180426_AOM-notation.pdf, id=273, 692.5875pt x 261.97874pt>
+<Figures/20180426_AOM-notation.pdf, id=268, 692.5875pt x 261.97874pt>
 File: Figures/20180426_AOM-notation.pdf Graphic file (type pdf)
 
 <use Figures/20180426_AOM-notation.pdf>
 Package pdftex.def Info: Figures/20180426_AOM-notation.pdf used on input line 2
-12.
+15.
 (pdftex.def)             Requested size: 138.51505pt x 52.39482pt.
-
-
-LaTeX Warning: Reference `sss:refined-goal-model' on page 5 undefined on input 
-line 216.
-
-[5 <./Figures/20180426_AOM-notation.pdf>]
+ [5 <./Figures/20180426_AOM-notation.pdf>]
 
 LaTeX Warning: Reference `fig:top-level-aom-goal-model' on page 6 undefined on 
-input line 225.
+input line 228.
 
-
-<Figures/aom/20180501_goal-model--complete.pdf, id=294, 3020.28375pt x 2463.202
+[6]
+<Figures/aom/20180501_goal-model--complete.pdf, id=299, 3020.28375pt x 2463.202
 5pt>
 File: Figures/aom/20180501_goal-model--complete.pdf Graphic file (type pdf)
  <use Figures/aom/20180501_goal-model--complete.pdf>
 Package pdftex.def Info: Figures/aom/20180501_goal-model--complete.pdf used on 
-input line 236.
+input line 247.
 (pdftex.def)             Requested size: 392.65068pt x 320.22757pt.
 
-Overfull \hbox (45.52715pt too wide) in paragraph at lines 236--237
+Overfull \hbox (45.52715pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7 <./Figures/aom/20180501_goal-model--complete.pdf>]
-<Figures/UML-notation-elements.png, id=339, 1634.105pt x 500.87125pt>
+ [7 <./Figures/aom/20180501_goal-model--complete.pdf>] [8]
+<Figures/UML-notation-elements.png, id=341, 1634.105pt x 500.87125pt>
 File: Figures/UML-notation-elements.png Graphic file (type png)
 
 <use Figures/UML-notation-elements.png>
-Package pdftex.def Info: Figures/UML-notation-elements.png used on input line 2
-99.
+Package pdftex.def Info: Figures/UML-notation-elements.png used on input line 3
+13.
 (pdftex.def)             Requested size: 245.10518pt x 75.12744pt.
- [8]
-Overfull \hbox (7.87708pt too wide) in paragraph at lines 304--305
+
+Overfull \hbox (7.87708pt too wide) in paragraph at lines 318--319
 \OT1/cmr/m/n/10 of the sys-tem ar-chi-tec-ture and com-po-nents. Af-ter-wards, 
 fur-ther il-lus-tra-tion present
  []
 
-<Figures/Dummy.jpg, id=351, 321.2pt x 180.675pt>
+<Figures/Dummy.jpg, id=343, 321.2pt x 180.675pt>
 File: Figures/Dummy.jpg Graphic file (type jpg)
  <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 317.
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 331.
+(pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./Figures/UML-notation-elements.png>]
+File: Figures/Dummy.jpg Graphic file (type jpg)
+ <use Figures/Dummy.jpg>
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 363.
 (pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
 File: Figures/Dummy.jpg Graphic file (type jpg)
 
 <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 349.
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 404.
 (pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
- [9 <./Figures/UML-notation-elements.png> <./Figures/Dummy.jpg>]
+ [10 <./Figures/Dummy.jpg>]
 File: Figures/Dummy.jpg Graphic file (type jpg)
  <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 390.
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 422.
 (pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
-File: Figures/Dummy.jpg Graphic file (type jpg)
- <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 406.
-(pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
- [10] (./llncs.bbl
+
+[11] (./llncs.bbl
 Underfull \hbox (badness 6032) in paragraph at lines 46--49
 []\OT1/cmr/m/n/9 Cortright, J.: Sprawl Tax: How the US Stacks Up In-ter-na-tion
 -ally .
@@ -534,7 +538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--49
 l -[] tax -[] how -[] the -[] us -[] stacks -[] up -[]
  []
 
-[11]
+[12]
 Underfull \hbox (badness 1320) in paragraph at lines 76--79
 []\OT1/cmr/m/n/9 L. M. Good-man: Tezos - A Self-Amending Crypto-Ledger (White p
 a-per).
@@ -558,7 +562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
 sport -[] and -[] mobility -[] 2016$[]
  []
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 160--163
 []\OT1/cmr/m/n/9 Porsche AG: Porsche In-tro-duces Blockchain to Cars. URL: []$\
 OT1/cmtt/m/n/9 https :
@@ -583,21 +587,15 @@ t/m/n/9 https : / / selfkey . org /
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
  (./llncs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
+Package rerunfilecheck Info: File `llncs.out' has not changed.
+(rerunfilecheck)             Checksum: 5948A56205A74093277D3CA7A30072CF;2118.
 
-
-Package rerunfilecheck Warning: File `llncs.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `llncs.out':
-(rerunfilecheck)             Before: 23634870EC3D9C905C93DA76C3BB00CD;2184
-(rerunfilecheck)             After:  5948A56205A74093277D3CA7A30072CF;2118.
 
 LaTeX Warning: There were undefined references.
 
@@ -607,29 +605,26 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 30 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6266 strings out of 493029
- 91761 string characters out of 6136234
- 194219 words of memory out of 5000000
+ 6267 strings out of 493029
+ 91758 string characters out of 6136234
+ 194295 words of memory out of 5000000
  9638 multiletter control sequences out of 15000+600000
  7802 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,28p,1720b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.1.2.4} has been referenc
-ed but does not exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmtt9.pfb>
-Output written on llncs.pdf (13 pages, 547090 bytes).
+ 29i,9n,28p,1720b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt9.pfb>
+Output written on llncs.pdf (14 pages, 548626 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 463 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
