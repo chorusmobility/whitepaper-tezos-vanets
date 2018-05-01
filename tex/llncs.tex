@@ -232,7 +232,7 @@
 				\caption{Selection of AOM notation elements.}	
 				\label{fig:aom-notaion-elements}
 			\end{figure}				
-			The AOM methodology is a socio-technical requirements-engineering approach used to model complex systems that consist of humans, devices, and software agents. An AOM goal model enables both, technical- and non-technical stakeholders, to capture and understand the functional- and non-functional requirements of a complex system. Figure \ref{fig:aom-notaion-elements} depicts the three main elements that an AOM goal model comprises in order to capture the system requirements and goals. Roles of involved entities are represented in form of sticky men, whereas functional requirements are depicted as parallelograms. Functional requirements are also referred to as goals. Non-functional requirements are depicted as clouds and refer to quality goals of the modeled software system. The AOM goal model follows a tree-like hierarchy with the root value proposition of the modeled system at the top. Subsequently, this main goal is decomposed into sub-goals where each sub-goal represents an aspect for achieving its parent goal \cite{marshall2014agent}. The goals are further decomposed into multi-layered sub-goals until the lowest atomic level is reached. Additionally, roles and quality goal may be assigned to goals and are inherited to lower-level goals.
+			The AOM methodology is a socio-technical requirements-engineering approach used to model complex systems that consist of humans, devices, and software agents. An AOM goal model enables both, technical- and non-technical stakeholders, to capture and understand the functional- and non-functional requirements of a complex system. Figure \ref{fig:aom-notaion-elements} depicts the three main elements that an AOM goal model comprises in order to capture the system requirements and goals. Roles of involved entities are represented in form of sticky men, whereas functional requirements are depicted as parallelograms. Note that in the specific context of this whitepaper, a sticky man does not exclusively represent human entities but rather all kinds of entities, e.g., also vehicles or infrastructure. Functional requirements are also referred to as goals. Non-functional requirements are depicted as clouds and refer to quality goals of the modeled software system. The AOM goal model follows a tree-like hierarchy with the root value proposition of the modeled system at the top. Subsequently, this main goal is decomposed into sub-goals where each sub-goal represents an aspect for achieving its parent goal \cite{marshall2014agent}. The goals are further decomposed into multi-layered sub-goals until the lowest atomic level is reached. Additionally, roles and quality goal may be assigned to goals and are inherited to lower-level goals. The following Section~\ref{sss:top-level-goal-model} introduces the top-level goal model our system, followed by Section~\ref{sss:refined-goal-model} focusing on the refined AOM goal models.
 
 			
 			%% ----------------------------------------------------------------
@@ -241,20 +241,20 @@
 			\subsubsection{Top-Level AOM Goal Model}
 				\label{sss:top-level-goal-model}
 				
-				\textbf{work-in-progress}
-
-				Maybe reference to \cite{leidingM2M} as reference architecture and that the AOM goal model looks pretty similar since it is an instance of what is described in that academic paper.
+				The presented AOM goal model is similar to the model presented by the authors in \cite{leidingM2M}, since implementation of a V2X system is a specific use case of the more abstract and general M2M (machine-to-machine) interaction platform represented in that paper. Meanwhile, Figure \ref{fig:top-level-aom-goal-model} presents the top-level AOM goal model of the system using the modeling method described above. The main value proposition is to provide a V2X interaction and transaction layer library for (autonomous) vehicles, thereby representing the root of the goal model. The complex main value proposition is split into four sub-goals representing the four main components: First, one component for managing the V2X platform. A second component that enables V2X interaction. The third functional requirement, that represents the third main component, enables V2X transaction via the blockchain. Finally, the fourth functional requirement focus on the enactment of various plug-ins and decentralized applications (dApps).
 				
-				Note that a sticky man does not exclusively represent human entities but rather all kinds of entities, e.g., humans, vehicles, infrastructure.
-
-
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.15]{Figures/aom/20180501_goal-model--top-level.pdf}
 					\caption{Chorus - Top-level goal model representation (Source: Based on \cite{leidingM2M}).}	
 					\label{fig:top-level-aom-goal-model}
 				\end{figure}
-
+								
+				Besides the four sub-goals of the top-level AOM goal model, we further identify thirteen quality goals of the main value proposition that are inherited to all refining sub-goals. A \textit{scalable} system design is necessary to provide Chorus services to a large quantity of users and customers. A further property that supports to achieve this scalability is the non-functional requirement \textit{automated}, that refers to a high degree of process automation eliminating the need for human interaction, e.g., tedious and repetitive tasks. \textit{Cost efficiency} is another important quality goal. \textit{Flexible} digital collaboration is a highly dynamic process that involves the enactment of diverse activities, the participation of diverse partners, and the exchange of diverse data \cite{norta2008exploring}. Thus, we must allow diverse collaboration scenarios and permit the inter-organizational harmonization of heterogeneous concepts and technologies between participating entities. Another key property of the system being easy to use (\textit{Usable}) for business collaboration. According to \cite{norta2014reference}, easy usability also includes the support of proper \textit{error avoidance} in order to ``anticipate and prevent common errors that occur during a collaboration configuration. Closely related is \textit{error handling}, to help with system support a user to recover from errors. \textit{Learnability} refers to how quickly users master using the system" \cite{norta2014reference}. 
+				
+				Moreover, we assign two additional quality goals that ensure a \textit{blockchain agnostic} as well as \textit{entity agnostic} design. Chorus should be neither limited to a specific blockchain nor vehicle hardware of a specific vendor. \textit{Interoperable} hardware and software design is another consequence of the previous quality goals as well as easy integration (\textit{Integrable}). It is crucial to interoperate at runtime with information systems supporting other business functions.
+				
+				Furthermore, a \textit{secure} service provision is also crucial in terms of operational security, e.g., protect user accounts and personal data from unauthorized access, secure data transfer within the system between entities or preventing data- and information leaks as well as preventing accidents. A \textit{reliable} enactment of all Chorus-based interactions and transaction facilitates the previous goals as well. Data communicated internally as well as externally has to protected against unauthorized tampering (\textit{tamperproof}) in order to protect business collaborations, but also ensure the safety of participating entities. Finally, since cars and similar vehicles move much faster than humans, a \textit{fast} service provision is essential for most tasks.
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
@@ -265,21 +265,21 @@
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-1.pdf}
-					\caption{Chorus - Goal model refinement \textit{Manage V2X platform}.}	
+					\caption{Chorus - Goal model refinement \textit{Manage V2X platform} (Source: Based on \cite{leidingM2M}).}	
 					\label{fig:refined-aom-goal-model-1}
 				\end{figure}
 				
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-2.pdf}
-					\caption{Chorus - Goal model refinement \textit{Enable V2X interaction}.}	
+					\caption{Chorus - Goal model refinement \textit{Enable V2X interaction} (Source: Based on \cite{leidingM2M}).}	
 					\label{fig:refined-aom-goal-model-2}
 				\end{figure}				
 	
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-3.pdf}
-					\caption{Chorus - Goal model refinement \textit{Enable V2X transaction}.}	
+					\caption{Chorus - Goal model refinement \textit{Enable V2X transaction}  (Source: Based on \cite{leidingM2M}).}	
 					\label{fig:refined-aom-goal-model-3}
 				\end{figure}
 				
@@ -289,6 +289,9 @@
 					\caption{Chorus - Goal model refinement \textit{Plugin and dApp enactment}.}	
 					\label{fig:refined-aom-goal-model-4}
 				\end{figure}
+
+
+			The presented goal model is used in the following Section \ref{ss:component-diagrams} to derive our system architecture. We do not list all details of the further refined AOM goal model in this whitepaper due to space constraints and in order to focus on the most relevant system components and features.
 									
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------				
@@ -311,12 +314,22 @@
 			\end{figure}	
 			
 			The remainder of this section first introduces an abstract high-level overview of the system architecture and components. Afterwards, further illustration present selected sub-components of our architecture.
+			
+			\textbf{MAKE SURE TO ADAPT THE COMPONENT DIAGRAM TO THE AOM GOAL MODEL!}
+			it is a distributed system that resides in differnt components on differnt places - hence we had to add further helper-component that enable communication and proper system execution.
 
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
 
 			\subsubsection{High-Level Architecture}
 				\label{sss:high-level-architecture}
+
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.4]{Figures/Dummy.jpg}
+					\caption{Caption.}	
+					\label{fig:high-level-architecture}
+				\end{figure}				
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
@@ -342,6 +355,13 @@
 			\label{ss:smart-contract-lifecycle-management}
 
 			\textbf{Work-In-Progress}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
+				\caption{Caption.}	
+				\label{fig:smart-contract-lifecycle-management}
+			\end{figure}			
 			
 			%			The lifecycle of a micro lending contract is divided into the following stages: a) preparatory, b) negotiation, c) contract execution d) rollback and e) a contract expiry stage. During the preparatory stage, information about the involved entities, such as names and addresses are incorporated into the contract. In addition, the conditions of the requested loans are formally defined by specifying, e.g, the size of the loan, chosen currency, runtime and interest rates. The conditions of the requested loan mainly depend on information available to the lender, such as financial data gathered during previous interactions and transactions, personal data and information from social media. In case the borrower and the lender agree on the negotiated conditions, both parties sign the contract and express their approval - if no agreement is reached, a contract rollback is triggered. After signing the agreement, the contract execution phase is triggered and the lender transfers the loan to the borrower as illustrated in Figure \ref{fig:running-case-illustration}. Afterwards, the lender can use the loan to expand, or start a business. 
 			%
