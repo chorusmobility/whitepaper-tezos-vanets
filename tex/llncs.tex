@@ -143,36 +143,17 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Related Work}
-			\label{ss:related-work}
-
-			\textbf{Work-In-Progress}
-
-			
-%			Several other academic as well as non-academic projects experimented with ideas and prototypes of blockchain-based trading platforms that enable the M2M economy. In \cite{leiding2016self}, the authors describe a blockchain solution for a variety of services within vehicular ad-hoc networks (VANETs), e.g., traffic management, toll payment systems, traffic regulation enforcement and more. In 2018, the automotive company got a patent for a very similar idea of traffic marshaling via a blockchain system \cite{macneille2018vehicle}. Chorus technologies \cite{chorusWhitepaper} envisioned a whole library for all types of services and transaction around the ecosystem of autonomous vehicles within VANETs. The authors of \cite{davWhitepaper} propose a solution that allows vehicles to discover, communicate and transact with one another using cryptocurrencies. 
-%			\cite{oakenTeslaTollbooth} present a prototype of a blockchain-based toll road system. In 2013, Mike Hearn gave a short talk\footnote{\url{https://www.youtube.com/watch?v=MVyv4t0OKe4}} at the Turing Festival in Edinburgh describing several of these ideas. 
+%		\subsection{Related Work}
+%			\label{ss:related-work}
+%
+%			\textbf{Work-In-Progress}
+%
 %			
-%			Besides the automotive sector, the authors of \cite{sikorski2017blockchain} describe and implement a M2M electricity market for chemical industry where industrial plants are trading electricity with each other via a blockchain platform.
-%			
-%			The alternative blockchain solution IOTA is offering an IoT market place \cite{iotaMarketplace} for IoT devices where sensor data can be bought and sold using blockchain technology.
-%			
-%		
-
-%%DAV MVPs \cite{davWhitepaper}
-%%MVP#1 World’s first autonomous vehicle to autonomously bid for delivery services, complete them, and get paid using tokens directly to its own wallet.
-%%MVP #2 World’s first autonomous vehicle to pay for its own battery replacement using tokens and take off to complete its delivery mission.
-%%
-%%MVP #3 World’s first autonomous vehicle to pay another autonomous vehicle (robot) using tokens for completing the last mile of a delivery mission.
-%%
-%%MVP #4 Longest drone delivery flight ever, flying cross-country using the support of multiple DAV battery-changing stations along the way.
-
-% we also have talk about XAIN
-
-% https://slock.it/
-
-		%% ----------------------------------------------------------------
-		%% ----------------------------------------------------------------	
-	
+%
+%
+%		%% ----------------------------------------------------------------
+%		%% ----------------------------------------------------------------	
+%	
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
@@ -243,12 +224,19 @@
 				
 				The presented AOM goal model is similar to the model presented by the authors in \cite{leidingM2M}, since implementation of a V2X system is a specific use case of the more abstract and general M2M (machine-to-machine) interaction platform represented in that paper. Meanwhile, Figure \ref{fig:top-level-aom-goal-model} presents the top-level AOM goal model of the system using the modeling method described above. The main value proposition is to provide a V2X interaction and transaction layer library for (autonomous) vehicles, thereby representing the root of the goal model. The complex main value proposition is split into four sub-goals representing the four main components: First, one component for managing the V2X platform. A second component that enables V2X interaction. The third functional requirement, that represents the third main component, enables V2X transaction via the blockchain. Finally, the fourth functional requirement focus on the enactment of various plug-ins and decentralized applications (dApps).
 				
+%				\begin{figure}[H]
+%					\centering
+%					\includegraphics[scale=0.15]{Figures/aom/20180501_goal-model--top-level.pdf}
+%					\caption{Chorus - Top-level goal model representation (Source: Based on \cite{leidingM2M}).}	
+%					\label{fig:top-level-aom-goal-model}
+%				\end{figure}
+				
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.15]{Figures/aom/20180501_goal-model--top-level.pdf}
+					\includegraphics[scale=0.13]{Figures/aom/20180501_goal-model--complete.pdf}
 					\caption{Chorus - Top-level goal model representation (Source: Based on \cite{leidingM2M}).}	
-					\label{fig:top-level-aom-goal-model}
-				\end{figure}
+					\label{fig:top-level-aom-goal-model-extended}
+				\end{figure}				
 								
 				Besides the four sub-goals of the top-level AOM goal model, we further identify thirteen quality goals of the main value proposition that are inherited to all refining sub-goals. A \textit{scalable} system design is necessary to provide Chorus services to a large quantity of users and customers. A further property that supports to achieve this scalability is the non-functional requirement \textit{automated}, that refers to a high degree of process automation eliminating the need for human interaction, e.g., tedious and repetitive tasks. \textit{Cost efficiency} is another important quality goal. \textit{Flexible} digital collaboration is a highly dynamic process that involves the enactment of diverse activities, the participation of diverse partners, and the exchange of diverse data \cite{norta2008exploring}. Thus, we must allow diverse collaboration scenarios and permit the inter-organizational harmonization of heterogeneous concepts and technologies between participating entities. Another key property of the system being easy to use (\textit{Usable}) for business collaboration. According to \cite{norta2014reference}, easy usability also includes the support of proper \textit{error avoidance} in order to ``anticipate and prevent common errors that occur during a collaboration configuration. Closely related is \textit{error handling}, to help with system support a user to recover from errors. \textit{Learnability} refers to how quickly users master using the system" \cite{norta2014reference}. 
 				
@@ -259,36 +247,36 @@
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
 					
-			\subsubsection{Refined AOM Goal Model}				
-				\label{sss:refined-goal-model}			
-
-				\begin{figure}[H]
-					\centering
-					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-1.pdf}
-					\caption{Chorus - Goal model refinement \textit{Manage V2X platform} (Source: Based on \cite{leidingM2M}).}	
-					\label{fig:refined-aom-goal-model-1}
-				\end{figure}
-				
-				\begin{figure}[H]
-					\centering
-					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-2.pdf}
-					\caption{Chorus - Goal model refinement \textit{Enable V2X interaction} (Source: Based on \cite{leidingM2M}).}	
-					\label{fig:refined-aom-goal-model-2}
-				\end{figure}				
-	
-				\begin{figure}[H]
-					\centering
-					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-3.pdf}
-					\caption{Chorus - Goal model refinement \textit{Enable V2X transaction}  (Source: Based on \cite{leidingM2M}).}	
-					\label{fig:refined-aom-goal-model-3}
-				\end{figure}
-				
-				\begin{figure}[H]
-					\centering
-					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-4.pdf}
-					\caption{Chorus - Goal model refinement \textit{Plugin and dApp enactment}.}	
-					\label{fig:refined-aom-goal-model-4}
-				\end{figure}
+%			\subsubsection{Refined AOM Goal Model}				
+%				\label{sss:refined-goal-model}			
+%
+%				\begin{figure}[H]
+%					\centering
+%					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-1.pdf}
+%					\caption{Chorus - Goal model refinement \textit{Manage V2X platform} (Source: Based on \cite{leidingM2M}).}	
+%					\label{fig:refined-aom-goal-model-1}
+%				\end{figure}
+%				
+%				\begin{figure}[H]
+%					\centering
+%					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-2.pdf}
+%					\caption{Chorus - Goal model refinement \textit{Enable V2X interaction} (Source: Based on \cite{leidingM2M}).}	
+%					\label{fig:refined-aom-goal-model-2}
+%				\end{figure}				
+%	
+%				\begin{figure}[H]
+%					\centering
+%					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-3.pdf}
+%					\caption{Chorus - Goal model refinement \textit{Enable V2X transaction}  (Source: Based on \cite{leidingM2M}).}	
+%					\label{fig:refined-aom-goal-model-3}
+%				\end{figure}
+%				
+%				\begin{figure}[H]
+%					\centering
+%					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-4.pdf}
+%					\caption{Chorus - Goal model refinement \textit{Plugin and dApp enactment}.}	
+%					\label{fig:refined-aom-goal-model-4}
+%				\end{figure}
 
 
 			The presented goal model is used in the following Section \ref{ss:component-diagrams} to derive our system architecture. We do not list all details of the further refined AOM goal model in this whitepaper due to space constraints and in order to focus on the most relevant system components and features.
@@ -484,6 +472,29 @@
 			%Competitor analysis (will)				
 
 			\textbf{Work-In-Progress}
+
+%			Several other academic as well as non-academic projects experimented with ideas and prototypes of blockchain-based trading platforms that enable the M2M economy. In \cite{leiding2016self}, the authors describe a blockchain solution for a variety of services within vehicular ad-hoc networks (VANETs), e.g., traffic management, toll payment systems, traffic regulation enforcement and more. In 2018, the automotive company got a patent for a very similar idea of traffic marshaling via a blockchain system \cite{macneille2018vehicle}. Chorus technologies \cite{chorusWhitepaper} envisioned a whole library for all types of services and transaction around the ecosystem of autonomous vehicles within VANETs. The authors of \cite{davWhitepaper} propose a solution that allows vehicles to discover, communicate and transact with one another using cryptocurrencies. 
+%			\cite{oakenTeslaTollbooth} present a prototype of a blockchain-based toll road system. In 2013, Mike Hearn gave a short talk\footnote{\url{https://www.youtube.com/watch?v=MVyv4t0OKe4}} at the Turing Festival in Edinburgh describing several of these ideas. 
+%			
+%			Besides the automotive sector, the authors of \cite{sikorski2017blockchain} describe and implement a M2M electricity market for chemical industry where industrial plants are trading electricity with each other via a blockchain platform.
+%			
+%			The alternative blockchain solution IOTA is offering an IoT market place \cite{iotaMarketplace} for IoT devices where sensor data can be bought and sold using blockchain technology.
+%			
+%		
+
+%%DAV MVPs \cite{davWhitepaper}
+%%MVP#1 World’s first autonomous vehicle to autonomously bid for delivery services, complete them, and get paid using tokens directly to its own wallet.
+%%MVP #2 World’s first autonomous vehicle to pay for its own battery replacement using tokens and take off to complete its delivery mission.
+%%
+%%MVP #3 World’s first autonomous vehicle to pay another autonomous vehicle (robot) using tokens for completing the last mile of a delivery mission.
+%%
+%%MVP #4 Longest drone delivery flight ever, flying cross-country using the support of multiple DAV battery-changing stations along the way.
+
+% we also have talk about XAIN
+
+% https://slock.it/
+
+
 %			
 %Direct Competitors: 
 %
