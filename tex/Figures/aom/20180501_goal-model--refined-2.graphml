@@ -18,14 +18,14 @@
       <data key="d4"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="62.24824615384614" width="30.580403145478158" x="415.7097984272609" y="70.45778461538407"/>
+          <y:Geometry height="62.24824615384614" width="30.580403145478158" x="415.7097984272609" y="28.954276923076264"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.0" x="-46.0" y="-25.0">&lt;html&gt;&lt;b&gt;Seller/Buyer&lt;/b&gt;&lt;/html<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.0" x="-46.0" y="71.54572307692374">&lt;html&gt;&lt;b&gt;Seller/Buyer&lt;/b&gt;&lt;/html<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="9.297476923077596" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="false"/>
@@ -399,10 +399,10 @@
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n1" target="n0">
+    <edge id="e9" source="n11" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="18.87038618812386" sy="1.9216000000006659" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>
@@ -474,18 +474,6 @@
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-84.91441184174005" ty="8.75136757350542">
             <y:Point x="188.7152019701361" y="567.3526769230768"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e16" source="n13" target="n0">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="437.4229342598759" y="496.9742769230771"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
