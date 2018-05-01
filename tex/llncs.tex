@@ -109,8 +109,6 @@
 		\subsection{Blockchain Technology}
 			\label{ss:blockchain-intro}
 			
-
-
 			As the name suggests, a blockchain consists of a chronologically ordered chain of blocks. Every block consists of a certain number of validated transactions and each of those block links to its predecessor by a hash reference. As a result, changing the content of one block also changes all succeeding blocks and hence breaks the chain. All blocks are stored on and verified by all participating nodes. While the initial Bitcoin blockchain only supported a very limited set of scripting instructions, the next generation of blockchain platforms, e.g., Ethereum \cite{wood2014ethereum}, Qtum \cite{qtumWhitepaper}, or Tezos \cite{tezosWhitepaper}, provide Turing-complete programming languages on the protocol-layer level in order to enable smart contract capabilities. Smart contracts are, ``orchestration- and choreography protocols that facilitate, verify and enact with computing means a negotiated agreement between consenting parties" \cite{qtumWhitepaper}. Hence, the parties participating in the enactment of a smart contract establish binding agreements and deploy applications using such smart contracts in order to provide blockchain-based applications. Those application are as versatile as smart contracts itself and enable services including the finance sector \cite{nguyen2016blockchain}\cite{saltWhitepaper}, academic and business authentication and identity solutions \cite{leidingUnchained}\cite{CivicWhitepaper}\cite{AuthcoinLeiding2016MCIS}\cite{mccorry2015authenticated}\cite{SelfkeyWhitepaper}, reputation systems \cite{SemadaWhitepaper} as well platforms for Internet-of-Things (IoT) applications \cite{christidis2016blockchains}\cite{ouaddah2017towards}. 	
 			
 			The blockchain concept is particularly interesting for the V2X economy for three reasons. First, it removes the need for trusted third parties and instead enables trust-less transaction enactment. Second, transactions that were agreed up on cannot be changed any more since the underlying blockchain is tamperproof. Third, no human interaction is required for any kind of transaction between vehicles or machines in general.
@@ -170,6 +168,8 @@
 
 % we also have talk about XAIN
 
+% https://slock.it/
+
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 	
@@ -225,26 +225,33 @@
 			\label{ss:requirement-engineering}
 						
 			In system development and software engieerng, good requirements follow certain characteristics. According to \cite{davis1993software}\cite{ieee1994ieee} requirements address one issue only and are completely specified without missing information. Moreover, they have to be consistent and do not contradict itself, or in correlation with other requirements. Finally, a requirement must also be atomic and without conjunctions \cite{norta2014reference}.
-			
-			The AOM methodology is a socio-technical requirements-engineering approach used to model complex systems that consist of humans, devices, and software agents. An AOM goal model enables both, technical- and non-technical stakeholders, to capture and understand the functional- and non-functional requirements of a complex system. Figure \ref{fig:aom-notaion-elements} depicts the three main elements that an AOM goal model comprises in order to capture the system requirements and goals. Roles of involved entities are represented in form of sticky men, whereas functional requirements are depicted as parallelograms. Functional requirements are also referred to as goals. Non-functional requirements are depicted as clouds and refer to quality goals of the modeled software system. The AOM goal model follows a tree-like hierarchy with the root value proposition of the modeled system at the top. Subsequently, this main goal is decomposed into sub-goals where each sub-goal represents an aspect for achieving its parent goal \cite{marshall2014agent}. The goals are further decomposed into multi-layered sub-goals until the lowest atomic level is reached. Additionally, roles and quality goal may be assigned to goals and are inherited to lower-level goals.
 
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.2]{Figures/20180426_AOM-notation.pdf}
 				\caption{Selection of AOM notation elements.}	
 				\label{fig:aom-notaion-elements}
-			\end{figure}	
+			\end{figure}				
+			The AOM methodology is a socio-technical requirements-engineering approach used to model complex systems that consist of humans, devices, and software agents. An AOM goal model enables both, technical- and non-technical stakeholders, to capture and understand the functional- and non-functional requirements of a complex system. Figure \ref{fig:aom-notaion-elements} depicts the three main elements that an AOM goal model comprises in order to capture the system requirements and goals. Roles of involved entities are represented in form of sticky men, whereas functional requirements are depicted as parallelograms. Functional requirements are also referred to as goals. Non-functional requirements are depicted as clouds and refer to quality goals of the modeled software system. The AOM goal model follows a tree-like hierarchy with the root value proposition of the modeled system at the top. Subsequently, this main goal is decomposed into sub-goals where each sub-goal represents an aspect for achieving its parent goal \cite{marshall2014agent}. The goals are further decomposed into multi-layered sub-goals until the lowest atomic level is reached. Additionally, roles and quality goal may be assigned to goals and are inherited to lower-level goals.
+
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
 					
 			\subsubsection{Top-Level AOM Goal Model}
 				\label{sss:top-level-goal-model}
+				
+				\textbf{work-in-progress}
+
+				Maybe reference to \cite{leidingM2M} as reference architecture and that the AOM goal model looks pretty similar since it is an instance of what is described in that academic paper.
+				
+				Note that a sticky man does not exclusively represent human entities but rather all kinds of entities, e.g., humans, vehicles, infrastructure.
+
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.4]{Figures/Dummy.jpg}
-					\caption{Caption.}	
+					\includegraphics[scale=0.15]{Figures/aom/20180501_goal-model--top-level.pdf}
+					\caption{Caption (Source: Based on \cite{leidingM2M}).}	
 					\label{fig:top-level-aom-goal-model}
 				\end{figure}
 
@@ -257,11 +264,32 @@
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.4]{Figures/Dummy.jpg}
+					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-1.pdf}
 					\caption{Caption.}	
-					\label{fig:refined-aom-goal-model}
+					\label{fig:refined-aom-goal-model-1}
 				\end{figure}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-2.pdf}
+					\caption{Caption.}	
+					\label{fig:refined-aom-goal-model-2}
+				\end{figure}				
 	
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-3.pdf}
+					\caption{Caption.}	
+					\label{fig:refined-aom-goal-model-3}
+				\end{figure}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.175]{Figures/aom/20180501_goal-model--refined-4.pdf}
+					\caption{Caption.}	
+					\label{fig:refined-aom-goal-model-4}
+				\end{figure}
+									
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------				
 
@@ -299,7 +327,11 @@
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
-			
+
+
+%	Notes
+%		- foam
+%		- a general technology section			
 			
 
 
@@ -432,6 +464,29 @@
 			%Competitor analysis (will)				
 
 			\textbf{Work-In-Progress}
+%			
+%Direct Competitors: 
+%
+%1. https://www.oakeninnovations.com/
+%Straights: first on the market, working SW and HW prototypes, solid development and r&d team, lead developer joined Ethereum, support from car manufacturers, won multiple startup competitions. 
+%
+%Weaknesses: dependent on in-car hardware nodes, architecture lacks scalability. 
+%
+%2. https://swarm.city/
+%Straights: early in the ethereum community, major ethereum contributors, lots of connections, conducted successful ICO
+%
+%Weaknesses: Absolutely not scalable due to all logic being put on Ethereum Blockchain, no scalability solution, lost all the funds from ICO in the Parity Hack (one of a few projects who didn't get their money back), bad history with their early CEO (formerly Arcade City), radical anarchists.
+%
+%3. http://www.flyingcarpet.network/
+%Straights: early working prototype, presented his project at Devcon 3
+%
+%Weaknesses: Focused on Drones.
+%
+%4. https://dav.network/
+%Straights: A lot of marketing materials and ICO coverage, financial resources, large dev team, many connections in Ethereum community including Bancor and Dr. Greg Colvin – EVM core dev., working prototypes. 
+%
+%Weaknesses:
+%Very vague idea with no modern use, not able to generate any value or revenue. 			
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------					
@@ -466,3 +521,21 @@
 
 	%
 \end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Notes
+%		- foam
+%		- a general technology section
+%
+%
+%
+%
+%
+%
+%
+%
+%
+
+
