@@ -57,6 +57,11 @@ Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
 Davis, A.M.: {Software Requirements: Objects, Functions, and States}.
   Prentice-Hall, Inc. (1993)
 
+\bibitem{dokic2015european}
+Dokic, J., M{\"u}ller, B., Meyer, G.: European roadmap smart systems for
+  automated driving. European Technology Platform on Smart Systems Integration
+  (2015)
+
 \bibitem{erl2005service}
 Erl, T.: {Service-Oriented Architecture: Concepts, Technology, and Design}.
   Pearson Education India (2005)
@@ -65,6 +70,12 @@ Erl, T.: {Service-Oriented Architecture: Concepts, Technology, and Design}.
 Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
   in Intelligent Vehicle Area Networks}. Communications of the ACM  55(2),
   90--100 (2012)
+
+\bibitem{gehrig1999dead}
+Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
+  for an autonomous car. In: Intelligent Robots and Systems, 1999. IROS'99.
+  Proceedings. 1999 IEEE/RSJ International Conference on. vol.~3, pp.
+  1507--1512. IEEE (1999)
 
 \bibitem{ieee1994ieee}
 {IEEE Computer Society. Software Engineering Technology Committee and Institute
@@ -166,6 +177,12 @@ Rosen, M., Lublinsky, B., Smith, K.T., Balcer, M.J.: {Applied SOA:
   Service-Oriented Architecture and Design Strategies}. John Wiley \& Sons
   (2012)
 
+\bibitem{autonomyLevelsSAE}
+{SAE International}: {Automated Driving - Levels of Driving Automation as
+  Defined in SAE International Standard J3016}. URL:
+  \url{https://web.archive.org/web/20170903105244/https://www.sae.org/misc/pdfs/automated_driving.pdf}
+  (2014), ({A}ccessed May 01, 2018)
+
 \bibitem{saltWhitepaper}
 {SALT Technology, Ltd.}: {SALT - Blockchain-Backed Loans - Whitepaper}. URL:
   \url{https://membership.saltlending.com/files/abstract.pdf} (2017),
@@ -187,8 +204,16 @@ Specification, O.A.: {OMG Unified Modeling Language (OMG UML), Superstructure,
 Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
   (2009)
 
+\bibitem{thrun2010toward}
+Thrun, S.: Toward robotic cars. Communications of the ACM  53(4),  99--106
+  (2010)
+
 \bibitem{wood2014ethereum}
 Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
   URL: \url{http://gavwood.com/paper.pdf} (2014), ({A}ccessed May 01, 2018)
+
+\bibitem{zhu2014vehicle}
+Zhu, W., Miao, J., Hu, J., Qing, L.: Vehicle detection in driving simulation
+  using extreme learning machine. Neurocomputing  128,  160--165 (2014)
 
 \end{thebibliography}
