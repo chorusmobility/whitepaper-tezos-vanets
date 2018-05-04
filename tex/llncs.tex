@@ -406,7 +406,7 @@
 		The Chorus transaction layer library automates and simplifies VANET-based V2X service provision on several levels. A core element of many of the Chorus use cases is smart contract-based negotiation and contract enactment between entities that are the result of collaborating tasks and subprocesses. For example, as described in Section~\ref{s:section-2} two vehicles conduct a road-space negotiation auction that results either in a change of positions or is aborted. This process potentially also involves payment processing, further local as well as global communication and local match-making between vehicles. On an abstract level, most of the use cases presented earlier in this paper follow at some point a similar procedure on smart-contract level. Same applies for scenarios that involve a price negotiation or auction. In the following, we introduce these two abstract processes in more detail
 		The processes are represented using Business Process Model and Notation (BPMN) \cite{model2011notation} and UML sequence diagrams \cite{msequenceDiagrams}.
 		
-		Consequently, Section~\ref{ss:smart-contract-lifecycle-management} details the BPMN representation of the generalized contract negotiation lifecycle, followed by Section Section~\ref{ss:auchtion-algorithm} that details the different auction mechanisms of our platform. Finally, Section~\ref{ss:token-economics} covers the Chorus token value proposition.
+		Consequently, Section~\ref{ss:smart-contract-lifecycle-management} details the BPMN representation of the generalized contract negotiation lifecycle, followed by Section~\ref{ss:auchtion-algorithm} that details the different auction mechanisms of our platform. Finally, Section~\ref{ss:token-economics} covers the Chorus token value proposition.
 
 
 
@@ -416,18 +416,19 @@
 		\subsection{Smart Contract Negotiation Lifecycle Management}
 			\label{ss:smart-contract-lifecycle-management}
 			
-			\textbf{Work-In-Progress}
-			
+			The abstract smart contract negotiation lifecycle, as illustrated in Figure~\ref{fig:smart-contract-lifecycle-management}, is divided into the following stages: a) preparatory, b) negotiation, c) contract execution d) rollback and e) a contract expiry stage. During the preparatory stage, information regarding the involved entities, such as identifiers and wallet addresses are incorporated into the contract. In addition, the conditions of the requested contract are formally defined by specifying, e.g, the content and target of the contract. Following, the example of the cab service for a human, this might include the start location, final destination, price, and so on. The conditions of the requested cab-ride mainly depend on information such as the travel distance and fuel/energy consumption of the vehicle. In case the vehicle and the user agree on the negotiated conditions, both parties sign the contract and express their approval - if no agreement is reached, a contract rollback is triggered. After signing the agreement, the contract execution phase is triggered and the the vehicle picks up the user. 
+
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.65]{Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf}
-				\caption{Smart Contract Negotiation Lifecycle (Based on \cite{qtumWhitepaper}).}	
+				\caption{Smart contract negotiation lifecycle (Based on \cite{qtumWhitepaper}).}	
 				\label{fig:smart-contract-lifecycle-management}
 			\end{figure}			
-			
-			%			The lifecycle of a micro lending contract is divided into the following stages: a) preparatory, b) negotiation, c) contract execution d) rollback and e) a contract expiry stage. During the preparatory stage, information about the involved entities, such as names and addresses are incorporated into the contract. In addition, the conditions of the requested loans are formally defined by specifying, e.g, the size of the loan, chosen currency, runtime and interest rates. The conditions of the requested loan mainly depend on information available to the lender, such as financial data gathered during previous interactions and transactions, personal data and information from social media. In case the borrower and the lender agree on the negotiated conditions, both parties sign the contract and express their approval - if no agreement is reached, a contract rollback is triggered. After signing the agreement, the contract execution phase is triggered and the lender transfers the loan to the borrower as illustrated in Figure \ref{fig:running-case-illustration}. Afterwards, the lender can use the loan to expand, or start a business. 
-			%
-			%			The micro lending contract terminates, or expires either after the defined loan timespan, or when the contract is prematurely terminated. The borrower pays back the loan either in separate rates, or as a whole, depending on the defined conditions. In addition, the lender also receives a fee, or an interest rate from the borrower for providing the loan. In case the borrower fulfills all his/her duties, the lender might provide a larger loan in the future based on the positive credit history of the borrower. Everex does not operate on the basis of P2P loans and instead invests its own aggregated capital to provide globally accessible credit services. Nevertheless, it is up to each Cryptocash owner to lend his/her own tokens to other users.	
+
+			The transportation contract terminates, or expires either after the defined user arrives the final destination, or when the contract is prematurely terminated. Failing to transport the user to the agreed final destination might result in an immediate rollback of the smart contract or invokes some kind of an mediation process that is supervised by a conflict resolution escrow service that is not depicted in this illustration.
+	
+			The lifecycle presented in Figure~\ref{fig:smart-contract-lifecycle-management} not only cover trading negotiation but rather all kind of contract enactments, also the insurance use case from Section~\ref{s:section-6} that we implement as a prototype. You prepare and negotiate a contract with your insurance company and execute in case you agree on the specifications. That also covers what happens in case you behave correctly, e.g., reward, as well as punishing bad behaviors, e.g., paying a penalty. A serious violation of the contract from any of the involved parties might result in an early termination of the contract or even a rollback.
+
 
 
 		%% ----------------------------------------------------------------
@@ -482,6 +483,8 @@
 			\label{ss:token-economics}
 
 			\textbf{Work-In-Progress}
+			
+			%burnable tokens ERC721?\\			
 					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
