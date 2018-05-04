@@ -66,6 +66,12 @@ Dokic, J., M{\"u}ller, B., Meyer, G.: European roadmap smart systems for
   automated driving. European Technology Platform on Smart Systems Integration
   (2015)
 
+\bibitem{dovuWhitepaper}
+{DOVU.IO}: {DOVU - How the World's First Mobility Cryptocurrency Will Transform
+  Data Consumption and Distribution Across the Transport Ecosystem -
+  Whitepaper}. URL: \url{https://dovu.io/whitepaper.pdf} (2017), ({A}ccessed
+  May 04, 2018)
+
 \bibitem{edelman2007internet}
 Edelman, B., Ostrovsky, M., Schwarz, M.: Internet advertising and the
   generalized second-price auction: Selling billions of dollars worth of
@@ -91,6 +97,11 @@ Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
   of Electrical and Electronics Engineers}: {IEEE Recommended Practice for
   Software Requirements Specifications}. IEEE Std, Institute of Electrical and
   Electronics Engineers (1994)
+
+\bibitem{slockWhitepaper}
+Jentzsch, C.: {Decentralized autonomous organization to automate governance -
+  Whitepaper}. URL: \url{https://download.slock.it/public/DAO/WhitePaper.pdf}
+  (2016), ({A}ccessed May 04, 2018)
 
 \bibitem{tezosWhitepaper}
 {L. M. Goodman}: {Tezos - A Self-Amending Crypto-Ledger (White paper)}. URL:
@@ -122,6 +133,12 @@ Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
 Lucking-Reiley, D.: Vickrey auctions in practice: From nineteenth-century
   philately to twenty-first-century e-commerce. Journal of economic
   perspectives  14(3),  183--192 (2000)
+
+\bibitem{xainWhitepaper}
+Lundbaek, L.N., Beutel, D.J., Huth, M., Kirk, L.: {XAIN - Practical Proof of
+  Kernel Work and Distributed Adaptiveness - Yellow Paper Version 1.2}. URL:
+  \url{https://www.xain.io/pdf/XAIN_Yellow_Paper.pdf} (2017), ({A}ccessed May
+  04, 2018)
 
 \bibitem{macneille2018vehicle}
 MacNeille, P.R., Wisniewski, J., DeCia, N.: {Vehicle-to-Vehicle Cooperation to
@@ -168,6 +185,16 @@ Norta, A.: Exploring Dynamic Inter-Organizational BusinessProcess
 Norta, A., Grefen, P., Narendra, N.C.: {A Reference Architecture for Managing
   Dynamic Inter-Organizational Business Processes}. Data \& Knowledge
   Engineering  91,  52--89 (2014)
+
+\bibitem{oakenWaterMeter}
+{Oaken Innovations}: {Project Oaken - Water Meter Acorn}. URL:
+  \url{https://github.com/Oaken-Innovations/water-meter-acorn} (2016),
+  ({A}ccessed May 04, 2018)
+
+\bibitem{oakenTeslaTollbooth}
+{Oaken Innovations}: {Project Oaken - Tesla Tollbooth Acorn}. URL:
+  \url{https://github.com/Oaken-Innovations/tesla-tollbooth-acorn} (2017),
+  ({A}ccessed April 27, 2018)
 
 \bibitem{model2011notation}
 {Object Management Group}: {Notation (BPMN) Version 2.0}. OMG Specification
