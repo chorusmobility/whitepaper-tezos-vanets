@@ -440,34 +440,25 @@
 			A further important core concept of the Chorus transaction library is to support the exchange and provision of goods on services between entities (V2X). When trading goods and services, the buying and the selling party usually have contrary goals in terms of pricing. The seller's goal is to maximize his/her profits while the buyer tries to minimize the costs. Auctions are a common approach to reach a consensus on a certain price between buyer and seller. We designed two auction algorithms based on the concept of so called Vickrey Auction \cite{moldovanu1998goethe}\cite{vickrey1961counterspeculation}; An algorithm for the scenario with exactly one buyer and one seller, as well as an algorithm that can be used in scenarios with multiple buyers and multiple sellers. Figure~\ref{fig:auction-algorithm-1-1} illustrates one-to-one auctions and Figure~\ref{fig:auction-algorithm-X-X} many-to-many auctions.
 			
 			During a Vickrey auction, participants exchange sealed bid. Each bidder submits a written and signed bid without knowing the bid of the other participants. In the end, the highest bidder wins but instead of paying the price of this highest bid, the price paid is the second-highest bid. Due to space constraints and the technical nature of this whitepaper we will not cover the economical and game theoretical implications concepts of Vickrey auctions and instead refer the reader to specific supplementary literature, e.g., \cite{ausubel2006lovely}\cite{edelman2007internet}\cite{lucking2000vickrey}\cite{moldovanu1998goethe}\cite{vickrey1961counterspeculation}.
-			
 
-			Figure~\ref{fig:auction-algorithm-1-1} presents a sequence diagram of our one-to-one auction algorithm. We assume that the buyer is not willing to pay more than three Euro, and the seller is not selling for less than 2.80 Euro. As mentioned in our AOM goal model (Figure~\ref{fig:top-level-aom-goal-model-extended}, speed is one of the non-functional goals of our system - hence, only one auction round is conducted.  Both participants prepare an encrypted (sealed) and signed bid before exchanging the bids. As soon as both participants received the other parties bids, the encryption keys are exchanged as well. Buyer and seller decrypt the bids and compare the offers. Given the case that the buyer offered more than 2.80 Euro the auction is successful and due to the second-price rule of Vickrey auctions, the buyer pays 2.80 Euro to the seller. In case the buyer offers less than the seller's minimum price the auction ends without a deal.
+			Figure~\ref{fig:auction-algorithm-1-1} presents a sequence diagram of our one-to-one auction algorithm. We assume that the buyer is not willing to pay more than US\$3, and the seller is not selling for less than US\$2.80. As mentioned in our AOM goal model (Figure~\ref{fig:top-level-aom-goal-model-extended}, speed is one of the non-functional goals of our system - hence, only one auction round is conducted.  Both participants prepare an encrypted (sealed) and signed bid before exchanging the bids. As soon as both participants received the other parties bids, the encryption keys are exchanged as well. Buyer and seller decrypt the bids and compare the offers. Given the case that the buyer offered more than US\$2.80 the auction is successful and due to the second-price rule of Vickrey auctions, the buyer pays US\$2.80 to the seller. In case the buyer offers less than the seller's minimum price the auction ends without a deal.
 			
-			\begin{figure}[H]
+			\begin{figure}
 				\centering
 				\includegraphics[scale=0.5]{Figures/auction/20180501_auction-aglorithms--1-to-1.png}
 				\caption{Chorus auction algorithm - 1 buyer and 1 seller.}	
 				\label{fig:auction-algorithm-1-1}
 			\end{figure}
-			
-			X-X auction
-			Note: 
-			- (modified) Vickrey Auction
-			- only one auction round
-			- buyer-1 max price:1.80
-			- buyer-2 max price: 3.20
-			- buyer-3 max price: 3.5
-			- seller min price: 2.0
-			- Note: If seller offer > buyer offer => no deal
-			- NOTE: In case we have multiple sellers, the workflow is similar. In the end, the highest bidder is matched with the seller of the highest price, the second highest offer with the second highest seller price ... and so on. Please keep in mind that this is a vickrey auction => hence, highest bidder pay price of the second highest offer and so on...
 
-			\begin{figure}[H]
+			In case multiple buyers and sellers participate in an auction the workflow is very similar as illustrated in Figure~\ref{fig:auction-algorithm-X-X}. We assume a scenario where buyer one is willing to pay a price of US\$1.80, buyer two offers a price of US\$3.20 and buyer three offering US\$3.50. The seller is not selling for less than US\$2.0. Again, we only conduct a single auction round and the buyers as well as the seller all submit their bid in an encrypted and signed envelope that is distributed and send to all registered participants. As soon as all participants received the bids, the encryption keys are exchanged as well and the sealed bids are decrypted. Buyer three wins the auction and pays the seller the price of buyer two that offered US\$3.20.
+			\begin{figure}
 				\centering
 				\includegraphics[scale=0.4]{Figures/auction/20180501_auction-aglorithms--X-to-X.png}
 				\caption{Chorus auction algorithm - Many buyers and many sellers.}	
 				\label{fig:auction-algorithm-X-X}
 			\end{figure}			
+			In case we have multiple sellers, the sequence diagram is almost identical and the bidding process follows the same procedure. Except in the end, the highest bidder is paying the second highest price to  the seller with the highest minimum price, and so on - as long as the payed price is higher than the matched seller's minimum price.
+			 
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
