@@ -102,6 +102,8 @@
 		\label{s:section-2}
 		
 		The following section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based VANET platforms. First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:autonomous-vehicles} and Section~\ref{ss:vanets} focus on the fundamentals of autonomous vehicles as well as vehicular ad-hoc networks.
+		
+		Section~\ref{ss:traffic-wave-theory}
 					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -133,7 +135,7 @@
 				\item \textbf{Level 5 (Full Automation): }The vehicle is able to perform all driving tasks without human intervention in all driving scenarios. The driver can take control whenever desired as long as a steering wheel is still part of the vehicle.
 			\end{itemize}
 			
-			The Chorus interaction- and transaction layer library supports and enables a varying number of services for vehicles of each automation level, whereas the most sophisticated applications require SAE level 5 and simpler plug-ins may only require SAE level 1.
+			The Chorus interaction- and transaction layer library supports and enables a varying number of services for vehicles of each automation level, whereas the most sophisticated applications require SAE level 5 and simpler plug-ins may only require SAE level 0.
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -155,17 +157,14 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-%		\subsection{Related Work}
-%			\label{ss:related-work}
-%
-%			\textbf{Work-In-Progress}
-%
-%			
-%
-%
-%		%% ----------------------------------------------------------------
-%		%% ----------------------------------------------------------------	
-%	
+		\subsection{Traffic Wave Theory Work}
+			\label{ss:traffic-wave-theory}
+
+			\textbf{Work-In-Progress}
+
+			
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------		
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
@@ -178,6 +177,13 @@
 		Intro
 
 		%foam and localization somewheere here	
+		
+				\begin{figure}[H]
+					\centering
+					\includegraphics[scale=0.4]{Figures/20180503_Will-Chorus-Architecture-Draft.pdf}
+					\caption{Caption.}	
+					\label{fig:dummy-architecture}
+				\end{figure}					
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -188,6 +194,11 @@
 			\textbf{Work-In-Progress}
 			
 			CHECK THE chorus website for this section
+			
+			traffic wave fixing as one of the major selling points in the prototype as well as the main product
+			insurance example as a running case later for the prototype
+			
+			
 			
 		\subsection{Human to Human}
 
@@ -364,24 +375,7 @@
 			
 
 
-		%% ----------------------------------------------------------------
-		%% ----------------------------------------------------------------	
 
-		\subsection{Smart Contract Lifecycle Management}
-			\label{ss:smart-contract-lifecycle-management}
-
-			\textbf{Work-In-Progress}
-			
-			\begin{figure}[H]
-				\centering
-				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
-				\caption{Caption.}	
-				\label{fig:smart-contract-lifecycle-management}
-			\end{figure}			
-			
-			%			The lifecycle of a micro lending contract is divided into the following stages: a) preparatory, b) negotiation, c) contract execution d) rollback and e) a contract expiry stage. During the preparatory stage, information about the involved entities, such as names and addresses are incorporated into the contract. In addition, the conditions of the requested loans are formally defined by specifying, e.g, the size of the loan, chosen currency, runtime and interest rates. The conditions of the requested loan mainly depend on information available to the lender, such as financial data gathered during previous interactions and transactions, personal data and information from social media. In case the borrower and the lender agree on the negotiated conditions, both parties sign the contract and express their approval - if no agreement is reached, a contract rollback is triggered. After signing the agreement, the contract execution phase is triggered and the lender transfers the loan to the borrower as illustrated in Figure \ref{fig:running-case-illustration}. Afterwards, the lender can use the loan to expand, or start a business. 
-			%
-			%			The micro lending contract terminates, or expires either after the defined loan timespan, or when the contract is prematurely terminated. The borrower pays back the loan either in separate rates, or as a whole, depending on the defined conditions. In addition, the lender also receives a fee, or an interest rate from the borrower for providing the loan. In case the borrower fulfills all his/her duties, the lender might provide a larger loan in the future based on the positive credit history of the borrower. Everex does not operate on the basis of P2P loans and instead invests its own aggregated capital to provide globally accessible credit services. Nevertheless, it is up to each Cryptocash owner to lend his/her own tokens to other users.	
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -413,12 +407,31 @@
 
 			\textbf{Work-In-Progress}
 
+%			\begin{figure}[H]
+%				\centering
+%				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
+%				\caption{Caption.}	
+%				\label{fig:sequence-diagram-1}
+%			\end{figure}
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Smart Contract Lifecycle Management}
+			\label{ss:smart-contract-lifecycle-management}
+			
+			\textbf{Work-In-Progress}
+			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
-				\caption{Caption.}	
-				\label{fig:sequence-diagram-1}
-			\end{figure}
+				\includegraphics[scale=0.65]{Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf}
+				\caption{Smart Contract Negotiation Lifecycle (Based on \cite{qtumWhitepaper}).}	
+				\label{fig:smart-contract-lifecycle-management}
+			\end{figure}			
+			
+			%			The lifecycle of a micro lending contract is divided into the following stages: a) preparatory, b) negotiation, c) contract execution d) rollback and e) a contract expiry stage. During the preparatory stage, information about the involved entities, such as names and addresses are incorporated into the contract. In addition, the conditions of the requested loans are formally defined by specifying, e.g, the size of the loan, chosen currency, runtime and interest rates. The conditions of the requested loan mainly depend on information available to the lender, such as financial data gathered during previous interactions and transactions, personal data and information from social media. In case the borrower and the lender agree on the negotiated conditions, both parties sign the contract and express their approval - if no agreement is reached, a contract rollback is triggered. After signing the agreement, the contract execution phase is triggered and the lender transfers the loan to the borrower as illustrated in Figure \ref{fig:running-case-illustration}. Afterwards, the lender can use the loan to expand, or start a business. 
+			%
+			%			The micro lending contract terminates, or expires either after the defined loan timespan, or when the contract is prematurely terminated. The borrower pays back the loan either in separate rates, or as a whole, depending on the defined conditions. In addition, the lender also receives a fee, or an interest rate from the borrower for providing the loan. In case the borrower fulfills all his/her duties, the lender might provide a larger loan in the future based on the positive credit history of the borrower. Everex does not operate on the basis of P2P loans and instead invests its own aggregated capital to provide globally accessible credit services. Nevertheless, it is up to each Cryptocash owner to lend his/her own tokens to other users.	
 
 
 		%% ----------------------------------------------------------------
@@ -483,6 +496,12 @@
 		\label{s:section-6}	
 			
 		Intro
+		
+		traffic wave fixing as one of the major selling points in the prototype as well as the main product
+		
+		insurance example
+		
+		burnable tokens ERC721?\\
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -552,6 +571,8 @@
 
 % https://slock.it/
 
+
+%https://dovu.io/
 
 %			
 %Direct Competitors: 
