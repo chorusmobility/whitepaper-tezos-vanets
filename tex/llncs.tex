@@ -31,16 +31,21 @@
 	%
 	\title{We need a fancy title\\ \small Whitepaper - Version 0.1\\\small \today}
 	
-	\author{Benjamin Leiding\inst{1} \and Will Vorobev\inst{1} \and Peter Zverkov\inst{1} \and Lena Cherry\inst{1}}
+	\author{Benjamin Leiding\inst{1} \and Will Vorobev\inst{2} \and Peter Zverkov\inst{3} \and Lena Cherry\inst{4}}
 	
 	\institute{ 
-		Chorus Technology
+		Chorus Technology, G\"ottingen, Germany\\
+		benjamins-email-@domain.com
+		\and 
+		Chorus Technology, New York, United States of America\\
+		benjamins-email-@domain.com
+		\and 
+		Chorus Technology, Barcelona, Spain\\
+		peters-email-@domain.com
+		\and 
+		Chorus Technology, New York, United States of America\\		
+		lenas-email-@domain.com				
 	}
-	
-	%\institute{University of G\"ottingen, Institute of Computer Science, G\"ottingen, Germany\\ benjamin.leiding@cs.uni-goettingen.de
-	%\and
-	%Tallinn University of Technology, Department of Informatics, Tallinn, Estonia\\
-	%alex.norta.phd@ieee.org}
 	
 	\maketitle
 
@@ -64,7 +69,7 @@
 	\end{abstract}
 	
 	
-	\keywords{keywords}
+	\keywords{Blockchain, Autonomous Vehicles, V2X Communication, Chorus Technology, Self-Driving Cars, VANET, Smart Contract}
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
@@ -101,9 +106,7 @@
 	\section{Technical Background and Supplementary Literature}	
 		\label{s:section-2}
 		
-		The following section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based VANET platforms. First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:autonomous-vehicles} and Section~\ref{ss:vanets} focus on the fundamentals of autonomous vehicles as well as vehicular ad-hoc networks.
-		
-		Section~\ref{ss:traffic-wave-theory}
+		The following section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based VANET platforms. First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:autonomous-vehicles} and Section~\ref{ss:vanets} focus on the fundamentals of autonomous vehicles as well as vehicular ad-hoc networks. Finally, Section~\ref{ss:traffic-wave-theory} introduces traffic waves, flows and congestions. 
 					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -341,15 +344,19 @@
 			\end{figure}	
 			
 			The remainder of this section first introduces an abstract high-level overview of the system architecture and components. Afterwards, further illustration present selected sub-components of our architecture.
+
+			\textbf{Work-In-Progress}
 			
 			\textbf{MAKE SURE TO ADAPT THE COMPONENT DIAGRAM TO THE AOM GOAL MODEL!}
-			it is a distributed system that resides in differnt components on differnt places - hence we had to add further helper-component that enable communication and proper system execution.
+			it is a distributed system that resides in different components on different places - hence we had to add further helper-component that enable communication and proper system execution.
 
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
 
 			\subsubsection{High-Level Architecture}
 				\label{sss:high-level-architecture}
+
+				\textbf{Work-In-Progress}
 
 				\begin{figure}[H]
 					\centering
@@ -396,28 +403,17 @@
 	
 		%% RQ-3: What are the system-engagement processes for the stakeholders?
 	
-		Intro
+		The Chorus transaction layer library automates and simplifies VANET-based V2X service provision on several levels. A core element of many of the Chorus use cases is smart contract-based negotiation and contract enactment between entities that are the result of collaborating tasks and subprocesses. For example, as described in Section~\ref{s:section-2} two vehicles conduct a road-space negotiation auction that results either in a change of positions or is aborted. This process potentially also involves payment processing, further local as well as global communication and local match-making between vehicles. On an abstract level, most of the use cases presented earlier in this paper follow at some point a similar procedure on smart-contract level. Same applies for scenarios that involve a price negotiation or auction. In the following, we introduce these two abstract processes in more detail
+		The processes are represented using Business Process Model and Notation (BPMN) \cite{model2011notation} and UML sequence diagrams \cite{msequenceDiagrams}.
 		
-		%describe processes here similar to evx paper
+		Consequently, Section~\ref{ss:smart-contract-lifecycle-management} details the BPMN representation of the generalized contract negotiation lifecycle, followed by Section Section~\ref{ss:auchtion-algorithm} that details the different auction mechanisms of our platform. Finally, Section~\ref{ss:token-economics} covers the Chorus token value proposition.
 
-		%% ----------------------------------------------------------------
-		%% ----------------------------------------------------------------	
 
-		\subsection{Sequence Diagrams | or BPMN representation of Processes}
-
-			\textbf{Work-In-Progress}
-
-%			\begin{figure}[H]
-%				\centering
-%				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
-%				\caption{Caption.}	
-%				\label{fig:sequence-diagram-1}
-%			\end{figure}
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Smart Contract Lifecycle Management}
+		\subsection{Smart Contract Negotiation Lifecycle Management}
 			\label{ss:smart-contract-lifecycle-management}
 			
 			\textbf{Work-In-Progress}
@@ -483,6 +479,7 @@
 		%% ----------------------------------------------------------------	
 
 		\subsection{Token Economics and Value Proposition}
+			\label{ss:token-economics}
 
 			\textbf{Work-In-Progress}
 					
@@ -497,19 +494,43 @@
 			
 		Intro
 		
+		what is the use case and purpose of our prototype
+		
 		traffic wave fixing as one of the major selling points in the prototype as well as the main product
 		
 		insurance example
 		
 		burnable tokens ERC721?\\
 		
+		- what problem does it solve?		
+		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Prototype}
+		\subsection{Prototype Architecture}
 			\label{ss:protoype}				
 
 			\textbf{Work-In-Progress}
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.4]{Figures/Dummy.jpg}
+				\caption{System architecture of the Chorus prototype.}	
+				\label{fig:prototype-system-architecture}
+			\end{figure}
+	
+			- component diagram
+			- scoring algorithm
+			- tech stack (?)
+			- token
+			- testnet
+			- incentive system
+
+
+
+		\subsection{Eco-System and Economics}
+		
+			\textbf{Work-In-Progress}		
 			
 					
 		%% ----------------------------------------------------------------

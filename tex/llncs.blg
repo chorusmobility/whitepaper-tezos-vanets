@@ -13,45 +13,45 @@ Repeated entry---line 602 of file Bibliography.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "bibid"
 Warning--empty journal in baldessari2007car
-You've used 46 entries,
+You've used 48 entries,
             2785 wiz_defined-function locations,
-            846 strings with 13113 characters,
-and the built_in function-call counts, 21079 in all, are:
-= -- 1733
-> -- 582
+            857 strings with 13426 characters,
+and the built_in function-call counts, 21767 in all, are:
+= -- 1787
+> -- 596
 < -- 27
-+ -- 243
-- -- 196
-* -- 1217
-:= -- 2753
-add.period$ -- 55
-call.type$ -- 46
-change.case$ -- 260
++ -- 249
+- -- 200
+* -- 1253
+:= -- 2851
+add.period$ -- 57
+call.type$ -- 48
+change.case$ -- 270
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 1904
-empty$ -- 2042
-format.name$ -- 217
-if$ -- 4625
+cite$ -- 49
+duplicate$ -- 1978
+empty$ -- 2110
+format.name$ -- 221
+if$ -- 4769
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 384
-newline$ -- 143
-num.names$ -- 92
-pop$ -- 760
+int.to.str$ -- 48
+missing$ -- 400
+newline$ -- 149
+num.names$ -- 96
+pop$ -- 786
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 193
 quote$ -- 0
-skip$ -- 541
+skip$ -- 557
 stack$ -- 0
-substring$ -- 1129
-swap$ -- 963
+substring$ -- 1159
+swap$ -- 991
 text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 172
+type$ -- 180
 warning$ -- 1
-while$ -- 185
-width$ -- 48
-write$ -- 453
+while$ -- 191
+width$ -- 50
+write$ -- 473
 (There were 2 error messages)
