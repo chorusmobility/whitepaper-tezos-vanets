@@ -57,6 +57,12 @@ Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
   \url{https://qtum.org/uploads/files/a2772efe4dc8ed1100319c6480195fb1.pdf}
   (2017), ({A}ccessed May 01, 2018)
 
+\bibitem{swarmWhitepaper1}
+David, C., Ponnet, S., De~Wachter, K., Adriaenssen, B., Thuy, M.: {Arcade.city
+  - Blueprin for a New Economy - Whitepaper Version 1.2}. URL:
+  \url{https://drive.google.com/file/d/0B9RSMdR2vWssV2JJX0t6dmN6SUk/view}
+  (2016), ({A}ccessed May 04, 2018)
+
 \bibitem{davis1993software}
 Davis, A.M.: {Software Requirements: Objects, Functions, and States}.
   Prentice-Hall, Inc. (1993)
@@ -65,12 +71,6 @@ Davis, A.M.: {Software Requirements: Objects, Functions, and States}.
 Dokic, J., M{\"u}ller, B., Meyer, G.: European roadmap smart systems for
   automated driving. European Technology Platform on Smart Systems Integration
   (2015)
-
-\bibitem{dovuWhitepaper}
-{DOVU.IO}: {DOVU - How the World's First Mobility Cryptocurrency Will Transform
-  Data Consumption and Distribution Across the Transport Ecosystem -
-  Whitepaper}. URL: \url{https://dovu.io/whitepaper.pdf} (2017), ({A}ccessed
-  May 04, 2018)
 
 \bibitem{edelman2007internet}
 Edelman, B., Ostrovsky, M., Schwarz, M.: Internet advertising and the
@@ -97,6 +97,10 @@ Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
   of Electrical and Electronics Engineers}: {IEEE Recommended Practice for
   Software Requirements Specifications}. IEEE Std, Institute of Electrical and
   Electronics Engineers (1994)
+
+\bibitem{iotaMarketplace}
+{IOTA Foundation}: {IOTA Sensor Marketplace}. URL:
+  \url{https://data.iota.org/m} (2017), ({A}ccessed April 25, 2018)
 
 \bibitem{slockWhitepaper}
 Jentzsch, C.: {Decentralized autonomous organization to automate governance -
@@ -262,6 +266,11 @@ Specification, O.A.: {OMG Unified Modeling Language (OMG UML), Superstructure,
 \bibitem{sterling2009art}
 Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
   (2009)
+
+\bibitem{swarmWhitepaper2}
+{Swarm.City}: {Swarm.city - Token Exchange Whitepaper}. URL:
+  \url{https://github.com/swarmcity/sc-token/blob/master/token-exchange-miniwhitepaper.md#token-exchange-whitepaper}
+  (2017), ({A}ccessed May 04, 2018)
 
 \bibitem{thrun2010toward}
 Thrun, S.: Toward robotic cars. Communications of the ACM  53(4),  99--106
