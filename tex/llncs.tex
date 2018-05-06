@@ -96,7 +96,7 @@
 	\section{Technical Background and Supplementary Literature}	
 		\label{s:section-2}
 		
-		The following section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based VANET platforms. First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:autonomous-vehicles} and Section~\ref{ss:vanets} focus on the fundamentals of autonomous vehicles as well as vehicular ad-hoc networks. Finally, Section~\ref{ss:traffic-wave-theory} introduces traffic waves, flows and congestions. 
+		The following section provides background information and describes related works regarding previous ideas and concepts that focus on a blockchain-based VANET platforms. First, Section~\ref{ss:blockchain-intro} introduces the general concepts of blockchain technology, terms and frameworks. Afterwards, Section~\ref{ss:autonomous-vehicles} and Section~\ref{ss:vanets} focus on the fundamentals of autonomous vehicles as well as vehicular ad-hoc networks. %Finally, Section~\ref{ss:traffic-wave-theory} introduces traffic waves, flows and congestions. 
 					
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -150,14 +150,6 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Traffic Wave Theory Work}
-			\label{ss:traffic-wave-theory}
-
-			\textbf{Work-In-Progress}
-
-			
-		%% ----------------------------------------------------------------
-		%% ----------------------------------------------------------------		
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
@@ -167,16 +159,35 @@
 		
 		%%RQ-1: What is the long term vision of Chorus Technology?
 		
-		Intro
+%		Intro
+%
+%		We are focused on the research and development of the blockchain based peer-to-peer payments protocols and decentralized applications for driverless vehicles of tomorrow. Our end goal is to enable vehicles to own themselves and transact with each other as decentralized autonomous agents utilizing the latest break-trough technologies within Blockchain and IoT ecosystems.
+%		
+%		Areas Of Research
+%			
+%			DApps Development
+%				User friendly and Blockchain-ready native mobile applications
+%
+%			Blockchain
+%				Ethereum Blockchain Protocols for Ridesharing, Autonomous Vehicles, Road Space Negotiation
+%				
+%			Off-Chain
+%				Ethereum Off-chain Protocols Implications for Instant Payments to and from Decentralized Agents
+%			
+%			Hardware
+%				In-Car Hardware Nodes and HSM Wallets Engineering	
+%
+%			Mapping
+%				Mapping and Cartography solutions on Blockchain
+%
+%			Communications
+%				Wireless Communications and Geospatial Solutions for Autonomous Vehicles
+%
+%			Ethereum Scaling
+%				Contribution to Plasma and Ethereum Sharding R\&D to scale for a real world use.
 
 		%foam and localization somewheere here	
-		
-				\begin{figure}[H]
-					\centering
-					\includegraphics[scale=0.4]{Figures/20180503_Will-Chorus-Architecture-Draft.pdf}
-					\caption{Caption.}	
-					\label{fig:dummy-architecture}
-				\end{figure}					
+				
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -186,23 +197,52 @@
 
 			\textbf{Work-In-Progress}
 			
-			CHECK THE chorus website for this section
+%			CHECK THE chorus website for this section
+%			
+%			traffic wave fixing as one of the major selling points in the prototype as well as the main product
+%			insurance example as a running case later for the prototype
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
 			
-			traffic wave fixing as one of the major selling points in the prototype as well as the main product
-			insurance example as a running case later for the prototype
 			
+		\subsection{Vehicle to Human}
+			\label{ss:V2H}
 			
+%			Decentralized Autonomous Taxi Haling and Sharing. We envision safe and seamless transactions with autonomous taxis. At the advent of autonomous taxis the Ethereum protocol will evolve to meet the security and trustless environmental needs for all types of ridesharing methods. This includes pooling, and sharing or splitting payments between multiple passengers within a single party.
+%			
 			
-		\subsection{Human to Human}
-
-		\subsection{Human to Vehicle}
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
 		
 		\subsection{Vehicle to Vehicle}
 			\label{ss:V2V}
+%			Decentralized peer-to-peer road space negotiation and payments. Traffic optimization incentive systems. In the future autonomous vehicles will need their own extremely secure and trustable network protocol through which to interact with one another. To combat congestion and increase the efficiency of traffic this system will prioritize traffic based on economic levers allowing self-driving cars to negotiate lane space.
+%			
+%			road space negotiation
+
+%		\subsection{Traffic Flows, Traffic Congestions and Traffic Wave Theory}
+%		\label{ss:traffic-wave-theory}
+%		
+%		In mathematics and civil engineering, traffic flow is the study of interactions between travellers (including pedestrians, cyclists, drivers, and their vehicles) and infrastructure (including highways, signage, and traffic control devices), with the aim of understanding and developing an optimal transport network with efficient movement of traffic and minimal traffic congestion problems.
+%		
+%		
+%		multi-lane traffic flow \cite{daganzo2002behavioral}
+%		Application of traffic-wave theory in urban traffic analysis \cite{wang2001application}
+%		
+%		adaptive cruise control design for active congestion avoidance\cite{kesting2008adaptive}
+%		
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
 			
-				road space negotiation
-			
-		\subsection{Vehicle to Infrastructure}					
+		\subsection{Vehicle to Infrastructure}	
+			\label{ss:V2I}
+							
+%			Decentralized and Instant V2X (Vehicle to Anything) Payments. Paying per second when using a paid priority lane. Automatic toll payments by Autonomous Vehicles and Regular Taxis .
+%		
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -217,7 +257,8 @@
 
 		%%RQ-2: What are the critical requirements and the corresponding architecture of the Chorus platform?
 
-		The vision of Chorus outlined in Section \ref{s:section-3} is now analyzed from technical perspective as part of the following section. In order to identify, structure and formalize the critical requirements and stakeholders on an abstract level, we use one part of an Agent-Oriented Modeling (AOM) method \cite{sterling2009art}, i.e., goal models. Section~\ref{ss:requirement-engineering} introduces AOM goal models and the Chorus specific goal model. The produced goal model is used in subsequent Section \ref{ss:component-diagrams} to derive the Chrous system architecture . The resulting system architecture and specifications serve as implementation guidelines. Finally, Section~\ref{ss:smart-contract-lifecycle-management} provides some details on the smart contract lifecycle management within our solution, whereas Section~\ref{ss:library-api} outlines a general outlook on the APIs and how to integrate the Chorus library into external applications.
+		The vision of Chorus outlined in Section \ref{s:section-3} is now analyzed from technical perspective as part of the following section. In order to identify, structure and formalize the critical requirements and stakeholders on an abstract level, we use one part of an Agent-Oriented Modeling (AOM) method \cite{sterling2009art}, i.e., goal models. Section~\ref{ss:requirement-engineering} introduces AOM goal models and the Chorus specific goal model. The produced goal model is used in subsequent Section \ref{ss:component-diagrams} to derive the Chrous system architecture . The resulting system architecture and specifications serve as implementation guidelines. 
+		%Finally, Section~\ref{ss:smart-contract-lifecycle-management} provides some details on the smart contract lifecycle management within our solution, whereas Section~\ref{ss:library-api} outlines a general outlook on the APIs and how to integrate the Chorus library into external applications.
 		
 		
 		%% ----------------------------------------------------------------
@@ -350,10 +391,10 @@
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.4]{Figures/Dummy.jpg}
+					\includegraphics[scale=0.4]{Figures/20180503_Will-Chorus-Architecture-Draft.pdf}
 					\caption{Caption.}	
-					\label{fig:high-level-architecture}
-				\end{figure}				
+					\label{fig:dummy-architecture}
+				\end{figure}					
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
@@ -389,13 +430,13 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Library / API}
-			\label{ss:library-api}				
-
-			\textbf{Work-In-Progress}
-			
-		%% ----------------------------------------------------------------
-		%% ----------------------------------------------------------------	
+%		\subsection{Library / API}
+%			\label{ss:library-api}				
+%
+%			\textbf{Work-In-Progress}
+%			
+%		%% ----------------------------------------------------------------
+%		%% ----------------------------------------------------------------	
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
