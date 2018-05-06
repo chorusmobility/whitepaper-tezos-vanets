@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  4 MAY 2018 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  6 MAY 2018 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,104 +379,105 @@ LaTeX Info: Redefining \nameref on input line 27.
 \openout3 = `llncs.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 51.
+(Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 51.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 51.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 51.
+(Font)              <5> on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 51.
+(hyperref)                removing `\\' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 51.
+(hyperref)                removing `\\' on input line 42.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
 
-LaTeX Warning: Citation `bibid' on page 1 undefined on input line 82.
+LaTeX Warning: Citation `bibid' on page 1 undefined on input line 73.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 73.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<Figures/Vanets.png, id=254, 1132.23pt x 1059.96pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [2]
+[3] <Figures/Vanets.png, id=254, 1132.23pt x 1059.96pt>
 File: Figures/Vanets.png Graphic file (type png)
- <use Figures/Vanets.png>
-Package pdftex.def Info: Figures/Vanets.png used on input line 154.
+
+<use Figures/Vanets.png>
+Package pdftex.def Info: Figures/Vanets.png used on input line 145.
 (pdftex.def)             Requested size: 226.44199pt x 211.98824pt.
-
-[4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./Figures/Vanets.png (PNG copy)>]
-<Figures/20180503_Will-Chorus-Architecture-Draft.pdf, id=279, 722.7pt x 406.518
+ [4]
+<Figures/20180503_Will-Chorus-Architecture-Draft.pdf, id=271, 722.7pt x 406.518
 75pt>
 File: Figures/20180503_Will-Chorus-Architecture-Draft.pdf Graphic file (type pd
 f)
  <use Figures/20180503_Will-Chorus-Architecture-Draft.pdf>
 Package pdftex.def Info: Figures/20180503_Will-Chorus-Architecture-Draft.pdf us
-ed on input line 186.
+ed on input line 177.
 (pdftex.def)             Requested size: 289.07487pt x 162.60461pt.
- [6 <./Figures/20180503_Will-Chorus-Architecture-Draft.pdf>]
-<Figures/20180426_AOM-notation.pdf, id=316, 692.5875pt x 261.97874pt>
+ [5 <./Figures/Vanets.png (PNG copy)>] [6 <./Figures/20180503_Will-Chorus-Archi
+tecture-Draft.pdf>] <Figures/20180426_AOM-notation.pdf, id=317, 692.5875pt x 26
+1.97874pt>
 File: Figures/20180426_AOM-notation.pdf Graphic file (type pdf)
 
 <use Figures/20180426_AOM-notation.pdf>
 Package pdftex.def Info: Figures/20180426_AOM-notation.pdf used on input line 2
-43.
+34.
 (pdftex.def)             Requested size: 138.51505pt x 52.39482pt.
- [7 <./Figures/20180426_AOM-notation.pdf>]
-
-LaTeX Warning: Reference `fig:top-level-aom-goal-model' on page 8 undefined on 
-input line 256.
 
 
-<Figures/aom/20180501_goal-model--complete.pdf, id=341, 3020.28375pt x 2463.202
+LaTeX Warning: Reference `fig:top-level-aom-goal-model' on page 7 undefined on 
+input line 247.
+
+[7 <./Figures/20180426_AOM-notation.pdf>]
+<Figures/aom/20180501_goal-model--complete.pdf, id=344, 3020.28375pt x 2463.202
 5pt>
 File: Figures/aom/20180501_goal-model--complete.pdf Graphic file (type pdf)
  <use Figures/aom/20180501_goal-model--complete.pdf>
 Package pdftex.def Info: Figures/aom/20180501_goal-model--complete.pdf used on 
-input line 275.
+input line 266.
 (pdftex.def)             Requested size: 392.65068pt x 320.22757pt.
 
-Overfull \hbox (45.52715pt too wide) in paragraph at lines 275--276
+Overfull \hbox (45.52715pt too wide) in paragraph at lines 266--267
  [][] 
  []
 
@@ -490,10 +491,10 @@ File: Figures/UML-notation-elements.png Graphic file (type png)
 
 <use Figures/UML-notation-elements.png>
 Package pdftex.def Info: Figures/UML-notation-elements.png used on input line 3
-41.
+32.
 (pdftex.def)             Requested size: 245.10518pt x 75.12744pt.
  [10]
-Overfull \hbox (7.87708pt too wide) in paragraph at lines 346--347
+Overfull \hbox (7.87708pt too wide) in paragraph at lines 337--338
 \OT1/cmr/m/n/10 of the sys-tem ar-chi-tec-ture and com-po-nents. Af-ter-wards, 
 fur-ther il-lus-tra-tion present
  []
@@ -501,7 +502,7 @@ fur-ther il-lus-tra-tion present
 <Figures/Dummy.jpg, id=398, 321.2pt x 180.675pt>
 File: Figures/Dummy.jpg Graphic file (type jpg)
  <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 363.
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 354.
 (pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
 
 [11 <./Figures/UML-notation-elements.png> <./Figures/Dummy.jpg>]
@@ -512,7 +513,7 @@ raphic file (type pdf)
 
 <use Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf>
 Package pdftex.def Info: Figures/smart-contract-lifecycle/20180504_smart-contra
-ct-lilfefycle.pdf used on input line 423.
+ct-lilfefycle.pdf used on input line 414.
 (pdftex.def)             Requested size: 206.82022pt x 132.44324pt.
 
 [12 <./Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf
@@ -527,7 +528,7 @@ File: Figures/auction/20180501_auction-aglorithms--1-to-1.png Graphic file (typ
 e png)
  <use Figures/auction/20180501_auction-aglorithms--1-to-1.png>
 Package pdftex.def Info: Figures/auction/20180501_auction-aglorithms--1-to-1.pn
-g used on input line 448.
+g used on input line 439.
 (pdftex.def)             Requested size: 241.40129pt x 220.82445pt.
 
 <Figures/auction/20180501_auction-aglorithms--X-to-X.png, id=467, 847.165pt x 5
@@ -536,17 +537,17 @@ File: Figures/auction/20180501_auction-aglorithms--X-to-X.png Graphic file (typ
 e png)
  <use Figures/auction/20180501_auction-aglorithms--X-to-X.png>
 Package pdftex.def Info: Figures/auction/20180501_auction-aglorithms--X-to-X.pn
-g used on input line 456.
+g used on input line 447.
 (pdftex.def)             Requested size: 338.85999pt x 211.18526pt.
 
 [13]
 File: Figures/Dummy.jpg Graphic file (type jpg)
  <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 506.
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 497.
 (pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
  [14 <./Figures/auction/20180501_auction-aglorithms--1-to-1.png>] [15 <./Figure
 s/auction/20180501_auction-aglorithms--X-to-X.png>] [16]
-Overfull \hbox (5.82037pt too wide) in paragraph at lines 587--588
+Overfull \hbox (1.83424pt too wide) in paragraph at lines 578--579
 []\OT1/cmr/m/n/10 XAIN[][][] cre-ated and im-ple-mented their own Ethereum-base
 d low-energy block-
  []
@@ -654,15 +655,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--274
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 626.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 617.
  [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 626.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
  (./llncs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 626.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 626.
-Package rerunfilecheck Info: File `llncs.out' has not changed.
-(rerunfilecheck)             Checksum: 1430420A75A34C2CEFF5FCC82E2FDA1A;2231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 617.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 617.
 
+
+Package rerunfilecheck Warning: File `llncs.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `llncs.out':
+(rerunfilecheck)             Before: 47B36D5C97C6E3CDA4C69A2DF91C8A7C;2235
+(rerunfilecheck)             After:  39FF9EC7DF32D545764DEB2CFDF6870A;2235.
 
 LaTeX Warning: There were undefined references.
 
@@ -688,7 +695,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (20 pages, 725825 bytes).
+Output written on llncs.pdf (20 pages, 724616 bytes).
 PDF statistics:
  672 PDF objects out of 1000 (max. 8388607)
  529 compressed objects within 6 object streams
