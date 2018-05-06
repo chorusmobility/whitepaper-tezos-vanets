@@ -35,7 +35,7 @@
 	
 	\institute{ 
 		Chorus Technology\\
-		hello@chorus.technology		
+		Email: hello@chorus.technology		
 	}
 	
 	\maketitle
@@ -52,7 +52,7 @@
 		%4.) What are the main questions to be answered pertaining to the gap?
 		%5.) Why is the solution good/better than other solutions?
 
-		The next generation of tightly interconnected vehicles offers a variety of new technological as well as  business opportunities. Vehicles form so called vehicular ad-hoc networks (VANETs) in order to enable vehicle-to-vehicle (V2V), vehicle-to-infrastructure (V2I) or in general vehicle-to-everything (V2X) communication and interaction. A variety of manufacturers started implementing specific use cases that are limited to their own products. However, a default interaction standard for this new economy is still missing. Chorus Technology presents a blockchain-based system that enables a manufacturer agnostic platform solution that allows VANET participants to enact and transact any kind of provision of service and goods. This whitepaper fills the gap in the state of the art by introducing a blockchain-based transaction layer library for (semi)-autonomous vehicles that enables the upcoming V2X economy. We present the advantages of the system, outline the requirements and goals, as well as the architecture of the Chorus V2X platform and eco-system. In addition, we present a Chorus Technology prototype that demonstrates how our system can help mitigating traffic jams and at the same time provides a mean to car insurance companies to incentivize their customers to practice good driving behavior.
+		The next generation of tightly interconnected vehicles offers a variety of new technological as well as  business opportunities. Vehicles form so called vehicular ad-hoc networks (VANETs) in order to enable vehicle-to-vehicle (V2V), vehicle-to-infrastructure (V2I), vehicle-to-human (V2H), or in general vehicle-to-everything (V2X) communication and interaction. A variety of manufacturers started implementing specific use cases that are limited to their own products. However, a default interaction standard for this new economy is still missing. Chorus Technology presents a blockchain-based system that enables a manufacturer agnostic platform solution that allows VANET participants to enact and transact any kind of provision of service and goods. This whitepaper fills the gap in the state of the art by introducing a blockchain-based transaction layer library for (semi)-autonomous vehicles that enables the upcoming V2X economy. We present the advantages of the system, outline the requirements and goals, as well as the architecture of the Chorus V2X platform and eco-system. In addition, we present a Chorus Technology prototype that demonstrates how our system can help mitigating traffic jams and at the same time provides a mean to car insurance companies to incentivize their customers to practice good driving behavior.
  
 
 
@@ -602,25 +602,18 @@
 	\section{Conclusion and Future Work}
 		\label{s:section-8}	
 
-		We conclude ...
+		This whitepaper presents the Chorus Technology blockchain-based transaction and interaction layer for (semi)-autonomous vehicles that enables a V2X platform for goods and services. We outline and describe the technical foundations of this new economy, the longterm vision and benefits as well as the different use cases and scenarios of V2X transactions and interactions, e.g., vehicle-to-vehicle (V2V), vehicle-to-human (V2H), or vehicle-to-infrastructure (V2I).
 		
-		\textbf{Work-In-Progress}		
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%		RQ: How to implement a blockchain-based transaction layer library for (semi)-autonomous vehicles that enables a V2X platform for goods and services?
-%		RQ-1: What is the long term vision of Chorus Technology?
-%		RQ-2: What are the critical requirements and the corresponding architecture of the Chorus platform?
-%		RQ-3: What are the system-engagement processes for the stakeholders?
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		Based on the use cases and scenarios we identify the requirements and criteria that a blockchain-based V2X transaction and interaction layer protocol must satisfy. With respect to functional and non-functional requirements, Chorus aims to develop a blockchain- as well as manufacturer agnostic and interoperable V2X platform that enables interaction and transaction between participating entities and a plug-in interface for external applications.
+		Subsequently, we derive the service-oriented architecture of the our system based on the identified requirements and goals. We present the system architecture using technology-agnostic UML-component and sequence diagrams that detail the system’s main components and communication interfaces. In order to ensure widespread adoption, special focus will be given in the future to the API design and library integration for car manufacturers.
 		
-		%Future Work
-		%	- mention the academic M2M paper?
-		%	- chorus long term vision
-				
+		A core element of many of the Chorus use cases is smart contract-based negotiation and contract enactment between
+		entities that are the result of collaborating tasks and subprocesses. On an abstract level, most of the use cases presented in this paper follow a similar workflow on the smart-contract level. Hence, we decided to integrate an abstract smart contract negotiation lifecycle that we describe. The lifecycle is divided into the different stages (preparatory, negotiation, contract execution, rollback and contract expiry stage) that we explain in detail. Furthermore, we designed two auction algorithms for the V2X economy that allow to reach an efficient consensus on a certain price between buyer and seller. Our auction algorithms are based on the concept of so called Vickrey Auction, and we envisioned one algorithm for one-to-one interaction as well as a second workflow for scenarios with multiple buyers and sellers. Finally, we present the Chorus token value proposition and the surrounding token economy eco-system that fuels the V2X platform.
+		
+		Next, we present a Chorus prototype implementation. We demonstrate how our protocol can help mitigating traffic congestions and at the same time provides a mean to car insurance companies to incentivize their customers to practice good driving behavior. 	
+		
+		Future releases will focus on the longterm vision of Chorus Technology and the development of the abstract transaction and interaction layer as well as the API and library integration. Besides that, we will also continue to focus on further research aspects of the upcoming V2X economy that will facilitate future developments of Chorus Technology.
+
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
