@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  7 MAY 2018 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  7 MAY 2018 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -508,7 +508,7 @@ pp.pdf Graphic file (type pdf)
 <use Figures/longterm-architecture/20180507_Refined-sys-architecture--mobile-ap
 p.pdf>
 Package pdftex.def Info: Figures/longterm-architecture/20180507_Refined-sys-arc
-hitecture--mobile-app.pdf used on input line 412.
+hitecture--mobile-app.pdf used on input line 410.
 (pdftex.def)             Requested size: 304.18738pt x 304.73944pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -518,16 +518,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/longterm-architecture/2018050
 7_high-level-architecture.pdf): PDF inclusion: invalid other resource which is 
 no dict (key 'ProcSets', type <array>); ignored.
->] <Figures/Dummy.jpg, id=393, 321.2pt x 180.675pt>
-File: Figures/Dummy.jpg Graphic file (type jpg)
- <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 419.
-(pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
-File: Figures/Dummy.jpg Graphic file (type jpg)
+>]
+<Figures/longterm-architecture/20180507_Refined-sys-architecture--vehicle.pdf, 
+id=394, 589.20125pt x 596.2275pt>
+File: Figures/longterm-architecture/20180507_Refined-sys-architecture--vehicle.
+pdf Graphic file (type pdf)
 
-<use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 426.
-(pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
+<use Figures/longterm-architecture/20180507_Refined-sys-architecture--vehicle.p
+df>
+Package pdftex.def Info: Figures/longterm-architecture/20180507_Refined-sys-arc
+hitecture--vehicle.pdf used on input line 417.
+(pdftex.def)             Requested size: 382.97627pt x 387.54329pt.
+
+Overfull \hbox (35.85274pt too wide) in paragraph at lines 417--418
+ [][] 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -537,63 +543,73 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/longterm-architecture/2018050
 7_Refined-sys-architecture--mobile-app.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
-> <./Figures/Dummy.jpg>] [13]
-<Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf, id=43
-4, 318.18875pt x 203.76125pt>
+>] <Figures/Dummy.jpg, id=415, 321.2pt x 180.675pt>
+File: Figures/Dummy.jpg Graphic file (type jpg)
+ <use Figures/Dummy.jpg>
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 424.
+(pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
+
+[13 <./Figures/longterm-architecture/20180507_Refined-sys-architecture--vehicle
+.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/longterm-architecture/2018050
+7_Refined-sys-architecture--vehicle.pdf): PDF inclusion: invalid other resource
+ which is no dict (key 'ProcSets', type <array>); ignored.
+> <./Figures/Dummy.jpg>]
+<Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf, id=44
+8, 318.18875pt x 203.76125pt>
 File: Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf G
 raphic file (type pdf)
 
 <use Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf>
 Package pdftex.def Info: Figures/smart-contract-lifecycle/20180504_smart-contra
-ct-lilfefycle.pdf used on input line 486.
+ct-lilfefycle.pdf used on input line 484.
 (pdftex.def)             Requested size: 206.82022pt x 132.44324pt.
 
-[14 <./Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf
+Underfull \vbox (badness 1571) has occurred while \output is active []
+
+ [14]
+[15 <./Figures/smart-contract-lifecycle/20180504_smart-contract-lilfefycle.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/smart-contract-lifecycle/2018
 0504_smart-contract-lilfefycle.pdf): PDF inclusion: invalid other resource whic
 h is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Figures/auction/20180501_auction-aglorithms--1-to-1.png, id=483, 482.80376pt x
+<Figures/auction/20180501_auction-aglorithms--1-to-1.png, id=506, 482.80376pt x
  441.65pt>
 File: Figures/auction/20180501_auction-aglorithms--1-to-1.png Graphic file (typ
 e png)
  <use Figures/auction/20180501_auction-aglorithms--1-to-1.png>
 Package pdftex.def Info: Figures/auction/20180501_auction-aglorithms--1-to-1.pn
-g used on input line 511.
+g used on input line 509.
 (pdftex.def)             Requested size: 241.40129pt x 220.82445pt.
 
-<Figures/auction/20180501_auction-aglorithms--X-to-X.png, id=485, 847.165pt x 5
+<Figures/auction/20180501_auction-aglorithms--X-to-X.png, id=508, 847.165pt x 5
 27.9725pt>
 File: Figures/auction/20180501_auction-aglorithms--X-to-X.png Graphic file (typ
 e png)
  <use Figures/auction/20180501_auction-aglorithms--X-to-X.png>
 Package pdftex.def Info: Figures/auction/20180501_auction-aglorithms--X-to-X.pn
-g used on input line 519.
+g used on input line 517.
 (pdftex.def)             Requested size: 338.85999pt x 211.18526pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./Figures/auction/20180501_auction-aglorithms--1-to-1.png>]
+[16 <./Figures/auction/20180501_auction-aglorithms--1-to-1.png>]
 File: Figures/Dummy.jpg Graphic file (type jpg)
- <use Figures/Dummy.jpg>
-Package pdftex.def Info: Figures/Dummy.jpg used on input line 569.
-(pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
 
-[16 <./Figures/auction/20180501_auction-aglorithms--X-to-X.png>] [17]
-Overfull \hbox (1.83424pt too wide) in paragraph at lines 650--651
+<use Figures/Dummy.jpg>
+Package pdftex.def Info: Figures/Dummy.jpg used on input line 567.
+(pdftex.def)             Requested size: 128.47772pt x 72.2687pt.
+ [17 <./Figures/auction/20180501_auction-aglorithms--X-to-X.png>] [18]
+Overfull \hbox (1.83424pt too wide) in paragraph at lines 648--649
 []\OT1/cmr/m/n/10 XAIN[][][] cre-ated and im-ple-mented their own Ethereum-base
 d low-energy block-
  []
 
-[18]
+[19]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- (./llncs.bbl
-Underfull \vbox (badness 5939) has occurred while \output is active []
-
- [19]
+ (./llncs.bbl [20]
 Underfull \hbox (badness 6032) in paragraph at lines 50--53
 []\OT1/cmr/m/n/9 Cortright, J.: Sprawl Tax: How the US Stacks Up In-ter-na-tion
 -ally .
@@ -611,7 +627,7 @@ Underfull \hbox (badness 1546) in paragraph at lines 61--65
 ]$\OT1/cmtt/m/n/9 https :
  []
 
-[20]
+[21]
 Underfull \hbox (badness 1320) in paragraph at lines 111--114
 []\OT1/cmr/m/n/9 L. M. Good-man: Tezos - A Self-Amending Crypto-Ledger (White p
 a-per).
@@ -635,7 +651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--169
 sport -[] and -[] mobility -[] 2016$[]
  []
 
-[21]
+[22]
 Underfull \hbox (badness 1178) in paragraph at lines 199--202
 []\OT1/cmr/m/n/9 Oaken In-no-va-tions: Project Oaken - Tesla Toll-booth Acorn. 
 URL: []$\OT1/cmtt/m/n/9 https :
@@ -695,13 +711,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--274
 /cmr/m/n/9 (2017), (Ac-cessed May
  []
 
-[22])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 692.
- [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 692.
+[23])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
  (./llncs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 692.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 692.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 690.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 690.
 Package rerunfilecheck Info: File `llncs.out' has not changed.
 (rerunfilecheck)             Checksum: 12DF8AC9B3E81CAAB6BE9C29B4069FEA;2090.
 
@@ -714,13 +730,13 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 30 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6364 strings out of 493029
- 94660 string characters out of 6136234
+ 6370 strings out of 493029
+ 95036 string characters out of 6136234
  196900 words of memory out of 5000000
- 9686 multiletter control sequences out of 15000+600000
+ 9690 multiletter control sequences out of 15000+600000
  8147 words of font info for 29 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 29i,9n,28p,1720b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,1720b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -731,10 +747,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (23 pages, 764435 bytes).
+Output written on llncs.pdf (24 pages, 805014 bytes).
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
- 543 compressed objects within 6 object streams
- 135 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 558 compressed objects within 6 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
