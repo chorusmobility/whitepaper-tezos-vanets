@@ -301,7 +301,7 @@
 %					\label{fig:top-level-aom-goal-model}
 %				\end{figure}
 				
-				\begin{figure}[H]
+				\begin{figure}
 					\centering
 					\includegraphics[scale=0.13]{Figures/aom/20180501_goal-model--complete.pdf}
 					\caption{Chorus - Top-level goal model representation (Source: Based on \cite{leidingM2M}).}	
@@ -376,32 +376,28 @@
 			
 			The remainder of this section first introduces an abstract high-level overview of the system architecture and components. Afterwards, further illustration present selected sub-components of our architecture.
 
-			\textbf{Work-In-Progress}
-			
-			\textbf{MAKE SURE TO ADAPT THE COMPONENT DIAGRAM TO THE AOM GOAL MODEL!}
-			it is a distributed system that resides in different components on different places - hence we had to add further helper-component that enable communication and proper system execution.
 
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
 
 			\subsubsection{High-Level Architecture}
 				\label{sss:high-level-architecture}
-
-				\textbf{Work-In-Progress}
-
+				
+				The highest architecture abstraction level of our system is depicted in Figure~\ref{fig:high-level-architecture}. The representation is divided into two distinct packages, e.g, the Blockchain package and the Vehicle-System package. In UML, packages are used “to group elements, and provide a namespace for the grouped elements”  \cite{specification2007omg}. In the context of this architecture illustration, packages are used to provide a separation of concerns between the blockchain part and the vehicle related system components, as well as the Chorus mobile smartphone application. The vehicle-system package consists of three main components, e.g., the Chorus firmware, the vehicles manufacturer OS and the component managing the underlying hardware of the vehicle, and several smaller components that will be detailed in Section~\ref{sss:architecture-refinements}.
 				\begin{figure}[H]
 					\centering
 					\includegraphics[scale=0.75]{Figures/longterm-architecture/20180507_high-level-architecture.pdf}
 					\caption{High-level architecture of the Chorus V2X system.}	
-					\label{fig:dummy-architecture}
+					\label{fig:high-level-architecture}
 				\end{figure}					
+				The blockchain package comprises the V2X platform itself and the blockchain utilized by Chorus to enable our services. The following Section~\ref{sss:architecture-refinements} explains each of the units illustrated in Figure~\ref{fig:high-level-architecture} in detail.
 			
 			%% ----------------------------------------------------------------
 			%% ----------------------------------------------------------------	
 			
 
 			\subsubsection{Selected Architecture Refinements}
-				\label{sss:-architecture-refinements}
+				\label{sss:architecture-refinements}
 			
 				Rough, missing details - maybe do them later
 
