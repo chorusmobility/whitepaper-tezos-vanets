@@ -86,6 +86,11 @@ Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
   in Intelligent Vehicle Area Networks}. Communications of the ACM  55(2),
   90--100 (2012)
 
+\bibitem{foamWhitepaper}
+{Foamspace Corp}: {FOAM - Whitepaper}. URL:
+  \url{https://www.foam.space/publicAssets/FOAM_Whitepaper_May2018.pdf} (2018),
+  ({A}ccessed May 08, 2018)
+
 \bibitem{gehrig1999dead}
 Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
   for an autonomous car. In: Intelligent Robots and Systems, 1999. IROS'99.
@@ -132,6 +137,11 @@ Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
   Vehicular Ad-Hoc Networks}. In: Proceedings of the 2016 ACM International
   Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. pp.
   137--140. ACM (2016)
+
+\bibitem{li2010overview}
+Li, Y.J.: An overview of the dsrc/wave technology. In: International Conference
+  on Heterogeneous Networking for Quality, Reliability, Security and
+  Robustness. pp. 544--558. Springer (2010)
 
 \bibitem{lucking2000vickrey}
 Lucking-Reiley, D.: Vickrey auctions in practice: From nineteenth-century
@@ -275,6 +285,10 @@ Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
 \bibitem{thrun2010toward}
 Thrun, S.: Toward robotic cars. Communications of the ACM  53(4),  99--106
   (2010)
+
+\bibitem{uzcategui2009wave}
+Uzc{\'a}tegui, R.A., De~Sucre, A.J., Acosta-Marum, G.: Wave: A tutorial. IEEE
+  Communications magazine  47(5) (2009)
 
 \bibitem{vickrey1961counterspeculation}
 Vickrey, W.: Counterspeculation, auctions, and competitive sealed tenders. The

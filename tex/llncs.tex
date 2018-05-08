@@ -407,13 +407,13 @@
 					\caption{Refined illustration of the \textit{Chorus Mobile App} component.}	
 					\label{fig:system-architecture--app}
 				\end{figure}
-				Next, Figure~\ref{fig:system-architecture--vehicle} presents a more detailed view of the \textit{vehicle} sub-system. In the beginning, this sub-system is located in a dedicated box that is connected to the user's smartphone via bluetooth or Wifi as  well as the vehicle via OBDII - hence we have a dedicated communication component on the left as well as the right for each of these two functionalities. The OBDII interface is used to query information from the car such as speed, steering, breaks and many more. The information are used by Chorus applications and plug-ins to provide their services. The logic of the Chorus applications mostly resides in the Chorus plug-in component of Figure~\ref{fig:system-architecture--vehicle} while the Chorus application component in Figure~\ref{fig:system-architecture--app} is mostly used to control the applications and enable them on the dedicated Chorus box. The Chorus component in Figure~\ref{fig:system-architecture--vehicle} also contains the Chorus firmware as well as the blockchain client(s). 
+				Next, Figure~\ref{fig:system-architecture--vehicle} presents a more detailed view of the \textit{vehicle} sub-system. In the beginning, this sub-system is located in a dedicated box that is connected to the user's smartphone via bluetooth or Wifi, the V2X platform via the Internet, to other vehicles via the WAVE protocol stack \cite{li2010overview}\cite{uzcategui2009wave} as  well as the vehicle via OBDII - hence we have a dedicated communication component on the left as well as the right for each of these two functionalities. The OBDII interface is used to query information from the car such as speed, steering, breaks and many more. The information are used by Chorus applications and plug-ins to provide their services. The logic of the Chorus applications mostly resides in the Chorus plug-in component of Figure~\ref{fig:system-architecture--vehicle} while the Chorus application component in Figure~\ref{fig:system-architecture--app} is mostly used to control the applications and enable them on the dedicated Chorus box. The Chorus component in Figure~\ref{fig:system-architecture--vehicle} also contains the Chorus firmware as well as the blockchain client(s). 
 			
 				Due to the speed of moving cars, most of the time on-chain auctions are not an option and instead auctions or negotiation on a local level between nearby vehicles are necessary. The auction components contains all functionalities to do that as well as settings that control the auction preferences of the vehicles. More details on the actual workflow of the off/on-chain auctions are available in Section~\ref{ss:auchtion-algorithm}.
 							
 				In the future, when most people do not own cars themselves any more, users can transfer tokens to the vehicles wallet to pay for taxi services and the vehicle uses these earnings to pay for electricity or maintenance. Hence, the vehicle also has a separate wallet for this purpose.
 				
-				Similar to the previous Figure~\ref{Bibliography}, at the bottom we list hardware-focused components such as the different sensors that may reside in the vehicle or the Chorus box, different hardware connectors and the tamperproof device (TPD) that controls the car's identity, authenticates exchanged messages and data packets and so on.
+				Similar to the previous Figure~\ref{fig:system-architecture--app}, at the bottom we list hardware-focused components such as the different sensors that may reside in the vehicle or the Chorus box, different hardware connectors and the tamperproof device (TPD) that controls the car's identity, authenticates exchanged messages and data packets and so on.
 				
 				\begin{figure}
 					\centering
@@ -422,7 +422,7 @@
 					\label{fig:system-architecture--vehicle}
 				\end{figure}
 				
-				Figure~\ref{fig:system-architecture--platform}
+				Finally, Figure~\ref{fig:system-architecture--platform} presents a more detailed view of the \textit{V2X platform} sub-system. As before for all the other sub-system, the V2X platform also contains a communication component managing the communication between the platform and the blockchain and vehicles. In addition, the respective platform management entity (Chorus or a vehicle manufacturer that is running their own Chorus compatible platform) has access to an administration interface. The administrator uses this interface to maintain the platform and the corresponding smart contracts as well as the user management and much more. Similar to the auction component in the previous Figure~\ref{fig:system-architecture--vehicle}, the V2X platform has a component that takes care of on-chain auctions using the same auction algorithms. Auctions may result based on the supply and demand management that is conducted in the corresponding component. Finally, similar to the application/plug-in components in the mobile application and the vehicle, we also have a pendant of these component in the V2X platform. Here, the component is mainly used for application/plug-in related interaction and transaction enactment.
 				
 				\begin{figure}
 					\centering
@@ -460,6 +460,9 @@
 %			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
+
+		Next, in Section~\ref{s:section-5} we present the system-engagement processes of the the Chorus V2X system using and outline the interaction workflow of the on/off-chain auction algorithms.
+
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
@@ -581,6 +584,8 @@
 %			- testnet
 %			- incentive system
 
+
+			while current localization is done via hardware in the user's smartphone (GPS, Glonass, etc.) future version of the Chorus platform will also incorporate alernative localization service such as FOAM \cite{foamWhitepaper}. FOAM provides .....
 
 
 		\subsection{Eco-System and Economics}
