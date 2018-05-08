@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  7 MAY 2018 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  8 MAY 2018 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,7 +437,11 @@ Overfull \hbox (3.93266pt too wide) in paragraph at lines 88--89
  im-ple-ment a blockchain-
  []
 
-[2] [3] [4] <Figures/Vanets.png, id=254, 1132.23pt x 1059.96pt>
+
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+ [2]
+[3] [4] <Figures/Vanets.png, id=254, 1132.23pt x 1059.96pt>
 File: Figures/Vanets.png Graphic file (type png)
 
 <use Figures/Vanets.png>
@@ -451,12 +455,12 @@ File: Figures/20180426_AOM-notation.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/20180426_AOM-notation.pdf used on input line 2
 74.
 (pdftex.def)             Requested size: 138.51505pt x 52.39482pt.
- [6 <./Figures/Vanets.png (PNG copy)> <./Figures/20180426_AOM-notation.pdf>]
+ [6 <./Figures/Vanets.png (PNG copy)>]
 
 LaTeX Warning: Reference `fig:top-level-aom-goal-model' on page 7 undefined on 
 input line 287.
 
-[7]
+[7 <./Figures/20180426_AOM-notation.pdf>]
 <Figures/aom/20180501_goal-model--complete.pdf, id=313, 3020.28375pt x 2463.202
 5pt>
 File: Figures/aom/20180501_goal-model--complete.pdf Graphic file (type pdf)
@@ -472,7 +476,8 @@ Overfull \hbox (45.52715pt too wide) in paragraph at lines 306--307
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./Figures/aom/20180501_goal-model--complete.pdf>] [9]
+ [8]
+[9 <./Figures/aom/20180501_goal-model--complete.pdf>]
 <Figures/UML-notation-elements.png, id=354, 1634.105pt x 500.87125pt>
 File: Figures/UML-notation-elements.png Graphic file (type png)
 
@@ -480,14 +485,14 @@ File: Figures/UML-notation-elements.png Graphic file (type png)
 Package pdftex.def Info: Figures/UML-notation-elements.png used on input line 3
 72.
 (pdftex.def)             Requested size: 245.10518pt x 75.12744pt.
-
+ [10]
 Overfull \hbox (7.87708pt too wide) in paragraph at lines 377--378
 \OT1/cmr/m/n/10 of the sys-tem ar-chi-tec-ture and com-po-nents. Af-ter-wards, 
 fur-ther il-lus-tra-tion present
  []
 
 
-<Figures/longterm-architecture/20180507_high-level-architecture.pdf, id=356, 29
+<Figures/longterm-architecture/20180507_high-level-architecture.pdf, id=366, 29
 7.11pt x 312.16624pt>
 File: Figures/longterm-architecture/20180507_high-level-architecture.pdf Graphi
 c file (type pdf)
@@ -497,11 +502,8 @@ Package pdftex.def Info: Figures/longterm-architecture/20180507_high-level-arch
 itecture.pdf used on input line 394.
 (pdftex.def)             Requested size: 222.83194pt x 234.1241pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./Figures/UML-notation-elements.png>]
 <Figures/longterm-architecture/20180507_Refined-sys-architecture--mobile-app.pd
-f, id=369, 553.06625pt x 554.07pt>
+f, id=367, 553.06625pt x 554.07pt>
 File: Figures/longterm-architecture/20180507_Refined-sys-architecture--mobile-a
 pp.pdf Graphic file (type pdf)
 
@@ -510,17 +512,15 @@ p.pdf>
 Package pdftex.def Info: Figures/longterm-architecture/20180507_Refined-sys-arc
 hitecture--mobile-app.pdf used on input line 410.
 (pdftex.def)             Requested size: 304.18738pt x 304.73944pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./Figures/longterm-architecture/20180507_high-level-architecture.pdf
+ [11 <./Figures/UML-notation-elements.png> <./Figures/longterm-architecture/201
+80507_high-level-architecture.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/longterm-architecture/2018050
 7_high-level-architecture.pdf): PDF inclusion: invalid other resource which is 
 no dict (key 'ProcSets', type <array>); ignored.
 >]
 <Figures/longterm-architecture/20180507_Refined-sys-architecture--vehicle.pdf, 
-id=394, 589.20125pt x 596.2275pt>
+id=393, 589.20125pt x 596.2275pt>
 File: Figures/longterm-architecture/20180507_Refined-sys-architecture--vehicle.
 pdf Graphic file (type pdf)
 
@@ -730,7 +730,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 690.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 690.
 Package rerunfilecheck Info: File `llncs.out' has not changed.
-(rerunfilecheck)             Checksum: 12DF8AC9B3E81CAAB6BE9C29B4069FEA;2090.
+(rerunfilecheck)             Checksum: 277700FA2E9502B3EC521C2D4D92C48D;2185.
 
 
 LaTeX Warning: There were undefined references.
@@ -743,7 +743,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  6375 strings out of 493029
  95385 string characters out of 6136234
- 196900 words of memory out of 5000000
+ 196901 words of memory out of 5000000
  9694 multiletter control sequences out of 15000+600000
  8147 words of font info for 29 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -758,7 +758,7 @@ dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (24 pages, 839355 bytes).
+Output written on llncs.pdf (24 pages, 840879 bytes).
 PDF statistics:
  735 PDF objects out of 1000 (max. 8388607)
  572 compressed objects within 6 object streams
