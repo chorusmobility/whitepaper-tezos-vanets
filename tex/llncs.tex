@@ -369,7 +369,7 @@
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[scale=0.15]{Figures/UML-notation-elements.png}
+				\includegraphics[scale=0.12]{Figures/UML-notation-elements.png}
 				\caption{UML-component diagram notation elements.}	
 				\label{fig:uml-component-diagram-overview}
 			\end{figure}	
@@ -399,30 +399,35 @@
 			\subsubsection{Selected Architecture Refinements}
 				\label{sss:architecture-refinements}
 			
-				The following illustration represent visualization of the Chorus longterm architecture. We simplified certain aspects due to space constraints and to reduce technical complexity.First, Figure~\ref{fig:system-architecture--app} shows the different components of the \textit{Chorus Mobile App} component, e.g., the user interface (UI) component, the settings/preferences component, the wallet component, the communication component and the chorus application management component. The UI-component is the gatekeeper for the user and used to control all functionalities from the user side and also to interact with the system. The user can set preferences and change settings, visualize wallet balances, activate plug-ins or Chorus applications (we only listed two as an example) such as the ``Good-driving-behavior-plug-in. The wallet component holds the users public and private key pair that represent the wallet address. The user can transfer tokens from and to his/her wallet to use Chorus-compatible services or applications. The user's smartphone is connected to the vehicle component and utilizes the communication component to communicate with the vehicle component as well as the V2X platform. Besides these functional components, Figure~\ref{fig:system-architecture--app} also contains the Android OS component and the underlying hardware of the smartphone for easier visualization purposes.
+				The following illustration represent visualization of the Chorus longterm architecture. We simplified certain aspects due to space constraints and to reduce technical complexity.First, Figure~\ref{fig:system-architecture--app} shows the different components of the \textit{Chorus Mobile App} component, e.g., the user interface (UI) component, the settings/preferences component, the wallet component, the communication component and the chorus application management component. The UI-component is the gatekeeper for the user and used to control all functionalities from the user side and also to interact with the system. The user can set preferences and change settings, visualize wallet balances, activate plug-ins or Chorus applications (we only listed two as an example) such as the ``Good-driving-behavior-plug-in. The wallet component holds the users public and private key pair that represent the wallet address. The user can transfer tokens from and to his/her wallet to use Chorus-compatible services or applications. The user's smartphone is connected to the vehicle component and utilizes the communication component to communicate with the vehicle component as well as the V2X platform. Besides these functional components, Figure~\ref{fig:system-architecture--app} also contains the Android OS component and the underlying hardware (GPS, Wifi, USB, bluetooth, etc.) of the smartphone for easier visualization purposes.
 
-				\begin{figure}[H]
+				\begin{figure}
 					\centering
 					\includegraphics[scale=0.6]{Figures/longterm-architecture/20180507_Refined-sys-architecture--mobile-app.pdf}
 					\caption{Refined illustration of the \textit{Chorus Mobile App} component.}	
 					\label{fig:system-architecture--app}
 				\end{figure}
+				Next, Figure~\ref{fig:system-architecture--vehicle} presents a more detailed view of the \textit{vehicle} sub-system. In the beginning, this sub-system is located in a dedicated box that is connected to the user's smartphone via bluetooth or Wifi as  well as the vehicle via OBDII - hence we have a dedicated communication component on the left as well as the right for each of these two functionalities. The OBDII interface is used to query information from the car such as speed, steering, breaks and many more. The information are used by Chorus applications and plug-ins to provide their services. The logic of the Chorus applications mostly resides in the Chorus plug-in component of Figure~\ref{fig:system-architecture--vehicle} while the Chorus application component in Figure~\ref{fig:system-architecture--app} is mostly used to control the applications and enable them on the dedicated Chorus box. The Chorus component in Figure~\ref{fig:system-architecture--vehicle} also contains the Chorus firmware as well as the blockchain client(s). 
+			
+				Due to the speed of moving cars, most of the time on-chain auctions are not an option and instead auctions or negotiation on a local level between nearby vehicles are necessary. The auction components contains all functionalities to do that as well as settings that control the auction preferences of the vehicles. More details on the actual workflow of the off/on-chain auctions are available in Section~\ref{ss:auchtion-algorithm}.
+							
+				In the future, when most people do not own cars themselves any more, users can transfer tokens to the vehicles wallet to pay for taxi services and the vehicle uses these earnings to pay for electricity or maintenance. Hence, the vehicle also has a separate wallet for this purpose.
 				
-				Figure~\ref{fig:system-architecture--vehicle}
+				Similar to the previous Figure~\ref{Bibliography}, at the bottom we list hardware-focused components such as the different sensors that may reside in the vehicle or the Chorus box, different hardware connectors and the tamperproof device (TPD) that controls the car's identity, authenticates exchanged messages and data packets and so on.
 				
-				\begin{figure}[H]
+				\begin{figure}
 					\centering
 					\includegraphics[scale=0.65]{Figures/longterm-architecture/20180507_Refined-sys-architecture--vehicle.pdf}
-					\caption{Refined illustration \textit{Vehicle} sub-system.}	
+					\caption{Refined illustration of the \textit{Vehicle} sub-system.}	
 					\label{fig:system-architecture--vehicle}
 				\end{figure}
 				
 				Figure~\ref{fig:system-architecture--platform}
 				
-				\begin{figure}[H]
+				\begin{figure}
 					\centering
 					\includegraphics[scale=0.75]{Figures/longterm-architecture/20180507_Refined-sys-architecture--V2X.pdf}
-					\caption{Refined illustration \textit{V2X-Platform} sub-system.}	
+					\caption{Refined illustration of the \textit{V2X-Platform} sub-system.}	
 					\label{fig:system-architecture--platform}
 				\end{figure}						
 
@@ -449,10 +454,10 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Library / API}
-			\label{ss:library-api}				
-			\textbf{Work-In-Progress}
-			
+%		\subsection{Library / API}
+%			\label{ss:library-api}				
+%			\textbf{Work-In-Progress}
+%			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 
