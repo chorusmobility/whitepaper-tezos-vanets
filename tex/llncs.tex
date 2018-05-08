@@ -399,14 +399,16 @@
 			\subsubsection{Selected Architecture Refinements}
 				\label{sss:architecture-refinements}
 			
-				Rough, missing details - maybe do them later
+				The following illustration represent visualization of the Chorus longterm architecture. We simplified certain aspects due to space constraints and to reduce technical complexity.First, Figure~\ref{fig:system-architecture--app} shows the different components of the \textit{Chorus Mobile App} component, e.g., the user interface (UI) component, the settings/preferences component, the wallet component, the communication component and the chorus application management component. The UI-component is the gatekeeper for the user and used to control all functionalities from the user side and also to interact with the system. The user can set preferences and change settings, visualize wallet balances, activate plug-ins or Chorus applications (we only listed two as an example) such as the ``Good-driving-behavior-plug-in. The wallet component holds the users public and private key pair that represent the wallet address. The user can transfer tokens from and to his/her wallet to use Chorus-compatible services or applications. The user's smartphone is connected to the vehicle component and utilizes the communication component to communicate with the vehicle component as well as the V2X platform. Besides these functional components, Figure~\ref{fig:system-architecture--app} also contains the Android OS component and the underlying hardware of the smartphone for easier visualization purposes.
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[scale=0.55]{Figures/longterm-architecture/20180507_Refined-sys-architecture--mobile-app.pdf}
+					\includegraphics[scale=0.6]{Figures/longterm-architecture/20180507_Refined-sys-architecture--mobile-app.pdf}
 					\caption{Refined illustration of the \textit{Chorus Mobile App} component.}	
 					\label{fig:system-architecture--app}
 				\end{figure}
+				
+				Figure~\ref{fig:system-architecture--vehicle}
 				
 				\begin{figure}[H]
 					\centering
@@ -414,6 +416,8 @@
 					\caption{Refined illustration \textit{Vehicle} sub-system.}	
 					\label{fig:system-architecture--vehicle}
 				\end{figure}
+				
+				Figure~\ref{fig:system-architecture--platform}
 				
 				\begin{figure}[H]
 					\centering
