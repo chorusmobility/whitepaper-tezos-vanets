@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  9 MAY 2018 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  9 MAY 2018 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -629,15 +629,11 @@ Overfull \hbox (1.83424pt too wide) in paragraph at lines 665--666
 d low-energy block-
  []
 
-
-Underfull \vbox (badness 5592) has occurred while \output is active []
-
- [22]
+[22]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-(./llncs.bbl
+ (./llncs.bbl
 Underfull \vbox (badness 5939) has occurred while \output is active []
 
  [23]
@@ -761,12 +757,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--296
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 709.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
  [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 709.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
  (./llncs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 709.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 709.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
 Package rerunfilecheck Info: File `llncs.out' has not changed.
 (rerunfilecheck)             Checksum: 13359EE45F34C99A4919FD6638C0300A;2054.
 
@@ -796,7 +792,7 @@ dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (27 pages, 876055 bytes).
+Output written on llncs.pdf (27 pages, 876277 bytes).
 PDF statistics:
  816 PDF objects out of 1000 (max. 8388607)
  639 compressed objects within 7 object streams
