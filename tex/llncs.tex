@@ -160,6 +160,8 @@
 		
 		%%RQ-1: What is the long term vision of Chorus Technology?
 		
+Our end goal is to enable vehicles to own themselves and transact with each other as decentralized autonomous agents utilizing the latest break-through technologies within Blockchain and IoT ecosystems.		
+		
 %		Intro
 %
 %		We are focused on the research and development of the blockchain based peer-to-peer payments protocols and decentralized applications for driverless vehicles of tomorrow. Our end goal is to enable vehicles to own themselves and transact with each other as decentralized autonomous agents utilizing the latest break-trough technologies within Blockchain and IoT ecosystems.
@@ -571,7 +573,7 @@
 		\subsection{Prototype Architecture}
 			\label{ss:protoype-architecture}				
 
-			\textbf{Work-In-Progress}
+			In order to reduce complexity and speed up the development process of the prototype, we decided to simplify the architecture of the application. As a result, merged the Chorus mobile application (illustrated earlier in Figure~\ref{fig:system-architecture--app}) and the \textit{vehicle} sub-system (presented earlier in Figure~\ref{fig:system-architecture--vehicle}) and only implemented the most basic functionalities of the V2X platform (Figure~\ref{fig:system-architecture--platform}) that is necessary to deploy the prototype. The resulting prototype architecture of our Android application is shown in Figure~\ref{fig:prototype-system-architecture} using a UML component diagram. Due to the simplification and reduced complexity, the illustration is very similar to Figure~\ref{fig:system-architecture--app} except that the Chorus firmware component is now located on the user's mobile phone and manages the good-driving behavior plug-in and also accommodates the necessary blockchain client. We implemented and deployed a smart contract that receives the driving data collected via the smartphone's sensors, e..g, \textbf{add-stuff-here}, stores them on IPFS\footnote{\url{https://ipfs.io/}} and calculates the drivers' score. A score based on the gathered data is calculated for each single ride, as well as a second main score that represents the overall driving behavior based in all previous rides. To ease the integration and reduce development time, we decided to use Infura\footnote{\url{https://infura.io/}} that provides an API with secure, reliable, and scalable access to Ethereum (Rinkeby TestNet) and IPFS. The V2X platform is not shown in Figure~\ref{Bibliography} and we only implemented a rudimentary version of that component, basically focusing on the smart contract functionalities and plug-in interaction and transaction.
 
 			\begin{figure}[H]
 				\centering
@@ -579,7 +581,7 @@
 				\caption{System architecture of the Chorus prototype.}	
 				\label{fig:prototype-system-architecture}
 			\end{figure}
-	
+			
 %			- component diagram
 %			- scoring algorithm
 %			- tech stack (?)
@@ -587,10 +589,7 @@
 %			- testnet
 %			- incentive system
 
-			running a minimal version of the V2X platform that takes 
-
-
-			while current localization is done via hardware in the user's smartphone (GPS, Glonass, etc.) future version of the Chorus platform will also incorporate alternative localization service such as FOAM \cite{foamWhitepaper}. FOAM provides is an open protocol for decentralized geospatial data that aims to to enable their users to build trustworthy consensus-driven map of the world that can be used by any kind of application.
+			Currently input data is gathered via the mobile phones build-in hardware sensors and no data is received from the car. Besides vehicle related sensor data such as acceleration and breaking, we also perform localization tasks via hardware in the user's smartphone (GPS, Glonass, etc.). Future version of the Chorus platform may incorporate alternative localization service such as FOAM \cite{foamWhitepaper}. FOAM provides is an open protocol for decentralized geospatial data that aims to to enable their users to build trustworthy consensus-driven map of the world that can be used by any kind of application.
 
 
 		\subsection{Eco-System and Economics}
