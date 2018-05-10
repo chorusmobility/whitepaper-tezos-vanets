@@ -29,7 +29,7 @@
 
 	{
 	%
-	\title{Enabling the Vehicle Economy Using a Blockchain-Based Value Transaction Layer Protocol for Vehicular Ad-Hoc Networks\\ \small Research Paper - Version 1.0\\\small \today}
+	\title{Enabling the Vehicle Economy Using a Blockchain-Based Value Transaction Layer Protocol for Vehicular Ad-Hoc Networks\\ - \\ \small Research Paper - Version 1.0\\\small \today}
 	
 	\author{Benjamin Leiding \and Will Vorobev}
 	
@@ -538,10 +538,10 @@ Our end goal is to enable vehicles to own themselves and transact with each othe
 		\subsection{Token Economics and Value Proposition}
 			\label{ss:token-economics}
 
-			\textbf{Work-In-Progress}
+			Besides the COR token for the Chorus prototype introduced later in Section~\ref{s:section-6}, no actual token exists so far. We are in the process of evaluating different approaches and concepts for the long-term vision of the Chorus V2X eco-system that ensures the proper enactment of all functionalities. One option is to rely on a traditional Ethereum ERC-20\footnote{\url{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md}} token that is running on the Ethereum blockchain or any of their scalability solutions such as Plasma \cite{plasmaWhitepaper}. A different alternative is to rather focus on a ``relay-chain" solution as proposed by Polkadot \cite{polkadotWhitepaper}. Polkadot itself is a heterogeneous multi-chain, that is designed to provide no inherent application functionality at all and instead ``relay-chain" functionalities ``upon which a large number of validatable, globally-coherent dynamic data-structures may be hosted side-by-side. We call these data-structures ``parallelised" chains or parachains, though there is no specific need for them to be blockchain in nature" \cite{polkadotWhitepaper}. Using a similar philioshophy, Chorus may run a heterogeneous multi-chain system that connects specific chains of different vehicle manufacturers thereby enabling our blockchain- and manufacturer agnostic V2X platform. Each of the manufacturers can run its own chain with their own tokens as long as they ensure a certain level of compatibility necessary to be integrated into the Chorus platform. The advantage for Chorus and the users is simple: A globally usable system that is not bound to a single manufacturer. But also the vehicle vendors profit from an open system so that they can offer their own services to vehicles of other brands. In this scenario, Chorus would issue tokens for the relay chain that the vendors and users consume to participate in the relay-chain functionalities. Whether this token is an Ethereum ERC-20 token or a new standard is part of on-going research.
+			 
 			
-			%burnable tokens ERC721?\\			
-					
+
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 
@@ -597,7 +597,7 @@ Our end goal is to enable vehicles to own themselves and transact with each othe
 		
 			The economic incentive concept for the Chorus prototype is rather simple. Based on the driving behavior score for each ride as well as the drivers' overall score, a token reward is calculated by the insurance company. The better the driving behavior, the higher the reward since good driving behavior usually corresponds to less claims for the insurance company. The token reward is calculated in a pre-defined time interval, e.g., after each ride, each week, or each month, and the reward tokens are transferred to the user. In case the user behaves badly, a token penalty has to be paid. The users can later use their token to claim cash-backs from the insurance company, to negotiate a lower price for next years insurance, or exchange them for goods and services depending on the insurer.
 			
-			The latest version of the prototype uses our ERC-20\footnote{\url{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md}} compliant COR token on the Rinkeby TestNet for demonstration purposes. However, later version may rely on the ERC-721\footnote{\url{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md}} standard for non-fungible tokens. The idea is to let the insurers hand out ERC-721 tokens to their customers as rewards and burn them when the users trade the accumulated rewards for price reductions or similar.
+			The latest version of the prototype uses our ERC-20 compliant COR token on the Rinkeby TestNet for demonstration purposes. However, later version may rely on the ERC-721\footnote{\url{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md}} standard for non-fungible tokens. The idea is to let the insurers hand out ERC-721 tokens to their customers as rewards and burn them when the users trade the accumulated rewards for price reductions or similar.
 			
 	%		burnable tokens ERC721?\\
 

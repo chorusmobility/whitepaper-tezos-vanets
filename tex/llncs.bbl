@@ -242,6 +242,11 @@ Perrey, R., Lycett, M.: {Service-Oriented Architecture}. In: Applications and
   the Internet Workshops, 2003. Proceedings. 2003 Symposium on. pp. 116--119.
   IEEE (2003)
 
+\bibitem{plasmaWhitepaper}
+Poon, J., Buterin, V.: {Plasma: Scalable Autonomous Smart Contracts -
+  Whitepaper}. URL: \url{https://plasma.io/plasma.pdf} (2017), ({A}ccessed May
+  10, 2018)
+
 \bibitem{iotaWhitepaper}
 Popov, S.: {The Tangle - Version 1.4.2}. URL:
   \url{https://iota.org/IOTA_Whitepaper.pdf} (2018), ({A}ccessed April 22,
@@ -309,6 +314,12 @@ Vickrey, W.: Counterspeculation, auctions, and competitive sealed tenders. The
 \bibitem{wood2014ethereum}
 Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
   URL: \url{http://gavwood.com/paper.pdf} (2014), ({A}ccessed May 01, 2018)
+
+\bibitem{polkadotWhitepaper}
+Wood, G.: {Polkadot: Vision for a Heterogeneous Multi-Chain Framework -
+  Whitepaper}. URL:
+  \url{https://github.com/w3f/polkadot-white-paper/blob/master/PolkaDotPaper.pdf}
+  (2017), ({A}ccessed May 10, 2018)
 
 \bibitem{zhu2014vehicle}
 Zhu, W., Miao, J., Hu, J., Qing, L.: Vehicle detection in driving simulation
