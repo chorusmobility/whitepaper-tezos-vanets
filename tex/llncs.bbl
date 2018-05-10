@@ -16,6 +16,11 @@ Baldessari, R., B{\"o}dekker, B., Deegener, M., Festag, A., Franz, W., Kellum,
   C.C., Kosch, T., Kovacs, A., Lenardi, M., Menig, C., et~al.: {Car-2-Car
   Communication Consortium - Manifesto}  (2007)
 
+\bibitem{beaty1998traffic}
+Beaty, W.: Traffic “experiments” and a cure for waves \& jams. URL:
+  \url{http://amasci.com/amateur/traffic/trafexp.html} (1998), ({A}ccessed May
+  10, 2018)
+
 \bibitem{leidingUnchained}
 Bochem, A., Leiding, B., Hogrefe, D.: {Unchained Identities: Putting a Price on
   Sybil Nodes in Mobile Ad hoc Networks}. In: Security and Privacy in
@@ -50,6 +55,11 @@ Copel, N., Ater, T.: {DAV - Decentralized Autonomous Vehicles (Whitepaper)}.
 Cortright, J.: {Sprawl Tax: How the US Stacks Up Internationally }. URL:
   \url{http://cityobservatory.org/sprawl-tax-how-the-us-stacks-up-internationally/}
   (2016), ({A}ccessed April 26, 2018)
+
+\bibitem{daganzo2002behavioral}
+Daganzo, C.F.: A behavioral theory of multi-lane traffic flow. part i: Long
+  homogeneous freeway sections. Transportation Research Part B: Methodological
+  36(2),  131--158 (2002)
 
 \bibitem{qtumWhitepaper}
 Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
@@ -123,6 +133,11 @@ Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
 Jentzsch, C.: {Decentralized autonomous organization to automate governance -
   Whitepaper}. URL: \url{https://download.slock.it/public/DAO/WhitePaper.pdf}
   (2016), ({A}ccessed May 04, 2018)
+
+\bibitem{kesting2008adaptive}
+Kesting, A., Treiber, M., Sch{\"o}nhof, M., Helbing, D.: Adaptive cruise
+  control design for active congestion avoidance. Transportation Research Part
+  C: Emerging Technologies  16(6),  668--683 (2008)
 
 \bibitem{tezosWhitepaper}
 {L. M. Goodman}: {Tezos - A Self-Amending Crypto-Ledger (White paper)}. URL:
@@ -310,6 +325,15 @@ Uzc{\'a}tegui, R.A., De~Sucre, A.J., Acosta-Marum, G.: Wave: A tutorial. IEEE
 \bibitem{vickrey1961counterspeculation}
 Vickrey, W.: Counterspeculation, auctions, and competitive sealed tenders. The
   Journal of finance  16(1),  8--37 (1961)
+
+\bibitem{wang2001application}
+Wang, D., Jing, C.: Application of traffic-wave theory in urban traffic
+  analysis. In: Vehicle Electronics Conference, 2001. IVEC 2001. Proceedings of
+  the IEEE International. pp. 143--147. IEEE (2001)
+
+\bibitem{whitham1955kinematic}
+Whitham, G.: On kinematic waves ii. a theory of traffic flow on long crowded
+  roads. Proc. R. Soc. Lond. A  229(1178),  317--345 (1955)
 
 \bibitem{wood2014ethereum}
 Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
