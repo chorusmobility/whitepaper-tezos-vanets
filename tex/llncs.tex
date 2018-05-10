@@ -29,14 +29,14 @@
 
 	{
 	%
-	\title{Enabling the Vehicle Economy Using a Blockchain-Based Value Transaction Layer Protocol for Vehicular Ad-Hoc Networks\\ \small Research Paper - Version 0.3\\\small \today}
+	\title{Enabling the Vehicle Economy Using a Blockchain-Based Value Transaction Layer Protocol for Vehicular Ad-Hoc Networks\\ \small Research Paper - Version 1.0\\\small \today}
 	
 	\author{Benjamin Leiding \and Will Vorobev}
 	
 	\institute{ 
 		Chorus Technology\\
 		Email: hello@chorus.technology\\
-		Website: chorus.technology	
+		%Website: chorus.technology	
 	}
 	
 	\maketitle
@@ -573,7 +573,7 @@ Our end goal is to enable vehicles to own themselves and transact with each othe
 		\subsection{Prototype Architecture}
 			\label{ss:protoype-architecture}				
 
-			In order to reduce complexity and speed up the development process of the prototype, we decided to simplify the architecture of the application. As a result, merged the Chorus mobile application (illustrated earlier in Figure~\ref{fig:system-architecture--app}) and the \textit{vehicle} sub-system (presented earlier in Figure~\ref{fig:system-architecture--vehicle}) and only implemented the most basic functionalities of the V2X platform (Figure~\ref{fig:system-architecture--platform}) that is necessary to deploy the prototype. The resulting prototype architecture of our Android application is shown in Figure~\ref{fig:prototype-system-architecture} using a UML component diagram. Due to the simplification and reduced complexity, the illustration is very similar to Figure~\ref{fig:system-architecture--app} except that the Chorus firmware component is now located on the user's mobile phone and manages the good-driving behavior plug-in and also accommodates the necessary blockchain client. We implemented and deployed a smart contract that receives the driving data collected via the smartphone's sensors, e..g, \textbf{add-stuff-here}, stores them on IPFS\footnote{\url{https://ipfs.io/}} and calculates the drivers' score. A score based on the gathered data is calculated for each single ride, as well as a second main score that represents the overall driving behavior based in all previous rides. To ease the integration and reduce development time, we decided to use Infura\footnote{\url{https://infura.io/}} that provides an API with secure, reliable, and scalable access to Ethereum (Rinkeby TestNet) and IPFS. The V2X platform is not shown in Figure~\ref{Bibliography} and we only implemented a rudimentary version of that component, basically focusing on the smart contract functionalities and plug-in interaction and transaction.
+			In order to reduce complexity and speed up the development process of the prototype, we decided to simplify the architecture of the application. As a result, merged the Chorus mobile application (illustrated earlier in Figure~\ref{fig:system-architecture--app}) and the \textit{vehicle} sub-system (presented earlier in Figure~\ref{fig:system-architecture--vehicle}) and only implemented the most basic functionalities of the V2X platform (Figure~\ref{fig:system-architecture--platform}) that is necessary to deploy the prototype. The resulting prototype architecture of our Android application is shown in Figure~\ref{fig:prototype-system-architecture} using a UML component diagram. Due to the simplification and reduced complexity, the illustration is very similar to Figure~\ref{fig:system-architecture--app} except that the Chorus firmware component is now located on the user's mobile phone and manages the good-driving behavior plug-in and also accommodates the necessary blockchain client. We implemented and deployed a smart contract that receives the driving data collected via the smartphone's sensors, e..g, acceleration, speed, gyroscope data and so on, stores them on IPFS\footnote{\url{https://ipfs.io/}} and calculates the drivers' score. A score based on the gathered data is calculated for each single ride, as well as a second main score that represents the overall driving behavior based in all previous rides. To ease the integration and reduce development time, we decided to use Infura\footnote{\url{https://infura.io/}} that provides an API with secure, reliable, and scalable access to Ethereum (Rinkeby TestNet) and IPFS. The V2X platform is not shown in Figure~\ref{Bibliography} and we only implemented a rudimentary version of that component, basically focusing on the smart contract functionalities and plug-in interaction and transaction.
 
 			\begin{figure}[H]
 				\centering
@@ -595,7 +595,9 @@ Our end goal is to enable vehicles to own themselves and transact with each othe
 		\subsection{Eco-System and Economics}
 			\label{ss:prototype-incentives}
 		
-			\textbf{Work-In-Progress}		
+			The economic incentive concept for the Chorus prototype is rather simple. Based on the driving behavior score for each ride as well as the drivers' overall score, a token reward is calculated by the insurance company. The better the driving behavior, the higher the reward since good driving behavior usually corresponds to less claims for the insurance company. The token reward is calculated in a pre-defined time interval, e.g., after each ride, each week, or each month, and the reward tokens are transferred to the user. In case the user behaves badly, a token penalty has to be paid. The users can later use their token to claim cash-backs from the insurance company, to negotiate a lower price for next years insurance, or exchange them for goods and services depending on the insurer.
+			
+			The latest version of the prototype uses our ERC-20\footnote{\url{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md}} compliant COR token on the Rinkeby TestNet for demonstration purposes. However, later version may rely on the ERC-721\footnote{\url{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md}} standard for non-fungible tokens. The idea is to let the insurers hand out ERC-721 tokens to their customers as rewards and burn them when the users trade the accumulated rewards for price reductions or similar.
 			
 	%		burnable tokens ERC721?\\
 
