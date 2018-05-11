@@ -291,7 +291,7 @@
 			
 			In the following, a technology-agnostic UML-component-diagram representation is used to illustrate the system architecture \cite{booch1996unified}\cite{specification2007omg}. The UML notation elements used to model the architecture are presented in Figure \ref{fig:uml-component-diagram-overview}. In UML, components are represented as rectangular boxes and labeled either with the keyword \textit{component}, or with the component icon in the right-hand upper corner. A component may consists of further sub-components and is implemented by one, or more classes, or objects. Moreover, components are reusable and communicate via two types of interfaces as illustrated in Figure \ref{fig:uml-component-diagram-overview}. Small squares depict ports that are attached to the border of components and expose required and provided interfaces. Ports may also specify inputs and outputs as they operate uni-, or bi-directionally \cite{booch1996unified}\cite{specification2007omg}. Once more, sticky men are used to depict entities and their interactions with the system. 
 			
-			\begin{figure}[H]
+			\begin{figure}
 				\centering
 				\includegraphics[scale=0.12]{Figures/UML-notation-elements.png}
 				\caption{UML-component diagram notation elements.}	
@@ -308,7 +308,7 @@
 				\label{sss:high-level-architecture}
 				
 				The highest architecture abstraction level of our system is depicted in Figure~\ref{fig:high-level-architecture}. The representation is divided into two distinct packages, e.g, the Blockchain package and the Vehicle-System package. In UML, packages are used “to group elements, and provide a namespace for the grouped elements”  \cite{specification2007omg}. In the context of this architecture illustration, packages are used to provide a separation of concerns between the blockchain part and the vehicle-related system components, as well as the Chorus mobile smartphone application. The vehicle-system package consists of three main components, e.g., the Chorus firmware, the vehicles manufacturer OS and the component managing the underlying hardware of the vehicle, and several smaller components that will be detailed in Section~\ref{sss:architecture-refinements}.
-				\begin{figure}[H]
+				\begin{figure}
 					\centering
 					\includegraphics[scale=0.75]{Figures/longterm-architecture/20180507_high-level-architecture.pdf}
 					\caption{High-level architecture of the Chorus V2X system.}	
@@ -431,15 +431,13 @@
 			
 			During a Vickrey auction, participants exchange sealed bids. Each bidder submits a written and signed bid without having any knowledge of the bids of the other participants. After submitting all bids, the sealed bids are opened and the highest bidder wins. But instead of paying the price of this highest offer, the price paid is the second-highest bid. Due to space constraints and the technical nature of this whitepaper we will not cover the economical and game theoretical implications concepts of Vickrey auctions and instead refer the reader to specific supplementary literature, e.g., \cite{ausubel2006lovely}\cite{edelman2007internet}\cite{lucking2000vickrey}\cite{moldovanu1998goethe}\cite{vickrey1961counterspeculation}.
 
-			Figure~\ref{fig:auction-algorithm-1-1} presents the sequence diagram of our one-to-one auction algorithm. We assume that the buyer is not willing to pay more than US\$3, and the seller is not selling for less than US\$2.80. As mentioned in our AOM goal model (Figure~\ref{fig:top-level-aom-goal-model-extended}), speed is one of the non-functional goals of our system - hence, only one auction round is conducted.  Both participants prepare an encrypted (sealed) and signed bid before exchanging the bids. As soon as both participants received the other parties bid, the encryption keys are exchanged as well. Buyer and seller decrypt the bids and compare the offers. Given the case that the buyer offered more than US\$2.80 the auction is successful and due to the second-price rule of Vickrey auctions, the buyer pays US\$2.80 to the seller. In case the buyer offers less than the seller's minimum price the auction ends without a deal.
-			
+			Figure~\ref{fig:auction-algorithm-1-1} presents the sequence diagram of our one-to-one auction algorithm. We assume that the buyer is not willing to pay more than US\$3, and the seller is not selling for less than US\$2.80. As mentioned in our AOM goal model (Figure~\ref{fig:top-level-aom-goal-model-extended}), speed is one of the non-functional goals of our system - hence, only one auction round is conducted.  Both participants prepare an encrypted (sealed) and signed bid before exchanging the bids. As soon as both participants received the other parties bid, the encryption keys are exchanged as well. Buyer and seller decrypt the bids and compare the offers. Given the case that the buyer offered more than US\$2.80 the auction is successful and due to the second-price rule of Vickrey auctions, the buyer pays US\$2.80 to the seller. In case the buyer offers less than the seller's minimum price the auction ends without a deal.	
 			\begin{figure}
 				\centering
 				\includegraphics[scale=0.54]{Figures/auction/20180501_auction-aglorithms--1-to-1.png}
 				\caption{Chorus auction algorithm - 1 buyer and 1 seller.}	
 				\label{fig:auction-algorithm-1-1}
 			\end{figure}
-
 			In case multiple buyers and sellers participate in an auction the workflow is very similar as illustrated in Figure~\ref{fig:auction-algorithm-X-X}. We assume a scenario where buyer one is willing to pay a price of US\$1.80, buyer two offers a price of US\$3.20 and buyer three offering US\$3.50. The seller is not selling for less than US\$2.0. Again, we only conduct a single auction round and the buyers as well as the seller all submit their bid in an encrypted and signed envelope that is distributed and send to all registered participants. As soon as all participants received the bids, the encryption keys are exchanged as well and the sealed bids are decrypted. Buyer three wins the auction and pays the seller the price of buyer two that offered US\$3.20.
 			\begin{figure}
 				\centering
@@ -493,7 +491,7 @@
 
 			In order to reduce complexity and speed up the development process of the prototype, we decided to simplify the architecture of the application. As a result, we merged the Chorus mobile application (illustrated earlier in Figure~\ref{fig:system-architecture--app}) and the \textit{vehicle} sub-system (presented earlier in Figure~\ref{fig:system-architecture--vehicle}) and only implemented the most basic functionalities of the V2X platform (Figure~\ref{fig:system-architecture--platform}) that are necessary to deploy the prototype. The resulting prototype architecture of our Android application is shown in Figure~\ref{fig:prototype-system-architecture} using a UML component diagram. Due to the simplification and reduced complexity, the illustration is very similar to Figure~\ref{fig:system-architecture--app} except that the Chorus firmware component is now located on the user's mobile phone and manages the good-driving behavior plug-in and also accommodates the necessary blockchain client. We implemented and deployed a smart contract that receives driving data collected via the smartphone's sensors, e.g., acceleration, speed, gyroscope data and so on, stores them on IPFS\footnote{\url{https://ipfs.io/}} and calculates the drivers' score. A score based on the gathered data is calculated for each single ride, as well as a second main score that represents the overall driving behavior based on all previous rides. To ease the integration and reduce development time, we decided to use Infura\footnote{\url{https://infura.io/}} that provides an API with secure, reliable, and scalable access to Ethereum (Rinkeby TestNet) and IPFS. The V2X platform is not shown in Figure~\ref{fig:prototype-system-architecture} and we only implemented a rudimentary version of that component, basically focusing on the smart contract functionalities and plug-in interaction and transaction. The mobile prototype application is available on our website\footnote{\url{https://www.chorus.technology/}}. 
 
-			\begin{figure}[H]
+			\begin{figure}
 				\centering
 				\includegraphics[scale=0.65]{Figures/prototype-architecture/20180509_prototype-architecture-merge.pdf}
 				\caption{System architecture of the Chorus prototype.}	
