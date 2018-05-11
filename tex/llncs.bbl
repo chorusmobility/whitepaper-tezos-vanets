@@ -17,7 +17,7 @@ Baldessari, R., B{\"o}dekker, B., Deegener, M., Festag, A., Franz, W., Kellum,
   Communication Consortium - Manifesto}  (2007)
 
 \bibitem{beaty1998traffic}
-Beaty, W.: Traffic “experiments” and a cure for waves \& jams. URL:
+Beaty, W.: {Traffic “Experiments” and a Cure for Waves \& Jams}. URL:
   \url{http://amasci.com/amateur/traffic/trafexp.html} (1998), ({A}ccessed May
   10, 2018)
 
@@ -29,6 +29,12 @@ Bochem, A., Leiding, B., Hogrefe, D.: {Unchained Identities: Putting a Price on
 \bibitem{booch1996unified}
 Booch, G., Jacobson, I., Rumbaugh, J., et~al.: {The Unified Modeling Language}.
   Unix Review  14(13), ~5 (1996)
+
+\bibitem{teslaAccident}
+Boudette, N.E.: {Fatal Tesla Crash Raises New Questions About Autopilot
+  System}. URL:
+  \url{https://www.nytimes.com/2018/03/31/business/tesla-crash-autopilot-musk.html}
+  (2018), ({A}ccessed May 11, 2018)
 
 \bibitem{SemadaWhitepaper}
 Calcaterra, C., Kaal, W.A., Vlad, A.: {Semada Technical Whitepaper - Blockchain
@@ -119,6 +125,13 @@ Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
   Proceedings. 1999 IEEE/RSJ International Conference on. vol.~3, pp.
   1507--1512. IEEE (1999)
 
+\bibitem{carStatistics}
+Harris, M.: {The 2,578 Problems With Self-Driving Cars - Reports from companies
+  testing autonomous vehicles in California show they are improving but still
+  far from perfect}. URL:
+  \url{https://spectrum.ieee.org/cars-that-think/transportation/self-driving/the-2578-problems-with-self-driving-cars}
+  (2017), ({A}ccessed May 11, 2018)
+
 \bibitem{ieee1994ieee}
 {IEEE Computer Society. Software Engineering Technology Committee and Institute
   of Electrical and Electronics Engineers}: {IEEE Recommended Practice for
@@ -165,6 +178,16 @@ Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
   Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. pp.
   137--140. ACM (2016)
 
+\bibitem{levander2017autonomous}
+Levander, O.: Autonomous ships on the high seas. IEEE Spectrum  54(2),  26--31
+  (2017)
+
+\bibitem{uberAccident}
+Levin, S.: {Uber crash shows 'catastrophic failure' of self-driving technology,
+  experts say}. URL:
+  \url{https://www.theguardian.com/technology/2018/mar/22/self-driving-car-uber-death-woman-failure-fatal-crash-arizona}
+  (2018), ({A}ccessed May 11, 2018)
+
 \bibitem{li2010overview}
 Li, Y.J.: An overview of the dsrc/wave technology. In: International Conference
   on Heterogeneous Networking for Quality, Reliability, Security and
@@ -184,6 +207,11 @@ Lundbaek, L.N., Beutel, D.J., Huth, M., Kirk, L.: {XAIN - Practical Proof of
 \bibitem{macneille2018vehicle}
 MacNeille, P.R., Wisniewski, J., DeCia, N.: {Vehicle-to-Vehicle Cooperation to
   Marshal Traffic} (Mar~27 2018), uS Patent 9,928,746
+
+\bibitem{carsCalifornia}
+Marshall, A.: {Fully Self-Driving Cars Are Really Truly Coming to California}.
+  URL: \url{https://www.wired.com/story/california-self-driving-car-laws/}
+  (2018), ({A}ccessed May 11, 2018)
 
 \bibitem{marshall2014agent}
 Marshall, J.: {Agent-Based Modelling of Emotional Goals in Digital Media Design
@@ -317,6 +345,13 @@ Sterling, L., Taveter, K.: {The Art of Agent-Oriented Modeling}. MIT Press
 \bibitem{thrun2010toward}
 Thrun, S.: Toward robotic cars. Communications of the ACM  53(4),  99--106
   (2010)
+
+\bibitem{trosterer2017transport}
+Tr{\"o}sterer, S., Meneweger, T., Meschtscherjakov, A., Tscheligi, M.:
+  Transport companies, truck drivers, and the notion of semi-autonomous trucks:
+  A contextual examination. In: Proceedings of the 9th International Conference
+  on Automotive User Interfaces and Interactive Vehicular Applications Adjunct.
+  pp. 201--205. ACM (2017)
 
 \bibitem{uzcategui2009wave}
 Uzc{\'a}tegui, R.A., De~Sucre, A.J., Acosta-Marum, G.: Wave: A tutorial. IEEE
