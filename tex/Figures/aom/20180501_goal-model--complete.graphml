@@ -105,7 +105,7 @@
           <y:Geometry height="71.25292307692308" width="224.16036923076933" x="318.91981538461533" y="-42.886267656909865"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.0" x="21.080184615384667" y="3.626461538461541">&lt;html&gt;&lt;b&gt;Provide a V2X interaction&lt;br&gt;and transaction layer&lt;br&gt;library for (autonomous)&lt;br&gt; vehicles&lt;/b&gt;&lt;/html&gt;<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.0" x="21.080184615384667" y="3.626461538461541">&lt;html&gt;&lt;b&gt;Provide a V2X interaction&lt;br&gt;and transaction layer&lt;br&gt;and a blockchain-based&lt;br&gt;V2X platform&lt;/b&gt;&lt;/html&gt;<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
