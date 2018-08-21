@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: llncs.aux
+The style file: splncs03.bst
+Database file #1: Bibliography.bib
+Repeated entry---line 305 of file Bibliography.bib
+ : @inproceedings{leiding2016self
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in baldessari2007car
+You've used 22 entries,
+            2785 wiz_defined-function locations,
+            714 strings with 9014 characters,
+and the built_in function-call counts, 11404 in all, are:
+= -- 961
+> -- 339
+< -- 16
++ -- 140
+- -- 118
+* -- 687
+:= -- 1471
+add.period$ -- 32
+call.type$ -- 22
+change.case$ -- 146
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 1005
+empty$ -- 1055
+format.name$ -- 131
+if$ -- 2503
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 202
+newline$ -- 71
+num.names$ -- 44
+pop$ -- 400
+preamble$ -- 1
+purify$ -- 102
+quote$ -- 0
+skip$ -- 290
+stack$ -- 0
+substring$ -- 641
+swap$ -- 531
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 88
+warning$ -- 1
+while$ -- 96
+width$ -- 24
+write$ -- 226
+(There was 1 error message)

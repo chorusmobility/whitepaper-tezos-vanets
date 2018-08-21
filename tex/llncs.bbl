@@ -1,0 +1,117 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{al2014comprehensive}
+{Al-Sultan, Saif and Al-Doori, Moath M and Al-Bayatti, Ali H and Zedan,
+  Hussien}: {A Comprehensive Survey on Vehicular Ad Hoc Network}. {Journal of
+  Network and Computer Applications}  37,  380--392 (2014)
+
+\bibitem{baldessari2007car}
+Baldessari, R., B{\"o}dekker, B., Deegener, M., Festag, A., Franz, W., Kellum,
+  C.C., Kosch, T., Kovacs, A., Lenardi, M., Menig, C., et~al.: {Car-2-Car
+  Communication Consortium - Manifesto}  (2007)
+
+\bibitem{leidingUnchained}
+Bochem, A., Leiding, B., Hogrefe, D.: {Unchained Identities: Putting a Price on
+  Sybil Nodes in Mobile Ad hoc Networks}. In: Security and Privacy in
+  Communication Networks (SecureComm 2018). Singapore (August 2018)
+
+\bibitem{SemadaWhitepaper}
+Calcaterra, C., Kaal, W.A., Vlad, A.: {Semada Technical Whitepaper - Blockchain
+  Infrastructure for Measuring Domain Specific Reputation in Autonomous
+  Decentralized and Anonymous Systems}. URL:
+  \url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3125822} (2018),
+  ({A}ccessed April 18, 2018)
+
+\bibitem{christidis2016blockchains}
+Christidis, K., Devetsikiotis, M.: {Blockchains and Smart Contracts for the
+  Internet of Things}. IEEE Access  4,  2292--2303 (2016)
+
+\bibitem{CivicWhitepaper}
+{Civic Technologies, Inc.}: {CIVIC - Whitepaper}. URL:
+  \url{https://tokensale.civic.com/CivicTokenSaleWhitePaper.pdf} (2017),
+  ({A}ccessed May 01, 2018)
+
+\bibitem{qtumWhitepaper}
+Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
+  Protocols on a Distributed Mobile Application Platform}. URL:
+  \url{https://qtum.org/uploads/files/a2772efe4dc8ed1100319c6480195fb1.pdf}
+  (2017), ({A}ccessed May 01, 2018)
+
+\bibitem{dokic2015european}
+Dokic, J., M{\"u}ller, B., Meyer, G.: European roadmap smart systems for
+  automated driving. European Technology Platform on Smart Systems Integration
+  (2015)
+
+\bibitem{faezipour2012progress}
+Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
+  in Intelligent Vehicle Area Networks}. Communications of the ACM  55(2),
+  90--100 (2012)
+
+\bibitem{gehrig1999dead}
+Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
+  for an autonomous car. In: Intelligent Robots and Systems, 1999. IROS'99.
+  Proceedings. 1999 IEEE/RSJ International Conference on. vol.~3, pp.
+  1507--1512. IEEE (1999)
+
+\bibitem{tezosWhitepaper}
+{L. M. Goodman}: {Tezos - A Self-Amending Crypto-Ledger (White paper)}. URL:
+  \url{https://www.tezos.com/static/papers/white_paper.pdf} (2014), ({A}ccessed
+  April 27, 2018)
+
+\bibitem{AuthcoinLeiding2016MCIS}
+Leiding, B., Cap, C.H., Mundt, T., Rashidibajgan, S.: {Authcoin: Validation and
+  Authentication in Decentralized Networks}. In: The 10th Mediterranean
+  Conference on Information Systems - MCIS 2016. Cyprus, CY (September 2016)
+
+\bibitem{leiding2016self}
+Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
+  Vehicular Ad-Hoc Networks}. In: Proceedings of the 2016 ACM International
+  Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. pp.
+  137--140. ACM (2016)
+
+\bibitem{mccorry2015authenticated}
+McCorry, P., Shahandashti, S.F., Clarke, D., Hao, F.: {Authenticated key
+  exchange over bitcoin}. In: International Conference on Research in Security
+  Standardisation. pp. 3--20. Springer (2015)
+
+\bibitem{nguyen2016blockchain}
+Nguyen, Q.K.: {Blockchain - A Financial Technology for Future Sustainable
+  Development}. In: Green Technology and Sustainable Development (GTSD),
+  International Conference on. pp. 51--54. IEEE (2016)
+
+\bibitem{ouaddah2017towards}
+Ouaddah, A., Elkalam, A.A., Ouahman, A.A.: {Towards a Novel Privacy-Preserving
+  Access Control Model Based on Blockchain Technology in IoT}. In: Europe and
+  MENA Cooperation Advances in Information and Communication Technologies, pp.
+  523--533. Springer (2017)
+
+\bibitem{autonomyLevelsSAE}
+{SAE International}: {Automated Driving - Levels of Driving Automation as
+  Defined in SAE International Standard J3016}. URL:
+  \url{https://web.archive.org/web/20170903105244/https://www.sae.org/misc/pdfs/automated_driving.pdf}
+  (2014), ({A}ccessed May 01, 2018)
+
+\bibitem{saltWhitepaper}
+{SALT Technology, Ltd.}: {SALT - Blockchain-Backed Loans - Whitepaper}. URL:
+  \url{https://membership.saltlending.com/files/abstract.pdf} (2017),
+  ({A}ccessed April 25, 2018)
+
+\bibitem{SelfkeyWhitepaper}
+{SelfKey Foundation}: {SelfKey - Whitepaper}. URL:
+  \url{https://selfkey.org/whitepaper/} (2017), ({A}ccessed April 27, 2018)
+
+\bibitem{thrun2010toward}
+Thrun, S.: Toward robotic cars. Communications of the ACM  53(4),  99--106
+  (2010)
+
+\bibitem{wood2014ethereum}
+Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
+  URL: \url{http://gavwood.com/paper.pdf} (2014), ({A}ccessed May 01, 2018)
+
+\bibitem{zhu2014vehicle}
+Zhu, W., Miao, J., Hu, J., Qing, L.: Vehicle detection in driving simulation
+  using extreme learning machine. Neurocomputing  128,  160--165 (2014)
+
+\end{thebibliography}
