@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  26 AUG 2018 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  26 AUG 2018 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,12 +397,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Warning: Reference `s:section-6' on page 2 undefined on input line 101.
 
-
-LaTeX Warning: Reference `ss:autonomous-vehicles' on page 2 undefined on input 
-line 110.
-
 [2]
-<Figures/Vanets.png, id=139, 1132.23pt x 1059.96pt>
+<Figures/Vanets.png, id=141, 1132.23pt x 1059.96pt>
 File: Figures/Vanets.png Graphic file (type png)
 <use Figures/Vanets.png>
 Package pdftex.def Info: Figures/Vanets.png  used on input line 154.
@@ -461,23 +457,23 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 32 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6123 strings out of 492982
- 88973 string characters out of 6134896
+ 6122 strings out of 492982
+ 88949 string characters out of 6134896
  190050 words of memory out of 5000000
- 9579 multiletter control sequences out of 15000+600000
+ 9578 multiletter control sequences out of 15000+600000
  7456 words of font info for 27 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 29i,7n,28p,1723b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,28p,1723b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (6 pages, 206966 bytes).
+Output written on llncs.pdf (6 pages, 207055 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
+ 239 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
  48 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
