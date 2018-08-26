@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  26 AUG 2018 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  26 AUG 2018 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -398,7 +398,7 @@ Underfull \vbox (badness 5105) has occurred while \output is active []
 
  [2]
 [3]
-<Figures/Vanets.png, id=179, 1132.23pt x 1059.96pt>
+<Figures/Vanets.png, id=182, 1132.23pt x 1059.96pt>
 File: Figures/Vanets.png Graphic file (type png)
 <use Figures/Vanets.png>
 Package pdftex.def Info: Figures/Vanets.png  used on input line 132.
@@ -491,10 +491,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (7 pages, 223974 bytes).
+Output written on llncs.pdf (7 pages, 225271 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
+ 285 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
  55 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
