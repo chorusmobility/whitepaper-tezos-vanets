@@ -10,45 +10,45 @@ Repeated entry---line 309 of file Bibliography.bib
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in baldessari2007car
-You've used 20 entries,
+You've used 26 entries,
             2785 wiz_defined-function locations,
-            703 strings with 8685 characters,
-and the built_in function-call counts, 9993 in all, are:
-= -- 835
-> -- 300
+            737 strings with 9814 characters,
+and the built_in function-call counts, 12013 in all, are:
+= -- 992
+> -- 347
 < -- 11
-+ -- 124
-- -- 104
-* -- 591
-:= -- 1293
-add.period$ -- 29
-call.type$ -- 20
-change.case$ -- 133
++ -- 144
+- -- 118
+* -- 690
+:= -- 1563
+add.period$ -- 34
+call.type$ -- 26
+change.case$ -- 162
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 877
-empty$ -- 945
-format.name$ -- 115
-if$ -- 2197
+cite$ -- 27
+duplicate$ -- 1065
+empty$ -- 1167
+format.name$ -- 130
+if$ -- 2639
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 175
-newline$ -- 65
-num.names$ -- 40
-pop$ -- 365
+int.to.str$ -- 26
+missing$ -- 212
+newline$ -- 83
+num.names$ -- 52
+pop$ -- 457
 preamble$ -- 1
-purify$ -- 91
+purify$ -- 110
 quote$ -- 0
-skip$ -- 252
+skip$ -- 297
 stack$ -- 0
-substring$ -- 540
-swap$ -- 450
+substring$ -- 626
+swap$ -- 531
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
+type$ -- 104
 warning$ -- 1
-while$ -- 83
-width$ -- 22
-write$ -- 202
+while$ -- 101
+width$ -- 28
+write$ -- 258
 (There was 1 error message)

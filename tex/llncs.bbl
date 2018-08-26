@@ -33,6 +33,11 @@ Christidis, K., Devetsikiotis, M.: {Blockchains and Smart Contracts for the
   \url{https://tokensale.civic.com/CivicTokenSaleWhitePaper.pdf} (2017),
   ({A}ccessed May 01, 2018)
 
+\bibitem{commuteUSvsEurope}
+Cortright, J.: {Sprawl Tax: How the US Stacks Up Internationally }. URL:
+  \url{http://cityobservatory.org/sprawl-tax-how-the-us-stacks-up-internationally/}
+  (2016), ({A}ccessed April 26, 2018)
+
 \bibitem{qtumWhitepaper}
 Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
   Protocols on a Distributed Mobile Application Platform}. URL:
@@ -49,10 +54,20 @@ Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
   \url{https://www.foam.space/publicAssets/FOAM_Whitepaper_May2018.pdf} (2018),
   ({A}ccessed May 08, 2018)
 
+\bibitem{zealand2006car}
+Goodyear, R., Ralphs, M.: Car, bus, bike or train: What were the main means of
+  travel to work (2009)
+
 \bibitem{tezosWhitepaper}
 {L. M. Goodman}: {Tezos - A Self-Amending Crypto-Ledger (White paper)}. URL:
   \url{https://www.tezos.com/static/papers/white_paper.pdf} (2014), ({A}ccessed
   April 27, 2018)
+
+\bibitem{intelPassengerEconomy}
+Lanctot, R.: {Accelerating the Future: The Economic Impact of the Emerging
+  Passenger Economy}. URL:
+  \url{https://newsroom.intel.com/newsroom/wp-content/uploads/sites/11/2017/05/passenger-economy.pdf}
+  (2017), ({A}ccessed April 27, 2018)
 
 \bibitem{leiding2017securing}
 Leiding, B.: {Securing the Authcoin Protocol Using Security Risk-oriented
@@ -79,6 +94,19 @@ Leiding, B., Norta, A.: Mapping requirements specifications into a formalized
 McCorry, P., Shahandashti, S.F., Clarke, D., Hao, F.: {Authenticated key
   exchange over bitcoin}. In: International Conference on Research in Security
   Standardisation. pp. 3--20. Springer (2015)
+
+\bibitem{mckenzie2015drives}
+McKenzie, B.: {Who Drives to Work? Commuting by Automobile in the United
+  States: 2013}. American Community Survey Reports  (2015)
+
+\bibitem{netherlandsPublicTransport}
+{Mieke Berends-Ballast et al.}: {Transport and Mobility 2016}. URL:
+  \url{https://www.cbs.nl/en-gb/publication/2016/25/transport-and-mobility-2016}
+  (2016), ({A}ccessed April 26, 2018)
+
+\bibitem{nakamoto_bitcoin:2008}
+Nakamoto, S.: Bitcoin: {A} {P}eer-to-{P}eer {E}lectronic {C}ash {S}ystem. URL:
+  \url{https://bitcoin.org/bitcoin.pdf} (2008), ({A}ccessed May 01, 2018)
 
 \bibitem{nguyen2016blockchain}
 Nguyen, Q.K.: {Blockchain - A Financial Technology for Future Sustainable
