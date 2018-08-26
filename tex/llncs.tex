@@ -10,7 +10,9 @@
 \usepackage{hyperref}
 
 \hyphenation{block-chain}
-
+\hyphenation{block-chains}
+\hyphenation{Block-chain}
+\hyphenation{Block-chains}
 	%%%%%%%%%%%%%%%%%%%%%%%55
 	%% Added to enable numbering for subsubsections, otherwise they would look like paragraphs which is ugly
 	%%%%%%%%%%%%%%%%%%%%%%%55
@@ -55,19 +57,28 @@
 		%5.) Why is the solution good/better than other solutions?
 
 %		The next generation of tightly interconnected vehicles offers a variety of new technological as well as  business opportunities. Vehicles form so called vehicular ad-hoc networks (VANETs) in order to enable vehicle-to-vehicle (V2V), vehicle-to-infrastructure (V2I), vehicle-to-human (V2H), or in general vehicle-to-everything (V2X) communication and interaction. A variety of manufacturers started implementing specific use cases that are limited to their own products. However, a default interaction standard for this new economy is still missing. Chorus Mobility presents a blockchain-based system that enables a manufacturer agnostic platform solution that allows VANET participants to enact and transact any kind of services and goods. This whitepaper fills the gap in the state of the art by introducing a blockchain-based transaction and interaction layer that enables our V2X platform for goods and services required to kick-start the upcoming V2X economy. We present the advantages of the system, outline the requirements and goals, as well as the architecture of the Chorus V2X platform and eco-system. In addition, we present a prototype that demonstrates how our system helps mitigating traffic congestions and at the same time provides a mean to car insurance companies to incentivize their customers to practice good driving behavior.
- 
+
+
 
 
 	\end{abstract}
 	
 	
-	\keywords{keword 1}
+	\keywords{VANET, Formal Verification, Tezos, Mobile Ad Hoc Blockchains, Blockchain, Smart Contracts, Interoperability, Vehicle Networks, V2X}
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 	
 	\section{Introduction}
 		\label{s:introduction}
+	
+		The next generation of tightly interconnected vehicles offers a variety of new technologies as well as business opportunities. Vehicles form so-called vehicular ad-hoc networks (VANETs) in order to enable vehicle-to-vehicle (V2V), vehicle-to-infrastructure (V2I), vehicle-to-human (V2H), or in general vehicle-to-everything (V2X) communication and interaction. In our previous research paper, we presented a blockchain-based system that enables a manufacturer agnostic platform solution that allows VANET participants to enact and transact any kind of services and goods. Usually, sophisticated systems of interconnected cars in the context of VANETs assume a full coverage of 5G networks to unfold their full potential. However, nowadays network infrastructure is neither 5G-ready nor does it provide reliable and full coverage of all areas that might be relevant for VANET-based networks. Hence, the conventional mode of operations of all nodes being connected to one blockchain at all times is not feasible. In addition, traditional blockchains also require every node to process each transaction and smart contract commands which are highly inefficient. Therefore, we present a solution based on so-called mobile ad hoc blockchains that enable groups of nodes involved in any kind of collaboration to effectively form temporary networks and coordinate themselves. They only connect to nodes they need to be connected to, depending on the context, for the duration of their interaction.
+		
+		Another critical requirement of VANETs and interconnected vehicles is security. The safety of network participants does not only depend on the vehicle's hardware, but also on the correctness of the software that controls the interaction and transaction within the network. Formal verification is a common way to address the issue proving the correctness of software with respect to a certain formal specification or property using formal methods of mathematics. The self-amending blockchain platform Tezos does not only support Turing complete smart contracts, it also offers built-in formal verification of their smart contract programming languages, thereby fostering the security of our solution.
+		
+		This whitepaper fills the gap by introducing Vehicular Ad Hoc Tezos Blockchains based on mobile ad hoc blockchains that allow groups of nodes to be temporarily disconnected from the overall network but still being able to enact and transact on a local network level for the duration of their interaction. We present the advantages of the system, outline the requirements and goals, as well as the architecture of the system.
+		
+
 
 %		Despite steadily growing public transport networks and systems, especially in most first world countries, cars are still the default standard for urban transportation. In the US, ``about 86 percent of all workers commuted to work by private vehicle, either driving alone or carpooling" \cite{mckenzie2015drives}, even though in recent years the numbers remained relatively stable after decades of consistent increase. Similar applies to other industrial countries \cite{netherlandsPublicTransport}\cite{zealand2006car} though the overall percentage of vehicle commuters in Europe is lower than in the US \cite{commuteUSvsEurope}. While it was normal for the last few decades to own a vehicle and commute on a day-by-day basis, the future will be radically different due to the progressing evolution of self-driving cars and autonomous vehicles. The car-sharing economy that developed in recent years in combination with autonomous cars results in a so called \textit{passenger economy} \cite{intelPassengerEconomy}. Users no longer own cars, instead just hop on an autonomous car, pick a destination and get delivered without any human interaction. An Intel report estimates the size of this economy to be around US\$ seven trillion in 2050 \cite{intelPassengerEconomy}.
 %		
@@ -111,24 +122,24 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Autonomous Vehicles}
-			\label{ss:autonomous-vehicles}
-			
-			Throughout the last 15 years research on autonomous and self-driving cars progressed a lot and nowadays such cars already operating on public streets on a regular base, e.g., Tesla, Waymo and Uber. The ultimate goal of most manufacturers and researchers is to develop the first fully self-driving and autonomous vehicle. In order to clarify some definitions, this section provides a short introduction to the most relevant terms and concepts.
-
-			An autonomous car, also referred to as a driverless car or robotic car, is able to navigate and interact with its environment without human input based on information provided by its sensors \cite{gehrig1999dead}\cite{thrun2010toward}. To do so, modern cars are equipped with radar- and laser sensors, lidars, GPS devices, cameras and several further sensing devices. Based on these information, the vehicle interprets the surrounding world and deduces appropriate action strategies such as avoiding obstacles (other vehicles, humans or a house) on the way to the destination \cite{dokic2015european}\cite{zhu2014vehicle}. As the technology developed over time, vehicles were equipped with more and more sensors, resulting in different driving capabilities. The SAE \cite{autonomyLevelsSAE}
-			defined six levels of driving autonomy to categorize the varying capabilities and progresses of several approaches:		
-			
-			\begin{itemize}
-				\item \textbf{Level 0 (No automation): }No driving autonomy, the driver has to perform all driving tasks and interactions.
-				\item \textbf{Level 1 (Driver assistance): }The vehicle is controlled by the driver, but is supported by some basic driver assistance functionalities.
-				\item \textbf{Level 2 (Partial automation): }The vehicle is able to perform some specific tasks (acceleration or steering) without driver input. Nevertheless, the driver must be fully engaged in driving task and monitor all decision of the car and the environment at all time. The user has to be able to intervene at any given moment. 
-				\item \textbf{Level 3 (Conditional automation): }The driver is still a necessity, but is not required to monitor the vehicle or the environment at any given moment. But given a notification by the vehicle, the driver has to be able to take back control over the car in case the vehicle encounters a situation that it cannot deal with on its own.
-				\item \textbf{Level 4 (High automation): }The vehicle is able to perform all driving tasks without human intervention in most driving scenarios. The driver can take control whenever desired.
-				\item \textbf{Level 5 (Full automation): }The vehicle is able to perform all driving tasks without human intervention in all driving scenarios. The driver can take control whenever desired as long as a steering wheel is still part of the vehicle.
-			\end{itemize}
-			
-			The Chorus interaction- and transaction layer supports and enables a varying number of services for vehicles of each automation level, whereas the most sophisticated applications require SAE level 5 and simpler plug-ins may only require SAE level 0.
+%		\subsection{Autonomous Vehicles}
+%			\label{ss:autonomous-vehicles}
+%			
+%			Throughout the last 15 years research on autonomous and self-driving cars progressed a lot and nowadays such cars already operating on public streets on a regular base, e.g., Tesla, Waymo and Uber. The ultimate goal of most manufacturers and researchers is to develop the first fully self-driving and autonomous vehicle. In order to clarify some definitions, this section provides a short introduction to the most relevant terms and concepts.
+%
+%			An autonomous car, also referred to as a driverless car or robotic car, is able to navigate and interact with its environment without human input based on information provided by its sensors \cite{gehrig1999dead}\cite{thrun2010toward}. To do so, modern cars are equipped with radar- and laser sensors, lidars, GPS devices, cameras and several further sensing devices. Based on these information, the vehicle interprets the surrounding world and deduces appropriate action strategies such as avoiding obstacles (other vehicles, humans or a house) on the way to the destination \cite{dokic2015european}\cite{zhu2014vehicle}. As the technology developed over time, vehicles were equipped with more and more sensors, resulting in different driving capabilities. The SAE \cite{autonomyLevelsSAE}
+%			defined six levels of driving autonomy to categorize the varying capabilities and progresses of several approaches:		
+%			
+%			\begin{itemize}
+%				\item \textbf{Level 0 (No automation): }No driving autonomy, the driver has to perform all driving tasks and interactions.
+%				\item \textbf{Level 1 (Driver assistance): }The vehicle is controlled by the driver, but is supported by some basic driver assistance functionalities.
+%				\item \textbf{Level 2 (Partial automation): }The vehicle is able to perform some specific tasks (acceleration or steering) without driver input. Nevertheless, the driver must be fully engaged in driving task and monitor all decision of the car and the environment at all time. The user has to be able to intervene at any given moment. 
+%				\item \textbf{Level 3 (Conditional automation): }The driver is still a necessity, but is not required to monitor the vehicle or the environment at any given moment. But given a notification by the vehicle, the driver has to be able to take back control over the car in case the vehicle encounters a situation that it cannot deal with on its own.
+%				\item \textbf{Level 4 (High automation): }The vehicle is able to perform all driving tasks without human intervention in most driving scenarios. The driver can take control whenever desired.
+%				\item \textbf{Level 5 (Full automation): }The vehicle is able to perform all driving tasks without human intervention in all driving scenarios. The driver can take control whenever desired as long as a steering wheel is still part of the vehicle.
+%			\end{itemize}
+%			
+%			The Chorus interaction- and transaction layer supports and enables a varying number of services for vehicles of each automation level, whereas the most sophisticated applications require SAE level 5 and simpler plug-ins may only require SAE level 0.
 
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -145,6 +156,28 @@
 				\label{fig:vanets}
 			\end{figure}			
 			Communication in VANETs occurs either inside a vehicle between AUs and OBU, wirelessly between different vehicles (V2V), vehicles and infrastructure (V2I) or vehicles and the infrastructure via broadband (V2B) \cite{faezipour2012progress}. For authentication purposes, each network participant is equipped with a unique public/private key pair that resides in a tamper-proof-device (TPD). In blockchain terms, the TPD is similar to an external hardware wallet.
+
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Formal Verification}
+			\label{ss:formal-verification}
+			
+			basic introduction with motivation, advantages and disadvantages
+			A380 example?
+			
+			
+			connect formal verification and blockchain
+			tezos
+			cardano
+			others?
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Related Work}
+			\label{ss:related-work}
+
+			
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -153,49 +186,85 @@
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
-	\section{Section 3}
+	\section{System Design and Architecture}
 		\label{s:section-3}
 		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{System Architecture}
+			\label{ss:architecture-overview}
+		
+		
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+		\subsection{Identities}
+			\label{ss:identities}
+		
+			involve Authcoin \cite{leiding2017securing}\cite{AuthcoinLeiding2016MCIS}\cite{leiding2017mapping}
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+		\subsection{Blockchain Consensus in VANETs}
+			\label{ss:consensus}
+		
+		
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+				
 	
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 	
 	
-	\section{Section 3}
+	\section{Network and Communication}
 		\label{s:section-4}	
 
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+		
+		\subsection{Inter-Blockchain Communication}
+			\label{ss:inter-blockchain-communication}
+			
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+		\subsection{Network Communication}
+			\label{ss:network-communication}
+		
+			+5g
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+		\subsection{Hubs}
+			\label{ss:blockchain-hubs}
+		
+		%% ----------------------------------------------------------------
+		%% ----------------------------------------------------------------	
+
+
 	
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 	
-	\section{Section 5}
+	\section{Use Cases and Application Scenarios}
 		\label{s:section-5}	
 	
 	
-
-	%% ----------------------------------------------------------------
-	%% ----------------------------------------------------------------
-
-	\section{Section 6}
-		\label{s:section-6}	
-			
-	
-
-	%% ----------------------------------------------------------------
-	%% ----------------------------------------------------------------
-
-	\section{Section 7}
-		\label{s:section-7}	
-		
-
 	
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 
 	\section{Conclusion and Future Work}
 		\label{s:section-8}	
+
+		This whitepaper presents
 
 %		This whitepaper presents the Chorus Mobility blockchain-based transaction and interaction layer that enables a V2X platform for goods and services. We outline and describe the technical foundations of this new economy, the longterm vision and benefits as well as the different use cases and scenarios of V2X transactions and interactions, e.g., vehicle-to-vehicle (V2V), vehicle-to-human (V2H), or vehicle-to-infrastructure (V2I).
 %		
@@ -208,6 +277,17 @@
 %		Next, we present a Chorus prototype implementation. We demonstrate how our protocol can help mitigating traffic congestions and at the same time provides a mean to car insurance companies to incentivize their customers to practice good driving behavior. 	
 %		
 %		Future releases will focus on the longterm vision of Chorus Mobility and the development of the abstract transaction and interaction layer as well as the API and library integration. Besides that, we will also continue to focus on further research aspects of the upcoming V2X economy that will facilitate future developments of Chorus Mobility.
+
+
+	%% ----------------------------------------------------------------
+	%% ----------------------------------------------------------------
+	
+	\section{Notes}
+		\label{s:section-7}	
+	
+		\begin{itemize}
+			\item somehow get FOAM \cite{foamWhitepaper} into this?
+		\end{itemize}
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------

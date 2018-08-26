@@ -39,26 +39,24 @@ Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
   \url{https://qtum.org/uploads/files/a2772efe4dc8ed1100319c6480195fb1.pdf}
   (2017), ({A}ccessed May 01, 2018)
 
-\bibitem{dokic2015european}
-Dokic, J., M{\"u}ller, B., Meyer, G.: European roadmap smart systems for
-  automated driving. European Technology Platform on Smart Systems Integration
-  (2015)
-
 \bibitem{faezipour2012progress}
 Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
   in Intelligent Vehicle Area Networks}. Communications of the ACM  55(2),
   90--100 (2012)
 
-\bibitem{gehrig1999dead}
-Gehrig, S.K., Stein, F.J.: Dead reckoning and cartography using stereo vision
-  for an autonomous car. In: Intelligent Robots and Systems, 1999. IROS'99.
-  Proceedings. 1999 IEEE/RSJ International Conference on. vol.~3, pp.
-  1507--1512. IEEE (1999)
+\bibitem{foamWhitepaper}
+{Foamspace Corp}: {FOAM - Whitepaper}. URL:
+  \url{https://www.foam.space/publicAssets/FOAM_Whitepaper_May2018.pdf} (2018),
+  ({A}ccessed May 08, 2018)
 
 \bibitem{tezosWhitepaper}
 {L. M. Goodman}: {Tezos - A Self-Amending Crypto-Ledger (White paper)}. URL:
   \url{https://www.tezos.com/static/papers/white_paper.pdf} (2014), ({A}ccessed
   April 27, 2018)
+
+\bibitem{leiding2017securing}
+Leiding, B.: {Securing the Authcoin Protocol Using Security Risk-oriented
+  Patterns}
 
 \bibitem{AuthcoinLeiding2016MCIS}
 Leiding, B., Cap, C.H., Mundt, T., Rashidibajgan, S.: {Authcoin: Validation and
@@ -70,6 +68,12 @@ Leiding, B., Memarmoshrefi, P., Hogrefe, D.: {Self-Managed and Blockchain-Based
   Vehicular Ad-Hoc Networks}. In: Proceedings of the 2016 ACM International
   Joint Conference on Pervasive and Ubiquitous Computing: Adjunct. pp.
   137--140. ACM (2016)
+
+\bibitem{leiding2017mapping}
+Leiding, B., Norta, A.: Mapping requirements specifications into a formalized
+  blockchain-enabled authentication protocol for secured personal identity
+  assurance. In: International Conference on Future Data and Security
+  Engineering. pp. 181--196. Springer (2017)
 
 \bibitem{mccorry2015authenticated}
 McCorry, P., Shahandashti, S.F., Clarke, D., Hao, F.: {Authenticated key
@@ -87,12 +91,6 @@ Ouaddah, A., Elkalam, A.A., Ouahman, A.A.: {Towards a Novel Privacy-Preserving
   MENA Cooperation Advances in Information and Communication Technologies, pp.
   523--533. Springer (2017)
 
-\bibitem{autonomyLevelsSAE}
-{SAE International}: {Automated Driving - Levels of Driving Automation as
-  Defined in SAE International Standard J3016}. URL:
-  \url{https://web.archive.org/web/20170903105244/https://www.sae.org/misc/pdfs/automated_driving.pdf}
-  (2014), ({A}ccessed May 01, 2018)
-
 \bibitem{saltWhitepaper}
 {SALT Technology, Ltd.}: {SALT - Blockchain-Backed Loans - Whitepaper}. URL:
   \url{https://membership.saltlending.com/files/abstract.pdf} (2017),
@@ -102,16 +100,8 @@ Ouaddah, A., Elkalam, A.A., Ouahman, A.A.: {Towards a Novel Privacy-Preserving
 {SelfKey Foundation}: {SelfKey - Whitepaper}. URL:
   \url{https://selfkey.org/whitepaper/} (2017), ({A}ccessed April 27, 2018)
 
-\bibitem{thrun2010toward}
-Thrun, S.: Toward robotic cars. Communications of the ACM  53(4),  99--106
-  (2010)
-
 \bibitem{wood2014ethereum}
 Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
   URL: \url{http://gavwood.com/paper.pdf} (2014), ({A}ccessed May 01, 2018)
-
-\bibitem{zhu2014vehicle}
-Zhu, W., Miao, J., Hu, J., Qing, L.: Vehicle detection in driving simulation
-  using extreme learning machine. Neurocomputing  128,  160--165 (2014)
 
 \end{thebibliography}
