@@ -1,2 +1,3 @@
-This looks like a Whitepaper on Tezos and VANETs
+This is a Whitepaper on Tezos and VANETs
 
+All Rights Reserved. Proof-of-Stake Inc.
