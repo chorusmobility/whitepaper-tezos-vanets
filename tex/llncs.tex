@@ -32,7 +32,7 @@
 
 	{
 	%
-	\title{title\\ - \\ \small Research Paper - Version 0.0\\\small \today}
+	\title{title\\ - \\ \small Research Paper - Version 0.1\\\small \today}
 	
 	\author{Benjamin Leiding \and William V. Vorobev}
 	
@@ -170,13 +170,24 @@
 		
 		%RQ-1: What is the corresponding architecture of the Vehicular Ad Hoc Tezos Blockchain?
 		
+		As previously mentioned in Section~\ref{ss:related-work} the concept of mobile ad hoc blockchains is not new and has been recently applied to mobile ad hoc networks (MANETs) in the form of the MONET project \cite{monetWhitepaper}. The following sections now outline the process of adapting the general concept of mobile ad hoc blockchains to VANETs. VANETs are a sub-category of MANETs. There are two main differences between the two types of networks. First, not all entities in VANETs are mobile and only sparsely connected to the Internet, e.g., RSU and infrastructure components. They are stationary and hence it easy to establish permanent Internet access for them, making them the perfect relay stations. Second, in VANETs the communication nodes are moving on predefined roads in contrast to nodes in MANETs that are not bound to any restrictions. Note that this definition excludes flying vehicles such as drones from VANETs in the context of this work.  
+		
+		Section~\ref{ss:architecture-overview} presents the high-level architecture of the VANET blockchain, followed by Section~\ref{ss:identities} that discusses the topics of identities within our system. Finally, Section~\ref{ss:consensus} outlines the consensus strategies for vehicular ad hoc blockchains.
+		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
 		\subsection{System Architecture}
 			\label{ss:architecture-overview}
+			
+			The system architecture is illustrated in Figure~\ref{fig:architecture-overview}.
 		
-		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.5]{Figures/20180904_monet-vanet.pdf}
+				\caption{Caption.}
+				\label{fig:architecture-overview}
+			\end{figure}		
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -184,7 +195,12 @@
 		\subsection{Identities}
 			\label{ss:identities}
 		
-			involve Authcoin \cite{leiding2017securing}\cite{AuthcoinLeiding2016MCIS}\cite{leiding2017mapping}
+			permissioned blockchain, hence we need to establish identities for vehicles and infrastructure
+			
+			identities 
+			
+		
+			involve Authcoin? \cite{leiding2017securing}\cite{AuthcoinLeiding2016MCIS}\cite{leiding2017mapping}
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -192,13 +208,15 @@
 		\subsection{Blockchain Consensus in VANETs}
 			\label{ss:consensus}
 		
-		
+			totally asynchronous would be nice
+			but probably, something with t= max X time units, should also be fine. Vehicles will not be unconnected for ages
+			
+			vehicles form ad hoc blockchain networks on their own, reach consensus and relay information back to infrastrucure, e.g., RSU that act as hubs or are directly connected to hubs
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 				
 	
-
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 	
@@ -208,6 +226,10 @@
 
 		%RQ-2: What are the detailed network and communication processes?
 
+		Section~\ref{ss:inter-blockchain-communication}
+		Section~\ref{ss:network-communication}		
+		Section~\ref{ss:blockchain-hubs}		
+		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
@@ -276,12 +298,12 @@
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 	
-	\section{Notes}
-		\label{s:section-7}	
-	
-		\begin{itemize}
-			\item somehow get FOAM \cite{foamWhitepaper} into this?
-		\end{itemize}
+%	\section{Notes}
+%		\label{s:section-7}	
+%	
+%		\begin{itemize}
+%			\item somehow get FOAM \cite{foamWhitepaper} into this?
+%		\end{itemize}
 
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
