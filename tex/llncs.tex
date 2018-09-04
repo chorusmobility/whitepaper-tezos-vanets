@@ -156,7 +156,9 @@
 		\subsection{Related Work}
 			\label{ss:related-work}
 
-			MONET \cite{monetWhitepaper}
+			MONET \cite{monetWhitepaper} invented mobile ad hoc blockchains
+			downside -> hashgraph requires license
+			they do not explain how they ensure 1:1 mapping between pub/priv key identity and network participant in their permissioned chain. Right now I could run a sybil node attack
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -192,9 +194,11 @@
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Hubs}
+		\subsection{Tezos Master Blockchain}
 			\label{ss:blockchain-hubs}
 			
+			
+			some hub stuff here
 		
 
 		%% ----------------------------------------------------------------
@@ -203,13 +207,11 @@
 		\subsection{Identities}
 			\label{ss:identities}
 		
-			
-			permissioned blockchain, hence we need to establish identities for vehicles and infrastructure
-			
-			identities 
-			
-		
-			involve Authcoin? \cite{leiding2017securing}\cite{AuthcoinLeiding2016MCIS}\cite{leiding2017mapping}
+			Tamper-proof-devices (TPDs) are a standard component of VANETs. They usually contain a public/private key (similar to wallet addresses) pair that uniquely identifies a vehicle and serves for authentication and signing as well as verification purposes. Usually, TPDs are pre-equipped by the car manufacturer and built into the vehicle's hardware. In the context of blockchains, an identity is further required in most consensus algorithms to uniquely identify participants. Moreover, a mapping between public/private keys (that constitute an identity) and vehicles is also necessary to prevent sybil node attacks \cite{bibid}. 
+			%rephrase - from securecomm paper
+			This type of attack is a common issue in large-scale peer-to-peer (P2P) systems, where hostile or faulty computing elements threaten the security of the whole network. Single faulty entities may be able to present multiple identities, thereby controlling a substantial fraction of the system, consequently undermining its functionality and security \cite{douceur2002sybil}.	
+			%rephrase end			
+			Unfortunately, the majority of current cars does not have a such a TPD that could constitute a cars identity. Hence, an alternative solution is required. We are currently evaluating different approaches. First, equipping vehicles on our own with small hardware devices that can easily be attached to vehicles and contain a TPD that ensures an identity binding. Second, utilizing smartphones as identity providers. Third, using blockchain-based validation and authentication protocols such as Authcoin  \cite{leiding2017securing}\cite{AuthcoinLeiding2016MCIS}\cite{leiding2017mapping}.
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	

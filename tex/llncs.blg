@@ -5,6 +5,10 @@ The style file: splncs03.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "leiding2017securing" isn't style-file defined
 --line 127 of file Bibliography.bib
+Repeated entry---line 250 of file Bibliography.bib
+ : @inproceedings{douceur2002sybil
+ :                                ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 309 of file Bibliography.bib
  : @inproceedings{leiding2016self
  :                               ,
@@ -13,45 +17,45 @@ Warning--I didn't find a database entry for "bibid"
 Warning--I didn't find a database entry for "our-own-paper"
 Warning--I didn't find a database entry for "something-for-V2whatever"
 Warning--empty journal in baldessari2007car
-You've used 27 entries,
+You've used 28 entries,
             2785 wiz_defined-function locations,
-            746 strings with 10099 characters,
-and the built_in function-call counts, 12592 in all, are:
-= -- 1049
-> -- 354
-< -- 12
-+ -- 148
-- -- 120
-* -- 720
-:= -- 1633
-add.period$ -- 37
-call.type$ -- 27
-change.case$ -- 168
+            752 strings with 10206 characters,
+and the built_in function-call counts, 13169 in all, are:
+= -- 1106
+> -- 361
+< -- 13
++ -- 151
+- -- 122
+* -- 750
+:= -- 1703
+add.period$ -- 40
+call.type$ -- 28
+change.case$ -- 174
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 1116
-empty$ -- 1226
-format.name$ -- 132
-if$ -- 2776
+cite$ -- 29
+duplicate$ -- 1167
+empty$ -- 1285
+format.name$ -- 134
+if$ -- 2913
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 220
-newline$ -- 86
-num.names$ -- 54
-pop$ -- 472
+int.to.str$ -- 28
+missing$ -- 228
+newline$ -- 89
+num.names$ -- 56
+pop$ -- 487
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 116
 quote$ -- 0
-skip$ -- 318
+skip$ -- 339
 stack$ -- 0
-substring$ -- 672
-swap$ -- 557
-text.length$ -- 12
+substring$ -- 717
+swap$ -- 583
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 112
 warning$ -- 1
-while$ -- 107
-width$ -- 29
-write$ -- 269
-(There was 1 error message)
+while$ -- 113
+width$ -- 30
+write$ -- 280
+(There were 2 error messages)
