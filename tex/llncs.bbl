@@ -54,11 +54,6 @@ Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
   in Intelligent Vehicle Area Networks}. Communications of the ACM  55(2),
   90--100 (2012)
 
-\bibitem{foamWhitepaper}
-{Foamspace Corp}: {FOAM - Whitepaper}. URL:
-  \url{https://www.foam.space/publicAssets/FOAM_Whitepaper_May2018.pdf} (2018),
-  ({A}ccessed May 08, 2018)
-
 \bibitem{zealand2006car}
 Goodyear, R., Ralphs, M.: Car, bus, bike or train: What were the main means of
   travel to work (2009)
@@ -132,6 +127,11 @@ Ouaddah, A., Elkalam, A.A., Ouahman, A.A.: {Towards a Novel Privacy-Preserving
 \bibitem{SelfkeyWhitepaper}
 {SelfKey Foundation}: {SelfKey - Whitepaper}. URL:
   \url{https://selfkey.org/whitepaper/} (2017), ({A}ccessed April 27, 2018)
+
+\bibitem{vukolic2015quest}
+Vukoli{\'c}, M.: The quest for scalable blockchain fabric: Proof-of-work vs.
+  bft replication. In: International Workshop on Open Problems in Network
+  Security. pp. 112--125. Springer (2015)
 
 \bibitem{wood2014ethereum}
 Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.

@@ -15,43 +15,43 @@ Warning--I didn't find a database entry for "something-for-V2whatever"
 Warning--empty journal in baldessari2007car
 You've used 27 entries,
             2785 wiz_defined-function locations,
-            747 strings with 10085 characters,
-and the built_in function-call counts, 12350 in all, are:
-= -- 1019
+            746 strings with 10099 characters,
+and the built_in function-call counts, 12592 in all, are:
+= -- 1049
 > -- 354
-< -- 11
-+ -- 147
+< -- 12
++ -- 148
 - -- 120
-* -- 706
-:= -- 1607
-add.period$ -- 35
+* -- 720
+:= -- 1633
+add.period$ -- 37
 call.type$ -- 27
-change.case$ -- 167
+change.case$ -- 168
 chr.to.int$ -- 0
 cite$ -- 28
-duplicate$ -- 1096
-empty$ -- 1205
+duplicate$ -- 1116
+empty$ -- 1226
 format.name$ -- 132
-if$ -- 2714
+if$ -- 2776
 int.to.chr$ -- 0
 int.to.str$ -- 27
-missing$ -- 218
+missing$ -- 220
 newline$ -- 86
 num.names$ -- 54
 pop$ -- 472
 preamble$ -- 1
 purify$ -- 113
 quote$ -- 0
-skip$ -- 304
+skip$ -- 318
 stack$ -- 0
-substring$ -- 641
-swap$ -- 545
-text.length$ -- 11
+substring$ -- 672
+swap$ -- 557
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 108
 warning$ -- 1
-while$ -- 104
+while$ -- 107
 width$ -- 29
-write$ -- 268
+write$ -- 269
 (There was 1 error message)
