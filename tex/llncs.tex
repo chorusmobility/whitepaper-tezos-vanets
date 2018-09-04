@@ -180,14 +180,14 @@
 		\subsection{System Architecture}
 			\label{ss:architecture-overview}
 			
-			The system architecture is illustrated in Figure~\ref{fig:architecture-overview}.
-		
+			The system architecture illustrated in Figure~\ref{fig:architecture-overview} extends the commonly used VANET concept of Figure~\ref{fig:vanets} that we introduced earlier. RSUs, vehicles equipped with OBUs and AUs as well as the infrastructure backend remain the same. However, similar to the concept of MONET, mobile nodes, i.e., vehicles, can form so called mobile ad hoc blockchains. Only vehicles within a certain range of each other form such networks. To do so, they agree up on an initial list of participants, while new nodes may join later or current nodes leave - depending on the context.		
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.5]{Figures/20180904_monet-vanet.pdf}
 				\caption{Caption.}
 				\label{fig:architecture-overview}
-			\end{figure}		
+			\end{figure}
+			Nodes that form a vehicular ad hoc blockchain agree up on transactions on their own (see Section~\ref{ss:consensus} for more details on consensus) and periodically forward state and status information to RSUs or other infrastructure entities. Those permanent and fixed components have a direct connection to the Internet as well as the VANET backend which enables them to relay received information from the specific independent vehicular ad hoc blockchains to the main blockchain (depicted at the top of Figure~\ref{fig:architecture-overview}). Vehicular ad hoc blockchains are either directly connected to RSUs or to some other kind of infrastructure that providers access to the Internet. Vehicles that do not have access to a RSU or alternative options can use a mesh-based approach where they connected to an ad hoc network that relays their information to the destination (middle of Figure~\ref{fig:architecture-overview}). Due to the missing full network coverage along the existing road infrastructure, there might be periods where a complete set of nodes is only interconnected among each others, but not to the main network. Our system tolerates such temporary disconnects as detailed later.
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
