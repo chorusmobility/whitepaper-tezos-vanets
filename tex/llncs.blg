@@ -9,46 +9,49 @@ Repeated entry---line 309 of file Bibliography.bib
  : @inproceedings{leiding2016self
  :                               ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "bibid"
+Warning--I didn't find a database entry for "our-own-paper"
+Warning--I didn't find a database entry for "something-for-V2whatever"
 Warning--empty journal in baldessari2007car
-You've used 26 entries,
+You've used 27 entries,
             2785 wiz_defined-function locations,
-            737 strings with 9814 characters,
-and the built_in function-call counts, 12013 in all, are:
-= -- 992
-> -- 347
+            747 strings with 10085 characters,
+and the built_in function-call counts, 12350 in all, are:
+= -- 1019
+> -- 354
 < -- 11
-+ -- 144
-- -- 118
-* -- 690
-:= -- 1563
-add.period$ -- 34
-call.type$ -- 26
-change.case$ -- 162
++ -- 147
+- -- 120
+* -- 706
+:= -- 1607
+add.period$ -- 35
+call.type$ -- 27
+change.case$ -- 167
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 1065
-empty$ -- 1167
-format.name$ -- 130
-if$ -- 2639
+cite$ -- 28
+duplicate$ -- 1096
+empty$ -- 1205
+format.name$ -- 132
+if$ -- 2714
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 212
-newline$ -- 83
-num.names$ -- 52
-pop$ -- 457
+int.to.str$ -- 27
+missing$ -- 218
+newline$ -- 86
+num.names$ -- 54
+pop$ -- 472
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 113
 quote$ -- 0
-skip$ -- 297
+skip$ -- 304
 stack$ -- 0
-substring$ -- 626
-swap$ -- 531
+substring$ -- 641
+swap$ -- 545
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 104
+type$ -- 108
 warning$ -- 1
-while$ -- 101
-width$ -- 28
-write$ -- 258
+while$ -- 104
+width$ -- 29
+write$ -- 268
 (There was 1 error message)
