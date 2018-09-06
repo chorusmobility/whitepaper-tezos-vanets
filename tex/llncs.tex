@@ -159,11 +159,11 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 		\subsection{Related Work}
 			\label{ss:related-work}
 
-			MONET \cite{monetWhitepaper} invented mobile ad hoc blockchains
-			downside -> hashgraph \cite{hashgraphWhitepaper} requires license
-			they do not explain how they ensure 1:1 mapping between pub/priv key identity and network participant in their permissioned chain. Right now I could run a sybil node attack
-			
-			Cosmos exists \cite{cosmosWhitepaper}
+			In our previous work \cite{chorusWhitepaper}\cite{chorus2018MCIS}, we introduced a blockchain-based value transaction layer protocol for vehicular ad hoc networks that is supposed to fuel vehicle economy. However, previous work focused on providing a protocol layer and an abstract platform architecture whereas this work extends our previous efforts and suggests a specific Tezos-based implementation.
+
+			MONET \cite{monetWhitepaper} introduced the idea mobile ad hoc blockchains in combination with the Babble consensus algorithm. The downside of Babble is that it is based on Hashgraph \cite{hashgraphWhitepaper} which is patented in the U.S. and requires a license which limits widespread adoption of their solution. In addition, MONET relies on Ethereum and its smart contracting languages which do not offer built-in formal verification as Tezos does. Finally, the authors do mention a public/private key based identity solution that is necessary for their permissioned blockchain. However, how to prevent sybil node attacks and ensure a mapping between identity and its owner is still unclear.
+
+			Cosmos \cite{cosmosWhitepaper} proposed a network architecture of independent and parallel blockchains that rely on the Tendermint consensus protocol - a partially synchronous BFT consensus protocol derived from the DLS consensus algorithm \cite{dwork1988consensus}. They also introduce the concept of an inter-blockchain communication (IBC) protocol that allows for interaction among the parallel blockchains.
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	

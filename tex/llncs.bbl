@@ -59,6 +59,10 @@ Dai, P., Mahi, N., Earls, J., Norta, A.: {Smart-Contract Value-Transfer
 Douceur, J.R.: {The Sybil Attack}. In: International Workshop on Peer-to-Peer
   Systems. pp. 251--260. Springer (2002)
 
+\bibitem{dwork1988consensus}
+Dwork, C., Lynch, N., Stockmeyer, L.: Consensus in the presence of partial
+  synchrony. Journal of the ACM (JACM)  35(2),  288--323 (1988)
+
 \bibitem{faezipour2012progress}
 Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
   in Intelligent Vehicle Area Networks}. Communications of the ACM  55(2),
@@ -104,6 +108,19 @@ Leiding, B., Norta, A.: Mapping requirements specifications into a formalized
   blockchain-enabled authentication protocol for secured personal identity
   assurance. In: International Conference on Future Data and Security
   Engineering. pp. 181--196. Springer (2017)
+
+\bibitem{chorusWhitepaper}
+Leiding, B., Vorobev, W., Zverkow, P.: {Enabling the Vehicle Economy Using a
+  Blockchain-Based Value Transaction Layer Protocol for Vehicular Ad-Hoc
+  Networks}. URL:
+  \url{https://uploads-ssl.webflow.com/5a4ea18a81f55a00010bdf45/5b69e53263e2a6076124ecbe_Chorus-Mobility-WP--v1.0.1.pdf}
+  (2018), ({A}ccessed September 06, 2018)
+
+\bibitem{chorus2018MCIS}
+Leiding, B., Vorobev, W., Zverkow, P.: {Enabling the Vehicle Economy Using a
+  Blockchain-Based Value Transaction Layer Protocol for Vehicular Ad-Hoc
+  Networks}. In: The 12th Mediterranean Conference on Information Systems -
+  MCIS 2018. Corfu, Greece (September 2018)
 
 \bibitem{mccorry2015authenticated}
 McCorry, P., Shahandashti, S.F., Clarke, D., Hao, F.: {Authenticated key
