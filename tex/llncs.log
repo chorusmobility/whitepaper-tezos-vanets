@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  6 SEP 2018 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  6 SEP 2018 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,10 +445,15 @@ Overfull \hbox (5.70938pt too wide) in paragraph at lines 127--136
  []
 
 [4 <./Figures/Vanets.png (PNG copy)>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 150.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 150.
+
 
 LaTeX Warning: Citation `bibid' on page 5 undefined on input line 151.
 
-<Figures/20180904_monet-vanet.pdf, id=195, 634.62094pt x 538.26094pt>
+<Figures/20180904_monet-vanet.pdf, id=199, 634.62094pt x 538.26094pt>
 File: Figures/20180904_monet-vanet.pdf Graphic file (type pdf)
 <use Figures/20180904_monet-vanet.pdf>
 Package pdftex.def Info: Figures/20180904_monet-vanet.pdf  used on input line 1
@@ -464,7 +469,7 @@ LaTeX Warning: Citation `bibid' on page 7 undefined on input line 222.
 
 LaTeX Warning: Citation `bibid' on page 7 undefined on input line 222.
 
-<Figures/BFT/20180904_BFT-scalability.png, id=408, 1456.44125pt x 884.30376pt>
+<Figures/BFT/20180904_BFT-scalability.png, id=417, 1456.44125pt x 884.30376pt>
 File: Figures/BFT/20180904_BFT-scalability.png Graphic file (type png)
 <use Figures/BFT/20180904_BFT-scalability.png>
 Package pdftex.def Info: Figures/BFT/20180904_BFT-scalability.png  used on inpu
@@ -475,10 +480,7 @@ Overfull \hbox (16.98589pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
-
-Underfull \vbox (badness 1019) has occurred while \output is active []
-
- [7]
+[7]
 
 LaTeX Warning: Citation `bibid' on page 8 undefined on input line 229.
 
@@ -496,9 +498,6 @@ LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
 
 
 LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
-
-
-LaTeX Warning: Citation `honey-badger' on page 8 undefined on input line 231.
 
 
 LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
@@ -510,11 +509,6 @@ LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./Figures/BFT/20180904_BFT-scalability.png>] (./llncs.bbl
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
-
 Underfull \hbox (badness 5908) in paragraph at lines 11--14
 \OT1/cmtt/m/n/9 drive . google . com / file / d / 1PcI69i _ oJpWdsIsOciLliYEsFv
 9hHCVr / view$[] \OT1/cmr/m/n/9 (2018),
@@ -557,7 +551,7 @@ sport -[] and -[] mobility -[] 2016$[]
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 132--134
+Underfull \hbox (badness 3989) in paragraph at lines 137--139
 []\OT1/cmr/m/n/9 SelfKey Foun-da-tion: Self-Key - Whitepa-per. URL: []$\OT1/cmt
 t/m/n/9 https : / / selfkey . org /
  []
@@ -581,25 +575,27 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 33 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6156 strings out of 492982
- 89779 string characters out of 6134896
- 191383 words of memory out of 5000000
+ 6159 strings out of 492982
+ 89824 string characters out of 6134896
+ 191421 words of memory out of 5000000
  9597 multiletter control sequences out of 15000+600000
  7802 words of font info for 28 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 29i,7n,28p,1723b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,1723b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (10 pages, 340465 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt9.pfb>
+Output written on llncs.pdf (10 pages, 356256 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 62 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

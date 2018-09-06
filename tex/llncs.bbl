@@ -108,6 +108,11 @@ McKenzie, B.: {Who Drives to Work? Commuting by Automobile in the United
   \url{https://www.cbs.nl/en-gb/publication/2016/25/transport-and-mobility-2016}
   (2016), ({A}ccessed April 26, 2018)
 
+\bibitem{miller2016honey}
+Miller, A., Xia, Y., Croman, K., Shi, E., Song, D.: The honey badger of bft
+  protocols. In: Proceedings of the 2016 ACM SIGSAC Conference on Computer and
+  Communications Security. pp. 31--42. ACM (2016)
+
 \bibitem{nakamoto_bitcoin:2008}
 Nakamoto, S.: Bitcoin: {A} {P}eer-to-{P}eer {E}lectronic {C}ash {S}ystem. URL:
   \url{https://bitcoin.org/bitcoin.pdf} (2008), ({A}ccessed May 01, 2018)

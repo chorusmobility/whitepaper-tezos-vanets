@@ -17,45 +17,45 @@ Warning--I didn't find a database entry for "bibid"
 Warning--I didn't find a database entry for "our-own-paper"
 Warning--I didn't find a database entry for "something-for-V2whatever"
 Warning--empty journal in baldessari2007car
-You've used 28 entries,
+You've used 29 entries,
             2785 wiz_defined-function locations,
-            752 strings with 10206 characters,
-and the built_in function-call counts, 13169 in all, are:
-= -- 1106
-> -- 361
-< -- 13
-+ -- 151
-- -- 122
-* -- 750
-:= -- 1703
-add.period$ -- 40
-call.type$ -- 28
-change.case$ -- 174
+            757 strings with 10419 characters,
+and the built_in function-call counts, 13878 in all, are:
+= -- 1168
+> -- 388
+< -- 14
++ -- 163
+- -- 132
+* -- 795
+:= -- 1794
+add.period$ -- 43
+call.type$ -- 29
+change.case$ -- 184
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 1167
-empty$ -- 1285
-format.name$ -- 134
-if$ -- 2913
+cite$ -- 30
+duplicate$ -- 1225
+empty$ -- 1345
+format.name$ -- 145
+if$ -- 3070
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 228
-newline$ -- 89
-num.names$ -- 56
-pop$ -- 487
+int.to.str$ -- 29
+missing$ -- 240
+newline$ -- 92
+num.names$ -- 58
+pop$ -- 511
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 123
 quote$ -- 0
-skip$ -- 339
+skip$ -- 357
 stack$ -- 0
-substring$ -- 717
-swap$ -- 583
-text.length$ -- 13
+substring$ -- 755
+swap$ -- 615
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 116
 warning$ -- 1
-while$ -- 113
-width$ -- 30
-write$ -- 280
+while$ -- 119
+width$ -- 31
+write$ -- 291
 (There were 2 error messages)
