@@ -207,7 +207,7 @@
 		\subsection{Identities}
 			\label{ss:identities}
 		
-			Tamper-proof-devices (TPDs) are a standard component of VANETs. They usually contain a public/private key (similar to wallet addresses) pair that uniquely identifies a vehicle and serves for authentication and signing as well as verification purposes. Usually, TPDs are pre-equipped by the car manufacturer and built into the vehicle's hardware. In the context of blockchains, an identity is further required in most consensus algorithms to uniquely identify participants. Moreover, a mapping between public/private keys (that constitute an identity) and vehicles is also necessary to prevent sybil node attacks \cite{bibid}. 
+			Tamper-proof-devices (TPDs) are a standard component of VANETs. They usually contain a public/private key (similar to wallet addresses) pair that uniquely identifies a vehicle and serves for authentication and signing as well as verification purposes. Usually, TPDs are pre-equipped by the car manufacturer and built into the vehicle's hardware. In the context of blockchains, an identity is further required in most consensus algorithms to uniquely identify participants. Moreover, a mapping between public/private keys (that constitute an identity) and vehicles is also necessary to prevent sybil node attacks. 
 			%rephrase - from securecomm paper
 			This type of attack is a common issue in large-scale peer-to-peer (P2P) systems, where hostile or faulty computing elements threaten the security of the whole network. Single faulty entities may be able to present multiple identities, thereby controlling a substantial fraction of the system, consequently undermining its functionality and security \cite{douceur2002sybil}.	
 			%rephrase end			
@@ -218,27 +218,17 @@
 
 		\subsection{Blockchain Consensus in VANETs}
 			\label{ss:consensus}
-		
-			Consensus in
-		
-			totally asynchronous would be nice
-			but probably, something with t= max X time units, should also be fine. Vehicles will not be unconnected for ages
 			
-			vehicles form ad hoc blockchain networks on their own, reach consensus and relay information back to infrastrucure, e.g., RSU that act as hubs or are directly connected to hubs
+			In the context of blockchains, consensus algorithms are usually used to agree on a set of transactions that constitutes the next block that is added to the chain. Proof-of-Work \cite{nakamoto_bitcoin:2008} and Proof-of-Stake \cite{bibid} are most common and used for example by Bitcoin and Ethereum. For both major consensus algorithms, different flavors exists as well as a large variety of alternative protocols. However, almost all current state of the art algorithms suffer some kind of disadvantage, e.g., scalability issues, security issues, efficiency issues, and so on \cite{bibid}\cite{bibid}. Figure~\ref{fig:bft-scalability} illustrates a collection of consensus algorithms and their scalability as well as performance properties. 
 			\begin{figure}[H]
 				\centering
 				\includegraphics[scale=0.25]{Figures/BFT/20180904_BFT-scalability.png}
 				\caption{Caption (Source: \cite{vukolic2015quest}).}
 				\label{fig:bft-scalability}
 			\end{figure}
-		
-			timing assumptions
-				fully synchronous (all messages delivered in time x)
-				eventually synchronous (after unknown time, all messages delivered within x)
-				partial synchronous (x is unknown)
-				weakly synchrnonous (delta-t is time varying, but grows polynomial in t )
-				asynchronous (all messages are eventually delivered)
-
+			Those problems become even more complex in the  context of mobile- and vehicular ad hoc blockchains due to the large number disjunct chains that exist in parallel as well as the the fact that entities are sometimes only connected in a mesh network without connection to the Internet which makes consensus on a global level even more difficult. In this context, timing assumptions become important. Consensus protocols might be fully synchronous which means that all messages are delivered within a pre-defined time  $x$ whereas asynchronous consensus protocols only ensure that all messages are eventually delivered \cite{bibid}. Between those two extrema different sub-categories such as eventually synchronous, partial synchronous and weakly synchronous consensus algorithms exist \cite{bibid}\cite{bibid}\cite{bibid}. In vehicular ad hoc blockchains a fully asynchronous consensus protocol is  desirable due to the sparse connectivity of nodes and missing connection guarantees among nodes.
+						
+			There are different protocols that aim to offer solutions in this regard. The Babble consensus algorithm \cite{bibid} relies on a leaderless, asynchronous, Byzantine fault tolerant (BFT) algorithm that is based on Hashgraph \cite{bibid}.However, Hashgraph is patent protect in the U.S. and therefore limited in us. Alternative protocols such as \cite{honey-badger}, \cite{bibid} and \cite{bibid} exist besides Hashgraph with certain limitations. We are currently researching different solutions that enable a leaderless, asynchronous with BFT guarantees that also scales well. Alternatively, VANETs also allow for a hierarchical blockchain solution where RSUs act as \textit{always-on} relay blockchain nodes that accept and process transactions from groups of vehicular ad hoc blockchains. The RSUs then process the incoming transactions and project them into a blockchain hub block structure as outlined in Section~\ref{ss:blockchain-hubs}.
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
