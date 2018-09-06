@@ -32,7 +32,7 @@
 
 	{
 	%
-	\title{Tezos-based Vehicular Ad Hoc Blockchains\\ - \\ \small Research Paper - Version 0.1\\\small \today}
+	\title{Tezos-based Vehicular Ad Hoc Blockchains\\ - \\ \small Vision Paper - Version 0.1\\\small \today}
 	
 	\author{Benjamin Leiding \and William V. Vorobev}
 	
@@ -149,8 +149,12 @@
 			Cardano\footnote{\url{https://www.cardano.org}} \cite{bibid}
 			others?
 			
+%rephrase -> from Authcoin master thesis
+			
 ``A formal method is a mathematically-based technique used in computer science to describe properties of hardware and/or software systems. It provides a framework within which large complex systems may be specified, developed, and verified in a systematic rather than ad-hoc manner. A method is formal if it has a sound mathematical basis, typically given by a formal specification language" \cite{wing1990specifier}. Over many decades, several approaches and concepts for formal methods have been introduced. Among them, without claiming completeness: Statecharts \cite{harel1987statecharts}, abstract state machines (ASMs) \cite{gurevich1995evolving}, Petri nets \cite{petri1962kommunikation}, the Calculus of Communicating Systems \cite{milner1989communication} and $\pi$-calculus \cite{milner1992calculus}, as well as timed automata \cite{alur1994theory} and communicating sequential processes \cite{hoare1978communicating}.\\
-In this thesis, the Authcoin protocol is modeled using formal methods based on Coloured Petri Nets (CPNs) \cite{jensen1993coloured}, a special type of Petri nets. ``A CPN is a graphical oriented language for the design, specification, simulation and verification of systems. It is in particular well-suited for systems that comprise a number of processes that communicate and synchronize. Typical examples of application areas are communication protocols, distributed systems, automated production systems, or work flow analysis" \cite{norta2012safeguardingPages176}. A further advantage of CPNs is, that it ``allows for the semantically deterministic design of system structures and also behavior that is verifiable for correctness and performance tests with tool support" \cite{norta2012safeguardingPages176}. CPN models are regularly used for the modeling and verification of security protocols as well as authentication protocols (e.g. \cite{crazzolara2001events}\cite{aly2004protocol}\cite{basyouni1997new}\cite{dresp2005security}\cite{sornkhom2008security}\cite{edwards1999cryptographic}\cite{al2005modeling}). \\				
+In this thesis, the Authcoin protocol is modeled using formal methods based on Coloured Petri Nets (CPNs) \cite{jensen1993coloured}, a special type of Petri nets. ``A CPN is a graphical oriented language for the design, specification, simulation and verification of systems. It is in particular well-suited for systems that comprise a number of processes that communicate and synchronize. Typical examples of application areas are communication protocols, distributed systems, automated production systems, or work flow analysis" \cite{norta2012safeguardingPages176}. A further advantage of CPNs is, that it ``allows for the semantically deterministic design of system structures and also behavior that is verifiable for correctness and performance tests with tool support" \cite{norta2012safeguardingPages176}. CPN models are regularly used for the modeling and verification of security protocols as well as authentication protocols (e.g. \cite{crazzolara2001events}\cite{aly2004protocol}\cite{basyouni1997new}\cite{dresp2005security}\cite{sornkhom2008security}\cite{edwards1999cryptographic}\cite{al2005modeling}). \\	
+
+%rephrase end			
 	
 			
 		%% ----------------------------------------------------------------
@@ -199,7 +203,7 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
-		\subsection{Tezos Master Blockchain}
+		\subsection{Tezos Hubs and Ad Hoc Blockchains}
 			\label{ss:blockchain-hubs}
 			
 			
@@ -225,7 +229,7 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 			\label{ss:consensus}
 			
 			In the context of blockchains, consensus algorithms are usually used to agree on a set of transactions that constitutes the next block that is added to the chain. Proof-of-Work \cite{nakamoto_bitcoin:2008} and Proof-of-Stake \cite{bibid} are most common and used for example by Bitcoin and Ethereum. For both major consensus algorithms, different flavors exists as well as a large variety of alternative protocols. However, almost all current state of the art algorithms suffer some kind of disadvantage, e.g., scalability issues, security issues, efficiency issues, and so on \cite{bibid}\cite{bibid}. Figure~\ref{fig:bft-scalability} illustrates a collection of consensus algorithms and their scalability as well as performance properties. 
-			\begin{figure}[H]
+			\begin{figure}
 				\centering
 				\includegraphics[scale=0.25]{Figures/BFT/20180904_BFT-scalability.png}
 				\caption{Caption (Source: \cite{vukolic2015quest}).}
@@ -240,6 +244,14 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 				
 		\subsection{Inter-Blockchain Communication}
 			\label{ss:inter-blockchain-communication}
+			
+			Based on the hub and ad hoc chain structure outlined earlier in Section~\ref{ss:blockchain-hubs} it is necessary to enable communication among different chains, .e.g, chain $A$ should be able to certify that transaction $x$ happened on chain $B$, even after ad hoc chain $B$ already dissolved due to all of their members leaving. The concept of inter-blockchain communication (IBC) helps to solve this problem \cite{monetWhitepaper}\cite{chen2017inter}\cite{cosmosWhitepaper}. Essentially, the idea is that in order to proof the existence of transaction $x$ on chain $B$, chain $B$ posts a Merkle proof on chain $A$. In order to enable chain $A$ to verify the Merkle proof, it must be able to keep up with the chain $B$'s block headers - hence, interacting chains are required to be aware of one another via a bidirectional stream of proof-of-existence transactions \cite{cosmosWhitepaper}. Moreover, nodes are not required to keep a full copy of each blockchain that they interact with. Instead, light clients can be implemented in form of smart contracts and deployed on the corresponding ad hoc blockchain.	
+
+			However, it is important to keep in mind that while it is possible to proof that a certain transaction took place, it is not possible to prove that a user is aware of all transactions that occurred up to the present moment. Hence, to prove completeness of transactions to the present moment an entity has to create a transaction and have it included. Afterwards, a proof that confirms that the most recent transaction was confirmed with the proper sequence number is created and distributed. 
+			%"An IBC packet can then be formed and passed to the other chain, outside of the consensus mechanism, by any entity observing the chain." \cite{monetWhitepaper}
+
+
+
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -289,16 +301,6 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 	%% ----------------------------------------------------------------
 	%% ----------------------------------------------------------------
 	
-%	\section{Notes}
-%		\label{s:section-7}	
-%	
-%		\begin{itemize}
-%			\item somehow get FOAM \cite{foamWhitepaper} into this?
-%		\end{itemize}
-
-	%% ----------------------------------------------------------------
-	%% ----------------------------------------------------------------
-
 
 	\label{Bibliography}
 	\bibliographystyle{splncs03}
