@@ -139,8 +139,7 @@
 		
 		\subsection{Formal Verification}
 			\label{ss:formal-verification}
-
-			\textbf{ADD some FV stuff + sources here -- TAKE STUFF FROM THE AUTHCOIN MASTER THESIS \cite{leiding2017securing} (Section 1.1.2)}			
+		
 			
 			basic introduction with motivation, advantages and disadvantages
 			A380 example?
@@ -150,6 +149,11 @@
 			Tezos\footnote{\url{https://tezos.com/}} \cite{tezosWhitepaper}
 			Cardano\footnote{\url{https://www.cardano.org}} \cite{bibid}
 			others?
+			
+``A formal method is a mathematically-based technique used in computer science to describe properties of hardware and/or software systems. It provides a framework within which large complex systems may be specified, developed, and verified in a systematic rather than ad-hoc manner. A method is formal if it has a sound mathematical basis, typically given by a formal specification language" \cite{wing1990specifier}. Over many decades, several approaches and concepts for formal methods have been introduced. Among them, without claiming completeness: Statecharts \cite{harel1987statecharts}, abstract state machines (ASMs) \cite{gurevich1995evolving}, Petri nets \cite{petri1962kommunikation}, the Calculus of Communicating Systems \cite{milner1989communication} and $\pi$-calculus \cite{milner1992calculus}, as well as timed automata \cite{alur1994theory} and communicating sequential processes \cite{hoare1978communicating}.\\
+In this thesis, the Authcoin protocol is modeled using formal methods based on Coloured Petri Nets (CPNs) \cite{jensen1993coloured}, a special type of Petri nets. ``A CPN is a graphical oriented language for the design, specification, simulation and verification of systems. It is in particular well-suited for systems that comprise a number of processes that communicate and synchronize. Typical examples of application areas are communication protocols, distributed systems, automated production systems, or work flow analysis" \cite{norta2012safeguardingPages176}. A further advantage of CPNs is, that it ``allows for the semantically deterministic design of system structures and also behavior that is verifiable for correctness and performance tests with tool support" \cite{norta2012safeguardingPages176}. CPN models are regularly used for the modeling and verification of security protocols as well as authentication protocols (e.g. \cite{crazzolara2001events}\cite{aly2004protocol}\cite{basyouni1997new}\cite{dresp2005security}\cite{sornkhom2008security}\cite{edwards1999cryptographic}\cite{al2005modeling}). \\				
+	
+			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
 		
@@ -159,6 +163,8 @@
 			MONET \cite{monetWhitepaper} invented mobile ad hoc blockchains
 			downside -> hashgraph requires license
 			they do not explain how they ensure 1:1 mapping between pub/priv key identity and network participant in their permissioned chain. Right now I could run a sybil node attack
+			
+			Cosmos exists \cite{cosmosWhitepaper}
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -228,7 +234,7 @@
 			\end{figure}
 			Those problems become even more complex in the  context of mobile- and vehicular ad hoc blockchains due to the large number disjunct chains that exist in parallel as well as the the fact that entities are sometimes only connected in a mesh network without connection to the Internet which makes consensus on a global level even more difficult. In this context, timing assumptions become important. Consensus protocols might be fully synchronous which means that all messages are delivered within a pre-defined time  $x$ whereas asynchronous consensus protocols only ensure that all messages are eventually delivered \cite{bibid}. Between those two extrema different sub-categories such as eventually synchronous, partial synchronous and weakly synchronous consensus algorithms exist \cite{bibid}\cite{bibid}\cite{bibid}. In vehicular ad hoc blockchains a fully asynchronous consensus protocol is  desirable due to the sparse connectivity of nodes and missing connection guarantees among nodes.
 						
-			There are different protocols that aim to offer solutions in this regard. The Babble consensus algorithm \cite{bibid} relies on a leaderless, asynchronous, Byzantine fault tolerant (BFT) algorithm that is based on Hashgraph \cite{bibid}.However, Hashgraph is patent protect in the U.S. and therefore limited in us. Alternative protocols such as \cite{miller2016honey}, \cite{bibid} and \cite{bibid} exist besides Hashgraph with certain limitations. We are currently researching different solutions that enable a leaderless, asynchronous with BFT guarantees that also scales well. Alternatively, VANETs also allow for a hierarchical blockchain solution where RSUs act as \textit{always-on} relay blockchain nodes that accept and process transactions from groups of vehicular ad hoc blockchains. The RSUs then process the incoming transactions and project them into a blockchain hub block structure as outlined in Section~\ref{ss:blockchain-hubs}.
+			There are different protocols that aim to offer solutions in this regard. The Babble consensus algorithm \cite{bibid} relies on a leaderless, asynchronous, Byzantine fault tolerant (BFT) algorithm that is based on Hashgraph \cite{bibid}.However, Hashgraph is patent protect in the U.S. and therefore limited in us. Alternative protocols such as \cite{miller2016honey}, \cite{bibid} and \cite{bibid} exist besides Hashgraph with certain limitations. We are currently researching different solutions that enable a leaderless, asynchronous with BFT guarantees that also scales well. Alternatively, VANETs also allow for a hierarchical blockchain solution where RSUs act as \textit{always-on} relay blockchain nodes that accept and process transactions from groups of vehicular ad hoc blockchains, e..g, in a Cosmos-like style \cite{cosmosWhitepaper}. The RSUs then process the incoming transactions and project them into a blockchain hub block structure as outlined in Section~\ref{ss:blockchain-hubs}. C
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	

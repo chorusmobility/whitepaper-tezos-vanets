@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  6 SEP 2018 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  6 SEP 2018 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -446,69 +446,151 @@ Overfull \hbox (5.70938pt too wide) in paragraph at lines 127--136
 
 [4 <./Figures/Vanets.png (PNG copy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 150.
+(Font)              <9> on input line 149.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 150.
+(Font)              <6> on input line 149.
 
 
-LaTeX Warning: Citation `bibid' on page 5 undefined on input line 151.
+LaTeX Warning: Citation `bibid' on page 5 undefined on input line 150.
 
-<Figures/20180904_monet-vanet.pdf, id=199, 634.62094pt x 538.26094pt>
+
+LaTeX Warning: Citation `wing1990specifier' on page 5 undefined on input line 1
+53.
+
+
+LaTeX Warning: Citation `harel1987statecharts' on page 5 undefined on input lin
+e 153.
+
+
+LaTeX Warning: Citation `gurevich1995evolving' on page 5 undefined on input lin
+e 153.
+
+
+LaTeX Warning: Citation `petri1962kommunikation' on page 5 undefined on input l
+ine 153.
+
+
+LaTeX Warning: Citation `milner1989communication' on page 5 undefined on input 
+line 153.
+
+
+LaTeX Warning: Citation `milner1992calculus' on page 5 undefined on input line 
+153.
+
+
+LaTeX Warning: Citation `alur1994theory' on page 5 undefined on input line 153.
+
+
+
+LaTeX Warning: Citation `hoare1978communicating' on page 5 undefined on input l
+ine 153.
+
+
+LaTeX Warning: Citation `jensen1993coloured' on page 5 undefined on input line 
+154.
+
+
+LaTeX Warning: Citation `norta2012safeguardingPages176' on page 5 undefined on 
+input line 154.
+
+
+LaTeX Warning: Citation `norta2012safeguardingPages176' on page 5 undefined on 
+input line 154.
+
+
+LaTeX Warning: Citation `crazzolara2001events' on page 5 undefined on input lin
+e 154.
+
+
+LaTeX Warning: Citation `aly2004protocol' on page 5 undefined on input line 154
+.
+
+
+LaTeX Warning: Citation `basyouni1997new' on page 5 undefined on input line 154
+.
+
+
+LaTeX Warning: Citation `dresp2005security' on page 5 undefined on input line 1
+54.
+
+
+LaTeX Warning: Citation `sornkhom2008security' on page 5 undefined on input lin
+e 154.
+
+
+LaTeX Warning: Citation `edwards1999cryptographic' on page 5 undefined on input
+ line 154.
+
+
+LaTeX Warning: Citation `al2005modeling' on page 5 undefined on input line 154.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+ []
+
+[5]
+<Figures/20180904_monet-vanet.pdf, id=213, 634.62094pt x 538.26094pt>
 File: Figures/20180904_monet-vanet.pdf Graphic file (type pdf)
 <use Figures/20180904_monet-vanet.pdf>
 Package pdftex.def Info: Figures/20180904_monet-vanet.pdf  used on input line 1
-88.
+94.
 (pdftex.def)             Requested size: 317.3097pt x 269.1298pt.
-[5] [6 <./Figures/20180904_monet-vanet.pdf>]
 
-LaTeX Warning: Citation `bibid' on page 7 undefined on input line 222.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+[7 <./Figures/20180904_monet-vanet.pdf>]
+
+LaTeX Warning: Citation `bibid' on page 8 undefined on input line 228.
 
 
-LaTeX Warning: Citation `bibid' on page 7 undefined on input line 222.
+LaTeX Warning: Citation `bibid' on page 8 undefined on input line 228.
 
 
-LaTeX Warning: Citation `bibid' on page 7 undefined on input line 222.
+LaTeX Warning: Citation `bibid' on page 8 undefined on input line 228.
 
-<Figures/BFT/20180904_BFT-scalability.png, id=417, 1456.44125pt x 884.30376pt>
+<Figures/BFT/20180904_BFT-scalability.png, id=423, 1456.44125pt x 884.30376pt>
 File: Figures/BFT/20180904_BFT-scalability.png Graphic file (type png)
 <use Figures/BFT/20180904_BFT-scalability.png>
 Package pdftex.def Info: Figures/BFT/20180904_BFT-scalability.png  used on inpu
-t line 225.
+t line 231.
 (pdftex.def)             Requested size: 364.10942pt x 221.0754pt.
 
-Overfull \hbox (16.98589pt too wide) in paragraph at lines 225--226
+Overfull \hbox (16.98589pt too wide) in paragraph at lines 231--232
  [][] 
  []
-
-[7]
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 229.
-
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 229.
-
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 229.
-
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 229.
-
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
-
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
-
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
-
-
-LaTeX Warning: Citation `bibid' on page 8 undefined on input line 231.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./Figures/BFT/20180904_BFT-scalability.png>] (./llncs.bbl
+ [8]
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 235.
+
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 235.
+
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 235.
+
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 235.
+
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 237.
+
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 237.
+
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 237.
+
+
+LaTeX Warning: Citation `bibid' on page 9 undefined on input line 237.
+
+[9 <./Figures/BFT/20180904_BFT-scalability.png>] (./llncs.bbl
 Underfull \hbox (badness 5908) in paragraph at lines 11--14
 \OT1/cmtt/m/n/9 drive . google . com / file / d / 1PcI69i _ oJpWdsIsOciLliYEsFv
 9hHCVr / view$[] \OT1/cmr/m/n/9 (2018),
@@ -526,43 +608,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--45
 l -[] tax -[] how -[] the -[] us -[] stacks -[] up -[]
  []
 
-
-Underfull \hbox (badness 1320) in paragraph at lines 66--69
+[10]
+Underfull \hbox (badness 1320) in paragraph at lines 71--74
 []\OT1/cmr/m/n/9 L. M. Good-man: Tezos - A Self-Amending Crypto-Ledger (White p
 a-per).
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 66--69
+Underfull \hbox (badness 1742) in paragraph at lines 71--74
 \OT1/cmr/m/n/9 URL: []$\OT1/cmtt/m/n/9 https : / / www . tezos . com / static /
  papers / white _ paper . pdf$[] \OT1/cmr/m/n/9 (2014), (Ac-
  []
 
-[9]
-Underfull \hbox (badness 1502) in paragraph at lines 107--110
+
+Underfull \hbox (badness 1502) in paragraph at lines 112--115
 []\OT1/cmr/m/n/9 Mieke Berends-Ballast et al.: Trans-port and Mo-bil-ity 2016. 
 URL: []$\OT1/cmtt/m/n/9 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 \OT1/cmtt/m/n/9 / / www . cbs . nl / en -[] gb / publication / 2016 / 25 / tran
 sport -[] and -[] mobility -[] 2016$[]
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 137--139
+Underfull \hbox (badness 3989) in paragraph at lines 142--144
 []\OT1/cmr/m/n/9 SelfKey Foun-da-tion: Self-Key - Whitepa-per. URL: []$\OT1/cmt
 t/m/n/9 https : / / selfkey . org /
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
+[11])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./llncs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `llncs.out' has not changed.
 (rerunfilecheck)             Checksum: D7FE45364D22F1F5B76980A8124CAD6D;1155.
 
@@ -575,13 +657,13 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 33 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6159 strings out of 492982
- 89824 string characters out of 6134896
- 191421 words of memory out of 5000000
- 9597 multiletter control sequences out of 15000+600000
+ 6180 strings out of 492982
+ 90239 string characters out of 6134896
+ 191464 words of memory out of 5000000
+ 9615 multiletter control sequences out of 15000+600000
  7802 words of font info for 28 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 29i,9n,28p,1723b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,1723b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -592,10 +674,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (10 pages, 356256 bytes).
+Output written on llncs.pdf (12 pages, 357589 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 531 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 65 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
