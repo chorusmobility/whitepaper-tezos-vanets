@@ -32,7 +32,7 @@
 
 	{
 	%
-	\title{Tezos-based Vehicular Ad Hoc Blockchains\\ - \\ \small Vision Paper - Version 0.1\\\small \today}
+	\title{Tezos-based Vehicular Ad Hoc Blockchains\\ - \\ \small Vision Paper - Version 0.2\\\small \today}
 	
 	\author{Benjamin Leiding \and William V. Vorobev}
 	
@@ -94,7 +94,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		
-		This work fills the gap by introducing Tezos-based platform solution, thereby answering the question of how to enable vehicular ad hoc blockchains that allow groups of nodes to be temporarily disconnected from the overall network but still being able to enact and transact on a local network level for the duration of their interaction? In order to answer this question with a separation of concerns, we pose the following sub-questions: What is the corresponding architecture of the Vehicular Ad Hoc Tezos Blockchain? What are the detailed network and communication processes? What kind of use cases and application scenarios exist?
+		This work fills the gap by introducing a Tezos-based vehicular ad hoc blockchain solution, thereby answering the question of how to enable vehicular ad hoc blockchains that allow groups of nodes to be temporarily disconnected from the overall network but still being able to enact and transact on a local network level for the duration of their interaction? In order to answer this question with a separation of concerns, we pose the following sub-questions: What is the corresponding architecture of the Vehicular Ad Hoc Tezos Blockchain? What are the detailed network and communication processes? What kind of use cases and application scenarios exist?
 		
 		The remainder of this paper is structured as follows: Section~\ref{s:section-2} introduces supplementary literature and related work. Section~\ref{s:section-3} outlines the system architecture our solution. Afterwards, Section~\ref{s:section-4} expands on the network communication processes, followed by Section~\ref{s:section-5} that introduces example use cases and application scenarios. Finally, Section~\ref{s:section-6} concludes this work and provides an outlook on future work.
 
@@ -237,7 +237,7 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 			\end{figure}
 			Those problems become even more complex in the  context of mobile- and vehicular ad hoc blockchains due to the large number disjunct chains that exist in parallel as well as the the fact that entities are sometimes only connected in a mesh network without connection to the Internet which makes consensus on a global level even more difficult. In this context, timing assumptions become important. Consensus protocols might be fully synchronous which means that all messages are delivered within a pre-defined time  $x$ whereas asynchronous consensus protocols only ensure that all messages are eventually delivered \cite{bibid}. Between those two extrema different sub-categories such as eventually synchronous, partial synchronous and weakly synchronous consensus algorithms exist \cite{bibid}\cite{bibid}\cite{bibid}. In vehicular ad hoc blockchains a fully asynchronous consensus protocol is  desirable due to the sparse connectivity of nodes and missing connection guarantees among nodes.
 						
-			There are different protocols that aim to offer solutions in this regard. The Babble consensus algorithm \cite{bibid} relies on a leaderless, asynchronous, Byzantine fault tolerant (BFT) algorithm that is based on Hashgraph \cite{hashgraphWhitepaper}.However, Hashgraph is patent protect in the U.S. and therefore limited in us. Alternative protocols such as \cite{miller2016honey}, \cite{bibid} and \cite{bibid} exist besides Hashgraph with certain limitations. We are currently researching different solutions that enable a leaderless, asynchronous with BFT guarantees that also scales well. Alternatively, VANETs also allow for a hierarchical blockchain solution where RSUs act as \textit{always-on} relay blockchain nodes that accept and process transactions from groups of vehicular ad hoc blockchains, e..g, in a Cosmos-like style \cite{cosmosWhitepaper}. The RSUs then process the incoming transactions and project them into a blockchain hub block structure as outlined in Section~\ref{ss:blockchain-hubs}. C
+			There are different protocols that aim to offer solutions in this regard. The Babble consensus algorithm \cite{bibid} relies on a leaderless, asynchronous, Byzantine fault tolerant (BFT) algorithm that is based on Hashgraph \cite{hashgraphWhitepaper}.However, Hashgraph is patent protect in the U.S. and therefore limited in us. Alternative protocols such as \cite{miller2016honey}, \cite{bibid} and \cite{bibid} exist besides Hashgraph with certain limitations. We are currently researching different solutions that enable a leaderless, asynchronous with BFT guarantees that also scales well. Alternatively, VANETs also allow for a hierarchical blockchain solution where RSUs act as \textit{always-on} relay blockchain nodes that accept and process transactions from groups of vehicular ad hoc blockchains, e..g, in a Cosmos-like style \cite{cosmosWhitepaper}. The RSUs then process the incoming transactions and project them into a blockchain hub block structure as outlined in Section~\ref{ss:blockchain-hubs}.
 		
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
@@ -249,8 +249,6 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 
 			However, it is important to keep in mind that while it is possible to proof that a certain transaction took place, it is not possible to prove that a user is aware of all transactions that occurred up to the present moment. Hence, to prove completeness of transactions to the present moment an entity has to create a transaction and have it included. Afterwards, a proof that confirms that the most recent transaction was confirmed with the proper sequence number is created and distributed. 
 			%"An IBC packet can then be formed and passed to the other chain, outside of the consensus mechanism, by any entity observing the chain." \cite{monetWhitepaper}
-
-
 
 			
 		%% ----------------------------------------------------------------
@@ -283,19 +281,11 @@ In this thesis, the Authcoin protocol is modeled using formal methods based on C
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-		This work presents
+		This work presents Chorus Mobility's Tezos-based ad hoc blockchain solution that enables vehicular ad hoc blockchains that allow groups of nodes to be temporarily disconnected from the overall network but still being able to enact and transact on a local network level for the duration of their interaction. This works extends our previous papers \cite{chorusWhitepaper}\cite{chorus2018MCIS} where introduced a blockchain-based value transaction layer protocol for vehicular ad hoc networks that is supposed to fuel vehicle economy. However, this work extends our previous efforts and suggests a specific Tezos-based implementation that utilizes Tezos' built-in formal verification of programming languages to provide secure service provision within VANETs.
 
-%		This whitepaper presents the Chorus Mobility blockchain-based transaction and interaction layer that enables a V2X platform for goods and services. We outline and describe the technical foundations of this new economy, the longterm vision and benefits as well as the different use cases and scenarios of V2X transactions and interactions, e.g., vehicle-to-vehicle (V2V), vehicle-to-human (V2H), or vehicle-to-infrastructure (V2I).
-%		
-%		Based on the use cases and scenarios we identify the requirements and criteria that a blockchain-based V2X transaction and interaction layer protocol must satisfy. With respect to functional and non-functional requirements, Chorus aims to develop a blockchain- as well as manufacturer agnostic and interoperable V2X platform that enables interaction and transaction between participating entities and a plug-in interface for external applications.
-%		Subsequently, we derive the service-oriented architecture of the system based on the identified requirements and goals. We present the system architecture using technology-agnostic UML-component and sequence diagrams that detail the system’s main components and communication interfaces. In order to ensure widespread adoption, special focus will be given in the future to the API design and library integration for car manufacturers.
-%		
-%		A core element of many of the Chorus use cases is smart contract-based negotiation and contract enactment between
-%		entities that are the result of collaborating tasks and subprocesses. On an abstract level, most of the use cases presented in this paper follow a similar workflow on the smart-contract level. Hence, we decided to integrate an abstract smart contract negotiation lifecycle that we describe. The lifecycle is divided into the different stages (preparatory, negotiation, contract execution, rollback and contract expiry stage) that we explain in detail. Furthermore, we designed two auction algorithms for the V2X economy that allow to reach an efficient consensus on a certain price between buyer and seller. Our auction algorithms are based on the concept of so called Vickrey Auction, and we envisioned one algorithm for one-to-one interaction as well as a second workflow for scenarios with multiple buyers and sellers. Finally, we present the Chorus token value proposition and the surrounding token economy eco-system that fuels the V2X platform.
-%		
-%		Next, we present a Chorus prototype implementation. We demonstrate how our protocol can help mitigating traffic congestions and at the same time provides a mean to car insurance companies to incentivize their customers to practice good driving behavior. 	
-%		
-%		Future releases will focus on the longterm vision of Chorus Mobility and the development of the abstract transaction and interaction layer as well as the API and library integration. Besides that, we will also continue to focus on further research aspects of the upcoming V2X economy that will facilitate future developments of Chorus Mobility.
+		Subsequently, we outline the system architecture and detail critical components of the infrastructure, e.g., identities. Furthermore, we discuss interoperability and inter-blockchain communication that is vital for our solution. A further core element of vehicular ad hoc blockchains is an asynchronous Byzantine fault tolerant consensus algorithm. Finally, we provide three example use cases and application scenarios that rely on and benefit from the combination of formally verified smart contract languages and vehicular ad hoc blockchains.
+		
+		Future work focuses on the longterm vision and the development of the platform as well as the APIs and SDKs. Besides that, we will also continue to focus on further research aspects of the upcoming V2X economy that will facilitate future developments of Chorus Mobility.
 
 
 	%% ----------------------------------------------------------------
