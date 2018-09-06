@@ -16,46 +16,63 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "bibid"
 Warning--I didn't find a database entry for "our-own-paper"
 Warning--I didn't find a database entry for "something-for-V2whatever"
+Warning--I didn't find a database entry for "wing1990specifier"
+Warning--I didn't find a database entry for "harel1987statecharts"
+Warning--I didn't find a database entry for "gurevich1995evolving"
+Warning--I didn't find a database entry for "petri1962kommunikation"
+Warning--I didn't find a database entry for "milner1989communication"
+Warning--I didn't find a database entry for "milner1992calculus"
+Warning--I didn't find a database entry for "alur1994theory"
+Warning--I didn't find a database entry for "hoare1978communicating"
+Warning--I didn't find a database entry for "jensen1993coloured"
+Warning--I didn't find a database entry for "norta2012safeguardingPages176"
+Warning--I didn't find a database entry for "crazzolara2001events"
+Warning--I didn't find a database entry for "aly2004protocol"
+Warning--I didn't find a database entry for "basyouni1997new"
+Warning--I didn't find a database entry for "dresp2005security"
+Warning--I didn't find a database entry for "sornkhom2008security"
+Warning--I didn't find a database entry for "edwards1999cryptographic"
+Warning--I didn't find a database entry for "al2005modeling"
 Warning--empty journal in baldessari2007car
-You've used 30 entries,
+You've used 31 entries,
             2785 wiz_defined-function locations,
-            763 strings with 10629 characters,
-and the built_in function-call counts, 14263 in all, are:
-= -- 1199
-> -- 400
+            786 strings with 11199 characters,
+and the built_in function-call counts, 14600 in all, are:
+= -- 1226
+> -- 407
 < -- 14
-+ -- 168
-- -- 136
-* -- 816
-:= -- 1844
-add.period$ -- 44
-call.type$ -- 30
-change.case$ -- 190
++ -- 171
+- -- 138
+* -- 832
+:= -- 1888
+add.period$ -- 45
+call.type$ -- 31
+change.case$ -- 195
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 1259
-empty$ -- 1384
-format.name$ -- 150
-if$ -- 3154
+cite$ -- 32
+duplicate$ -- 1290
+empty$ -- 1422
+format.name$ -- 152
+if$ -- 3229
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 247
-newline$ -- 95
-num.names$ -- 60
-pop$ -- 529
+int.to.str$ -- 31
+missing$ -- 253
+newline$ -- 98
+num.names$ -- 62
+pop$ -- 544
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 130
 quote$ -- 0
-skip$ -- 364
+skip$ -- 371
 stack$ -- 0
-substring$ -- 770
-swap$ -- 631
+substring$ -- 785
+swap$ -- 645
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 124
 warning$ -- 1
-while$ -- 122
-width$ -- 32
-write$ -- 301
+while$ -- 125
+width$ -- 33
+write$ -- 311
 (There were 2 error messages)
