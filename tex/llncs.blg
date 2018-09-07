@@ -37,37 +37,37 @@ Warning--empty journal in baldessari2007car
 Warning--there's a number but no volume in chen2017inter
 You've used 35 entries,
             2785 wiz_defined-function locations,
-            807 strings with 11951 characters,
-and the built_in function-call counts, 16700 in all, are:
-= -- 1397
-> -- 480
+            807 strings with 11938 characters,
+and the built_in function-call counts, 16620 in all, are:
+= -- 1393
+> -- 470
 < -- 16
-+ -- 201
-- -- 164
-* -- 969
-:= -- 2164
++ -- 197
+- -- 160
+* -- 961
+:= -- 2152
 add.period$ -- 50
 call.type$ -- 35
-change.case$ -- 223
+change.case$ -- 221
 chr.to.int$ -- 0
 cite$ -- 37
-duplicate$ -- 1481
-empty$ -- 1610
-format.name$ -- 182
-if$ -- 3678
+duplicate$ -- 1477
+empty$ -- 1608
+format.name$ -- 178
+if$ -- 3664
 int.to.chr$ -- 0
 int.to.str$ -- 35
-missing$ -- 292
+missing$ -- 290
 newline$ -- 110
 num.names$ -- 70
-pop$ -- 618
+pop$ -- 614
 preamble$ -- 1
-purify$ -- 151
+purify$ -- 149
 quote$ -- 0
 skip$ -- 414
 stack$ -- 0
 substring$ -- 891
-swap$ -- 745
+swap$ -- 741
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
