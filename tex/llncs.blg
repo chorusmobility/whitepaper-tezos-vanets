@@ -35,45 +35,45 @@ Warning--I didn't find a database entry for "edwards1999cryptographic"
 Warning--I didn't find a database entry for "al2005modeling"
 Warning--empty journal in baldessari2007car
 Warning--there's a number but no volume in chen2017inter
-You've used 35 entries,
+You've used 36 entries,
             2785 wiz_defined-function locations,
-            807 strings with 11938 characters,
-and the built_in function-call counts, 16620 in all, are:
-= -- 1393
-> -- 470
+            813 strings with 12115 characters,
+and the built_in function-call counts, 17109 in all, are:
+= -- 1431
+> -- 487
 < -- 16
-+ -- 197
-- -- 160
-* -- 961
-:= -- 2152
++ -- 204
+- -- 166
+* -- 994
+:= -- 2213
 add.period$ -- 50
-call.type$ -- 35
-change.case$ -- 221
+call.type$ -- 36
+change.case$ -- 228
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 1477
-empty$ -- 1608
-format.name$ -- 178
-if$ -- 3664
+cite$ -- 38
+duplicate$ -- 1521
+empty$ -- 1656
+format.name$ -- 185
+if$ -- 3768
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 290
-newline$ -- 110
-num.names$ -- 70
-pop$ -- 614
+int.to.str$ -- 36
+missing$ -- 298
+newline$ -- 113
+num.names$ -- 72
+pop$ -- 636
 preamble$ -- 1
-purify$ -- 149
+purify$ -- 154
 quote$ -- 0
-skip$ -- 414
+skip$ -- 421
 stack$ -- 0
-substring$ -- 891
-swap$ -- 741
+substring$ -- 922
+swap$ -- 761
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 140
+type$ -- 144
 warning$ -- 2
-while$ -- 140
-width$ -- 37
-write$ -- 351
+while$ -- 143
+width$ -- 38
+write$ -- 359
 (There were 2 error messages)
