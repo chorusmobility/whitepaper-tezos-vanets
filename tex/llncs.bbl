@@ -7,6 +7,10 @@
   Hussien}: {A Comprehensive Survey on Vehicular Ad Hoc Network}. {Journal of
   Network and Computer Applications}  37,  380--392 (2014)
 
+\bibitem{alur1994theory}
+Alur, R., Dill, D.L.: {A Theory of Timed Automata}. Theoretical computer
+  science  126(2),  183--235 (1994)
+
 \bibitem{monetWhitepaper}
 Arrivets, M.: {MONET: Mobile Ad Hoc Blockchains - Whitepaper}. URL:
   \url{https://drive.google.com/file/d/1PcI69i_oJpWdsIsOciLliYEsFv9hHCVr/view}
@@ -75,6 +79,18 @@ Faezipour, M., Nourani, M., Saeed, A., Addepalli, S.: {Progress and Challenges
 \bibitem{zealand2006car}
 Goodyear, R., Ralphs, M.: Car, bus, bike or train: What were the main means of
   travel to work (2009)
+
+\bibitem{gurevich1995evolving}
+Gurevich, Y., et~al.: {Evolving Algebras 1993: Lipari Guide}. Specification and
+  validation methods pp. 9--36 (1995)
+
+\bibitem{harel1987statecharts}
+Harel, D.: {Statecharts: A Visual Formalism for Complex Systems}. Science of
+  computer programming  8(3),  231--274 (1987)
+
+\bibitem{hoare1978communicating}
+Hoare, C.A.R.: {Communicating Sequential Processes}. In: The origin of
+  concurrent programming, pp. 413--443. Springer (1978)
 
 \bibitem{cosmosWhitepaper}
 Kwon, J., Buchman, E.: {Cosmos: A Network of Distributed Ledgers - Whitepaper}.
@@ -149,6 +165,11 @@ Miller, A., Xia, Y., Croman, K., Shi, E., Song, D.: The honey badger of bft
   protocols. In: Proceedings of the 2016 ACM SIGSAC Conference on Computer and
   Communications Security. pp. 31--42. ACM (2016)
 
+\bibitem{babbleConsensus}
+{Mosaic Networks}: {Babble Consensus - Documentation}. URL:
+  \url{https://babbleio.readthedocs.io/en/latest/consensus.html} (2017),
+  ({A}ccessed September 08, 2018)
+
 \bibitem{nakamoto_bitcoin:2008}
 Nakamoto, S.: Bitcoin: {A} {P}eer-to-{P}eer {E}lectronic {C}ash {S}ystem. URL:
   \url{https://bitcoin.org/bitcoin.pdf} (2008), ({A}ccessed May 01, 2018)
@@ -164,6 +185,10 @@ Ouaddah, A., Elkalam, A.A., Ouahman, A.A.: {Towards a Novel Privacy-Preserving
   MENA Cooperation Advances in Information and Communication Technologies, pp.
   523--533. Springer (2017)
 
+\bibitem{petri1962kommunikation}
+Petri, C.A.: {Kommunikation mit Automaten}. Ph.D. thesis, Technical University
+  of Darmstadt (1962)
+
 \bibitem{saltWhitepaper}
 {SALT Technology, Ltd.}: {SALT - Blockchain-Backed Loans - Whitepaper}. URL:
   \url{https://membership.saltlending.com/files/abstract.pdf} (2017),
@@ -177,6 +202,10 @@ Ouaddah, A., Elkalam, A.A., Ouahman, A.A.: {Towards a Novel Privacy-Preserving
 Vukoli{\'c}, M.: The quest for scalable blockchain fabric: Proof-of-work vs.
   bft replication. In: International Workshop on Open Problems in Network
   Security. pp. 112--125. Springer (2015)
+
+\bibitem{wing1990specifier}
+Wing, J.M.: {A Specifier's Introduction to Formal Methods}. Computer  23(9),
+  8--22 (1990)
 
 \bibitem{wood2014ethereum}
 Wood, G.: {Ethereum: A Secure Decrentralized Generalised Transaction Ledger}.
