@@ -138,22 +138,10 @@
 		\subsection{Formal Verification}
 			\label{ss:formal-verification}
 
-			basic introduction with motivation, advantages and disadvantages
-			A380 example?
-			
-			
-			connect formal verification and blockchain
-			Tezos\footnote{\url{https://tezos.com/}} \cite{tezosWhitepaper}
-			Cardano\footnote{\url{https://www.cardano.org}} \cite{bibid}
-			others?
-			
-%rephrase -> from Authcoin master thesis
-			
-``A formal method is a mathematically-based technique used in computer science to describe properties of hardware and/or software systems. It provides a framework within which large complex systems may be specified, developed, and verified in a systematic rather than ad-hoc manner. A method is formal if it has a sound mathematical basis, typically given by a formal specification language" \cite{wing1990specifier}. Over many decades, several approaches and concepts for formal methods have been introduced. Among them, without claiming completeness: Statecharts \cite{harel1987statecharts}, abstract state machines (ASMs) \cite{gurevich1995evolving}, Petri nets \cite{petri1962kommunikation}, the Calculus of Communicating Systems \cite{milner1989communication} and $\pi$-calculus \cite{milner1992calculus}, as well as timed automata \cite{alur1994theory} and communicating sequential processes \cite{hoare1978communicating}.\\
-In this thesis, the Authcoin protocol is modeled using formal methods based on Coloured Petri Nets (CPNs) \cite{jensen1993coloured}, a special type of Petri nets. ``A CPN is a graphical oriented language for the design, specification, simulation and verification of systems. It is in particular well-suited for systems that comprise a number of processes that communicate and synchronize. Typical examples of application areas are communication protocols, distributed systems, automated production systems, or work flow analysis" \cite{norta2012safeguardingPages176}. A further advantage of CPNs is, that it ``allows for the semantically deterministic design of system structures and also behavior that is verifiable for correctness and performance tests with tool support" \cite{norta2012safeguardingPages176}. CPN models are regularly used for the modeling and verification of security protocols as well as authentication protocols (e.g. \cite{crazzolara2001events}\cite{aly2004protocol}\cite{basyouni1997new}\cite{dresp2005security}\cite{sornkhom2008security}\cite{edwards1999cryptographic}\cite{al2005modeling}). \\	
+			Another critical requirement of VANETs and interconnected vehicles is security. The safety of network participants does not only depend on the vehicle's hardware, but also on the correctness of the software that controls the interaction and transaction within the network. Formal verification is a common way to address the issue proving the correctness of software according to a specification using formal methods of mathematics. ``A formal method is a mathematically-based technique used in computer science to describe properties of hardware and/or software systems. It provides a framework within which large complex systems may be specified, developed, and verified in a systematic rather than ad-hoc manner. A method is formal if it has a sound mathematical basis, typically given by a formal specification language" \cite{wing1990specifier}. The concept of formal verification is not new at all and over many decades, several approaches and concepts for formal methods have been introduced, e.g., Statecharts \cite{harel1987statecharts}, abstract state machines (ASMs) \cite{gurevich1995evolving}, Petri nets \cite{petri1962kommunikation}, the Calculus of Communicating Systems \cite{milner1989communication} and $\pi$-calculus \cite{milner1992calculus}, as well as timed automata \cite{alur1994theory} and communicating sequential processes \cite{hoare1978communicating}.
+						
+			The self-amending blockchain platform Tezos\footnote{\url{https://tezos.com/}} \cite{tezosWhitepaper} does not only support Turing complete smart contracts, it also offers built-in formal verification of their smart contract programming languages. The idea is to leverage the built-in formal verification mechanism to ensure a correct behavior of the involved smart contracts, thereby enhancing the security of applications within VANETs. Especially due to the progressing digitalization and inter-connection of vehicles, the dependencies of large and complex software to operate those vehicles and networks grows tremendously and hence becomes more vulnerable to unintended security use cause by badly written code.s
 
-%rephrase end			
-	
 			
 		%% ----------------------------------------------------------------
 		%% ----------------------------------------------------------------	
