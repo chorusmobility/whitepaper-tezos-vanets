@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -511,8 +511,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
  (./llncs.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
-Package rerunfilecheck Info: File `llncs.out' has not changed.
-(rerunfilecheck)             Checksum: 50117A0DC138A0711C28744BC047E4ED;1199.
+
+
+Package rerunfilecheck Warning: File `llncs.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `llncs.out':
+(rerunfilecheck)             Before: 50117A0DC138A0711C28744BC047E4ED;1199
+(rerunfilecheck)             After:  C4FD62EA93C8FBCBEB476DA3B64C10DB;1199.
  )
 (\end occurred inside a group at level 1)
 
@@ -536,7 +543,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (14 pages, 371335 bytes).
+Output written on llncs.pdf (14 pages, 371330 bytes).
 PDF statistics:
  675 PDF objects out of 1000 (max. 8388607)
  514 compressed objects within 6 object streams
