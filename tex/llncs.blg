@@ -16,45 +16,46 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "bibid"
 Warning--empty journal in baldessari2007car
 Warning--there's a number but no volume in chen2017inter
-You've used 47 entries,
+Warning--empty journal in houy2014will
+You've used 49 entries,
             2785 wiz_defined-function locations,
-            859 strings with 13152 characters,
-and the built_in function-call counts, 22717 in all, are:
-= -- 1920
-> -- 604
-< -- 29
-+ -- 254
-- -- 204
-* -- 1317
-:= -- 2915
-add.period$ -- 63
-call.type$ -- 47
-change.case$ -- 282
+            867 strings with 13594 characters,
+and the built_in function-call counts, 23821 in all, are:
+= -- 2009
+> -- 648
+< -- 30
++ -- 272
+- -- 220
+* -- 1391
+:= -- 3063
+add.period$ -- 66
+call.type$ -- 49
+change.case$ -- 299
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 2037
-empty$ -- 2187
-format.name$ -- 228
-if$ -- 5019
+cite$ -- 52
+duplicate$ -- 2134
+empty$ -- 2280
+format.name$ -- 246
+if$ -- 5253
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 394
-newline$ -- 146
-num.names$ -- 94
-pop$ -- 797
+int.to.str$ -- 49
+missing$ -- 416
+newline$ -- 152
+num.names$ -- 98
+pop$ -- 841
 preamble$ -- 1
-purify$ -- 194
+purify$ -- 206
 quote$ -- 0
-skip$ -- 602
+skip$ -- 625
 stack$ -- 0
-substring$ -- 1298
-swap$ -- 1053
-text.length$ -- 29
+substring$ -- 1345
+swap$ -- 1100
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 186
-warning$ -- 2
-while$ -- 200
-width$ -- 49
-write$ -- 470
+type$ -- 194
+warning$ -- 3
+while$ -- 209
+width$ -- 51
+write$ -- 489
 (There were 2 error messages)
