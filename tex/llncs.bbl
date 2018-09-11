@@ -11,6 +11,10 @@
 Alur, R., Dill, D.L.: {A Theory of Timed Automata}. Theoretical computer
   science  126(2),  183--235 (1994)
 
+\bibitem{anwer2014survey}
+Anwer, M.S., Guy, C.: A survey of vanet technologies. Journal of Emerging
+  Trends in Computing and Information Sciences  5(9),  661--671 (2014)
+
 \bibitem{monetWhitepaper}
 Arrivets, M.: {MONET: Mobile Ad Hoc Blockchains - Whitepaper}. URL:
   \url{https://drive.google.com/file/d/1PcI69i_oJpWdsIsOciLliYEsFv9hHCVr/view}
@@ -42,6 +46,11 @@ Calcaterra, C., Kaal, W.A., Vlad, A.: {Semada Technical Whitepaper - Blockchain
 \bibitem{chen2017inter}
 Chen, Z.d., Zhuo, Y., Duan, Z.b., Kai, H.: Inter-blockchain communication.
   DEStech Transactions on Computer Science and Engineering (cst) (2017)
+
+\bibitem{chiti2017communications}
+Chiti, F., Fantacci, R., Giuli, D., Paganelli, F., Rigazzi, G.: Communications
+  protocol design for 5g vehicular networks. In: 5G Mobile Communications, pp.
+  625--649. Springer (2017)
 
 \bibitem{christidis2016blockchains}
 Christidis, K., Devetsikiotis, M.: {Blockchains and Smart Contracts for the
@@ -165,6 +174,10 @@ Miller, A., Xia, Y., Croman, K., Shi, E., Song, D.: The honey badger of bft
   protocols. In: Proceedings of the 2016 ACM SIGSAC Conference on Computer and
   Communications Security. pp. 31--42. ACM (2016)
 
+\bibitem{mitra20155g}
+Mitra, R.N., Agrawal, D.P.: 5g mobile technology: A survey. ICT Express  1(3),
+  132--137 (2015)
+
 \bibitem{babbleConsensus}
 {Mosaic Networks}: {Babble Consensus - Documentation}. URL:
   \url{https://babbleio.readthedocs.io/en/latest/consensus.html} (2017),
@@ -197,6 +210,10 @@ Petri, C.A.: {Kommunikation mit Automaten}. Ph.D. thesis, Technical University
 \bibitem{SelfkeyWhitepaper}
 {SelfKey Foundation}: {SelfKey - Whitepaper}. URL:
   \url{https://selfkey.org/whitepaper/} (2017), ({A}ccessed April 27, 2018)
+
+\bibitem{toh2001ad}
+Toh, C.K.: Ad hoc mobile wireless networks: protocols and systems. Pearson
+  Education (2001)
 
 \bibitem{vukolic2015quest}
 Vukoli{\'c}, M.: The quest for scalable blockchain fabric: Proof-of-work vs.

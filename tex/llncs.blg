@@ -14,49 +14,47 @@ Repeated entry---line 309 of file Bibliography.bib
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "bibid"
-Warning--I didn't find a database entry for "our-own-paper"
-Warning--I didn't find a database entry for "something-for-V2whatever"
 Warning--empty journal in baldessari2007car
 Warning--there's a number but no volume in chen2017inter
-You've used 43 entries,
+You've used 47 entries,
             2785 wiz_defined-function locations,
-            840 strings with 12650 characters,
-and the built_in function-call counts, 20454 in all, are:
-= -- 1726
-> -- 546
-< -- 24
-+ -- 229
-- -- 184
-* -- 1181
-:= -- 2635
-add.period$ -- 58
-call.type$ -- 43
-change.case$ -- 259
+            859 strings with 13152 characters,
+and the built_in function-call counts, 22717 in all, are:
+= -- 1920
+> -- 604
+< -- 29
++ -- 254
+- -- 204
+* -- 1317
+:= -- 2915
+add.period$ -- 63
+call.type$ -- 47
+change.case$ -- 282
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 1835
-empty$ -- 1978
-format.name$ -- 205
-if$ -- 4515
+cite$ -- 49
+duplicate$ -- 2037
+empty$ -- 2187
+format.name$ -- 228
+if$ -- 5019
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 355
-newline$ -- 134
-num.names$ -- 86
-pop$ -- 730
+int.to.str$ -- 47
+missing$ -- 394
+newline$ -- 146
+num.names$ -- 94
+pop$ -- 797
 preamble$ -- 1
-purify$ -- 176
+purify$ -- 194
 quote$ -- 0
-skip$ -- 529
+skip$ -- 602
 stack$ -- 0
-substring$ -- 1149
-swap$ -- 936
-text.length$ -- 24
+substring$ -- 1298
+swap$ -- 1053
+text.length$ -- 29
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 172
+type$ -- 186
 warning$ -- 2
-while$ -- 179
-width$ -- 45
-write$ -- 430
+while$ -- 200
+width$ -- 49
+write$ -- 470
 (There were 2 error messages)

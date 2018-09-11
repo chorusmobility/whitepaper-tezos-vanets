@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,46 +394,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `bibid' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Citation `our-own-paper' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Citation `something-for-V2whatever' on page 2 undefined on input
- line 79.
-
-
-LaTeX Warning: Citation `bibid' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Citation `bibid' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Citation `bibid' on page 2 undefined on input line 79.
-
-
-Overfull \hbox (6.21046pt too wide) in paragraph at lines 79--80
-\OT1/cmr/m/n/10 sys-tem that en-ables a man-u-fac-turer ag-nos-tic plat-form so
--lu-tion that al-lows VANET
- []
-
-
-LaTeX Warning: Citation `bibid' on page 2 undefined on input line 81.
-
-
-LaTeX Warning: Citation `bibid' on page 2 undefined on input line 81.
-
-
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
  [2]
-
-LaTeX Warning: Reference `s:section-4' on page 3 undefined on input line 97.
-
-[3]
-<Figures/Vanets.png, id=166, 1132.23pt x 1059.96pt>
+<Figures/Vanets.png, id=172, 1132.23pt x 1059.96pt>
 File: Figures/Vanets.png Graphic file (type png)
 <use Figures/Vanets.png>
 Package pdftex.def Info: Figures/Vanets.png  used on input line 129.
@@ -444,20 +408,20 @@ Overfull \hbox (5.70938pt too wide) in paragraph at lines 125--134
  based on IEEE 802.11p
  []
 
-[4 <./Figures/Vanets.png (PNG copy)>]
+[3] [4 <./Figures/Vanets.png (PNG copy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 143.
  [5]
-<Figures/20180904_monet-vanet.pdf, id=237, 634.62094pt x 538.26094pt>
+<Figures/20180904_monet-vanet.pdf, id=255, 634.62094pt x 538.26094pt>
 File: Figures/20180904_monet-vanet.pdf Graphic file (type pdf)
 <use Figures/20180904_monet-vanet.pdf>
 Package pdftex.def Info: Figures/20180904_monet-vanet.pdf  used on input line 1
 83.
 (pdftex.def)             Requested size: 317.3097pt x 269.1298pt.
 
-Underfull \vbox (badness 2142) has occurred while \output is active []
+Underfull \vbox (badness 5787) has occurred while \output is active []
 
  [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -472,7 +436,7 @@ LaTeX Warning: Citation `bibid' on page 8 undefined on input line 215.
 
 LaTeX Warning: Citation `bibid' on page 8 undefined on input line 215.
 
-<Figures/BFT/20180904_BFT-scalability.png, id=457, 1456.44125pt x 884.30376pt>
+<Figures/BFT/20180904_BFT-scalability.png, id=475, 1456.44125pt x 884.30376pt>
 File: Figures/BFT/20180904_BFT-scalability.png Graphic file (type png)
 <use Figures/BFT/20180904_BFT-scalability.png>
 Package pdftex.def Info: Figures/BFT/20180904_BFT-scalability.png  used on inpu
@@ -506,67 +470,67 @@ LaTeX Warning: Citation `bibid' on page 9 undefined on input line 224.
 Underfull \vbox (badness 1931) has occurred while \output is active []
 
  [9 <./Figures/BFT/20180904_BFT-scalability.png>] [10] (./llncs.bbl [11]
-Underfull \hbox (badness 5908) in paragraph at lines 15--18
+Underfull \hbox (badness 5908) in paragraph at lines 19--22
 \OT1/cmtt/m/n/9 drive . google . com / file / d / 1PcI69i _ oJpWdsIsOciLliYEsFv
 9hHCVr / view$[] \OT1/cmr/m/n/9 (2018),
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 56--59
+Underfull \hbox (badness 6032) in paragraph at lines 65--68
 []\OT1/cmr/m/n/9 Cortright, J.: Sprawl Tax: How the US Stacks Up In-ter-na-tion
 -ally .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
 \OT1/cmr/m/n/9 URL: []$\OT1/cmtt/m/n/9 http : / / cityobservatory . org / spraw
 l -[] tax -[] how -[] the -[] us -[] stacks -[] up -[]
  []
 
 [12]
-Underfull \hbox (badness 1320) in paragraph at lines 101--104
+Underfull \hbox (badness 1320) in paragraph at lines 110--113
 []\OT1/cmr/m/n/9 L. M. Good-man: Tezos - A Self-Amending Crypto-Ledger (White p
 a-per).
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 101--104
+Underfull \hbox (badness 1742) in paragraph at lines 110--113
 \OT1/cmr/m/n/9 URL: []$\OT1/cmtt/m/n/9 https : / / www . tezos . com / static /
  papers / white _ paper . pdf$[] \OT1/cmr/m/n/9 (2014), (Ac-
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 133--138
+Underfull \hbox (badness 2119) in paragraph at lines 142--147
 \OT1/cmr/m/n/9 Based Value Trans-ac-tion Layer Pro-to-col for Ve-hic-u-lar Ad-H
 oc Net-works.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
 \OT1/cmr/m/n/9 URL: []$\OT1/cmtt/m/n/9 https : / / uploads -[] ssl . webflow . 
 com / 5a4ea18a81f55a00010bdf45 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
 \OT1/cmtt/m/n/9 5b69e53263e2a6076124ecbe _ Chorus -[] Mobility -[] WP -[]-[] v1
  . 0 . 1 . pdf$[] \OT1/cmr/m/n/9 (2018), (Ac-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 159--162
+Underfull \hbox (badness 1502) in paragraph at lines 168--171
 []\OT1/cmr/m/n/9 Mieke Berends-Ballast et al.: Trans-port and Mo-bil-ity 2016. 
 URL: []$\OT1/cmtt/m/n/9 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
 \OT1/cmtt/m/n/9 / / www . cbs . nl / en -[] gb / publication / 2016 / 25 / tran
 sport -[] and -[] mobility -[] 2016$[]
  []
 
 [13]
-Underfull \hbox (badness 3989) in paragraph at lines 198--200
+Underfull \hbox (badness 3989) in paragraph at lines 211--213
 []\OT1/cmr/m/n/9 SelfKey Foun-da-tion: Self-Key - Whitepa-per. URL: []$\OT1/cmt
 t/m/n/9 https : / / selfkey . org /
  []
@@ -580,23 +544,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
 Package rerunfilecheck Info: File `llncs.out' has not changed.
 (rerunfilecheck)             Checksum: D93315361B4C804EC707579DBFC27174;1199.
-
-
-LaTeX Warning: There were undefined references.
-
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 33 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6190 strings out of 492982
- 90431 string characters out of 6134896
- 193003 words of memory out of 5000000
- 9611 multiletter control sequences out of 15000+600000
+ 6195 strings out of 492982
+ 90521 string characters out of 6134896
+ 192153 words of memory out of 5000000
+ 9612 multiletter control sequences out of 15000+600000
  7802 words of font info for 28 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 29i,9n,28p,1723b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,1723b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -607,10 +567,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (14 pages, 368083 bytes).
+Output written on llncs.pdf (14 pages, 368713 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 486 compressed objects within 5 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 497 compressed objects within 5 object streams
+ 83 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
