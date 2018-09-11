@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,11 +540,11 @@ Package rerunfilecheck Info: File `llncs.out' has not changed.
 Here is how much of TeX's memory you used:
  6202 strings out of 492982
  90621 string characters out of 6134896
- 192257 words of memory out of 5000000
+ 192323 words of memory out of 5000000
  9615 multiletter control sequences out of 15000+600000
  7802 words of font info for 28 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 29i,9n,28p,1699b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,1699b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -555,9 +555,9 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (14 pages, 371237 bytes).
+Output written on llncs.pdf (14 pages, 371477 bytes).
 PDF statistics:
- 668 PDF objects out of 1000 (max. 8388607)
+ 670 PDF objects out of 1000 (max. 8388607)
  511 compressed objects within 6 object streams
  87 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
