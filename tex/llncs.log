@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.18)  11 SEP 2018 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,31 +403,31 @@ tructure (V2I), vehicle-
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
  [2]
-<Figures/Vanets.png, id=175, 1132.23pt x 1059.96pt>
-File: Figures/Vanets.png Graphic file (type png)
-<use Figures/Vanets.png>
-Package pdftex.def Info: Figures/Vanets.png  used on input line 129.
-(pdftex.def)             Requested size: 226.44199pt x 211.98824pt.
-
-Overfull \hbox (5.70938pt too wide) in paragraph at lines 125--134
-\OT1/cmr/m/n/10 roads. Typ-i-cally, RSUs pro-vide short range com-mu-ni-ca-tion
- based on IEEE 802.11p
+Overfull \hbox (1.29375pt too wide) in paragraph at lines 106--107
+\OT1/cmr/m/n/10 con-cepts of block-chain tech-nol-ogy, terms and frame-works. A
+f-ter-wards, Sec-tion []2.2[]
  []
 
-[3] [4 <./Figures/Vanets.png (PNG copy)>]
+[3]
+<Figures/Vanets.png, id=187, 1132.23pt x 1059.96pt>
+File: Figures/Vanets.png Graphic file (type png)
+<use Figures/Vanets.png>
+Package pdftex.def Info: Figures/Vanets.png  used on input line 130.
+(pdftex.def)             Requested size: 226.44199pt x 211.98824pt.
+ [4 <./Figures/Vanets.png (PNG copy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 143.
+(Font)              <9> on input line 144.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 143.
+(Font)              <6> on input line 144.
  [5]
-<Figures/20180904_monet-vanet.pdf, id=257, 634.62094pt x 538.26094pt>
+<Figures/20180904_monet-vanet.pdf, id=254, 634.62094pt x 538.26094pt>
 File: Figures/20180904_monet-vanet.pdf Graphic file (type pdf)
 <use Figures/20180904_monet-vanet.pdf>
 Package pdftex.def Info: Figures/20180904_monet-vanet.pdf  used on input line 1
 83.
 (pdftex.def)             Requested size: 317.3097pt x 269.1298pt.
 
-Underfull \vbox (badness 5787) has occurred while \output is active []
+Underfull \vbox (badness 3668) has occurred while \output is active []
 
  [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -442,7 +442,7 @@ LaTeX Warning: Citation `bibid' on page 8 undefined on input line 215.
 
 LaTeX Warning: Citation `bibid' on page 8 undefined on input line 215.
 
-<Figures/BFT/20180904_BFT-scalability.png, id=477, 1456.44125pt x 884.30376pt>
+<Figures/BFT/20180904_BFT-scalability.png, id=474, 1456.44125pt x 884.30376pt>
 File: Figures/BFT/20180904_BFT-scalability.png Graphic file (type png)
 <use Figures/BFT/20180904_BFT-scalability.png>
 Package pdftex.def Info: Figures/BFT/20180904_BFT-scalability.png  used on inpu
@@ -562,7 +562,7 @@ Here is how much of TeX's memory you used:
  9612 multiletter control sequences out of 15000+600000
  7802 words of font info for 28 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 29i,9n,28p,1723b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,28p,1699b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
@@ -573,10 +573,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (14 pages, 368734 bytes).
+Output written on llncs.pdf (14 pages, 368873 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 498 compressed objects within 5 object streams
+ 649 PDF objects out of 1000 (max. 8388607)
+ 497 compressed objects within 5 object streams
  83 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
