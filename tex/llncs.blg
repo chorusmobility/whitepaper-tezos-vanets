@@ -13,49 +13,48 @@ Repeated entry---line 309 of file Bibliography.bib
  : @inproceedings{leiding2016self
  :                               ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bibid"
 Warning--empty journal in baldessari2007car
 Warning--there's a number but no volume in chen2017inter
 Warning--empty journal in houy2014will
-You've used 49 entries,
+You've used 50 entries,
             2785 wiz_defined-function locations,
-            867 strings with 13594 characters,
-and the built_in function-call counts, 23821 in all, are:
-= -- 2009
-> -- 648
+            870 strings with 13715 characters,
+and the built_in function-call counts, 24158 in all, are:
+= -- 2036
+> -- 655
 < -- 30
-+ -- 272
-- -- 220
-* -- 1391
-:= -- 3063
-add.period$ -- 66
-call.type$ -- 49
-change.case$ -- 299
++ -- 275
+- -- 222
+* -- 1407
+:= -- 3107
+add.period$ -- 67
+call.type$ -- 50
+change.case$ -- 304
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 2134
-empty$ -- 2280
-format.name$ -- 246
-if$ -- 5253
+cite$ -- 53
+duplicate$ -- 2165
+empty$ -- 2318
+format.name$ -- 248
+if$ -- 5328
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 416
-newline$ -- 152
-num.names$ -- 98
-pop$ -- 841
+int.to.str$ -- 50
+missing$ -- 422
+newline$ -- 155
+num.names$ -- 100
+pop$ -- 856
 preamble$ -- 1
-purify$ -- 206
+purify$ -- 209
 quote$ -- 0
-skip$ -- 625
+skip$ -- 632
 stack$ -- 0
-substring$ -- 1345
-swap$ -- 1100
+substring$ -- 1360
+swap$ -- 1114
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 194
+type$ -- 198
 warning$ -- 3
-while$ -- 209
-width$ -- 51
-write$ -- 489
+while$ -- 212
+width$ -- 52
+write$ -- 499
 (There were 2 error messages)
