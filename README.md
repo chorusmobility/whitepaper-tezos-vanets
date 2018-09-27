@@ -1,5 +1,4 @@
 # Abstract. 
-
 The next generation of tightly interconnected vehicles offers
 a variety of new technologies as well as business opportunities where vehicles
 form so-called vehicular ad hoc networks (VANETs). Sophisticated
