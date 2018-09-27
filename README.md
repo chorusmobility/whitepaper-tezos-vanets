@@ -28,5 +28,3 @@ nodes to be temporarily disconnected from the overall network but still
 being able to enact and transact on a local network level for the duration
 of their interaction. We present the advantages of the system, outline the
 requirements and goals, as well as the architecture of the system.
-
-All Rights Reserved. Proof-of-Stake Inc.
